@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+       xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:util="http://www.springframework.org/schema/util" xmlns:task="http://www.springframework.org/schema/task" xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.0.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.0.xsd"
+     default-lazy-init="true">
+     
+    <!-- 数据源的配置 portal库 -->
+	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" name="dataSource" destroy-method="close">
+		<property name="name" value="dataSource" />
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="url" value="${jdbc.url.info}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<property name="maxActive" value="${jdbc.maxActive}" />
+		<!-- 获取连接时最大等待时间,单位毫秒,设置的是60秒 -->
+		<property name="maxWait" value="${jdbc.maxWait}" />
+		<property name="minIdle" value="${jdbc.minIdle}" />
+		<property name="initialSize" value="${jdbc.initialSize}" />
+		<!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒,默认为1分钟 -->
+		<property name="timeBetweenEvictionRunsMillis" value="60000" />
+
+		<!-- 连接保持空闲而不被驱逐的最长时间，单位是毫秒 -->
+		<property name="minEvictableIdleTimeMillis" value="300000" />
+		<property name="testWhileIdle" value="true" />
+		<property name="testOnBorrow" value="true" />
+		<property name="testOnReturn" value="false" />
+		<property name="validationQuery" value="select 1 from dual" />
+		
+		<!-- <property name="filters" value="stat,config" /> -->
+	    <!-- 使用默认密钥配置 -->
+     	<!--<property name="connectionProperties" value="defaultRowPrefetch=${jdbc.fetch_size};defaultBatchValue=${jdbc.batch_size};config.decrypt=false" />-->
+	</bean>
+     
+     
+    <!-- 定义事务 -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <!-- 配置 Annotation 驱动，扫描@Transactional注解的类定义事务  -->
+    <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>
+    
+    <!-- 配置辅助sql处理工具用于sql查询条件的处理 -->
+	<bean id="sqlToyContext" name="sqlToyContext" class="org.sagacity.sqltoy.SqlToyContext"
+		init-method="initialize">
+		<!-- 指定sql.xml 文件的路径实现目录的递归查找,非必须属性 -->
+		<property name="sqlResourcesDir" value="classpath:sqltoy/" />
+		<!-- 针对不同数据库函数进行转换,非必须属性 -->
+		<property name="functionConverts" value="default"/>
+		<!-- 缓存翻译管理器,非必须属性 -->
+		<property name="translateConfig" value="classpath:sqltoy/sqltoy-translate.xml" />
+		<!-- 默认值为:false -->
+		<property name="debug" value="${sqltoy.debug}" />
+		<!-- 默认值为:50,提供sqltoy批量更新的batch量 -->
+		<property name="batchSize" value="${sqltoy.batchSize}" />
+		<!-- 如果是单一类型的数据库，建议dialect一定要设置,可避免不必要的数据库类型判断 -->
+		<property name="dialect" value="${sqltoy.dialect}" />
+		<!-- 默认值为:100000,设置分页查询最大的提取数据记录量,防止恶意提取数据造成系统内存压力以及保障数据安全 -->
+		<property name="page_fetch_size_limit" value="50000" />
+		<!-- 默认dataSource,供lazyDao\缓存翻译等使用 -->
+		<property name="defaultDataSource" ref="dataSource" />
+		<!--<property name="printSqlStrategy" value="debug"/>-->
+	</bean>
+		
+	<bean id="sqlToyLazyDao" name="sqlToyLazyDao"
+          class="org.sagacity.sqltoy.dao.impl.SqlToyLazyDaoImpl" />
+
+    <bean id="sqlToyCRUDService" name="sqlToyCRUDService"
+          class="org.sagacity.sqltoy.service.impl.SqlToyCRUDServiceImpl" >
+        <property name="sqlToyLazyDao" ref="sqlToyLazyDao"/>
+    </bean>
+
+</beans>
