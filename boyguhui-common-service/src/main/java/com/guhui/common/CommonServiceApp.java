@@ -2,12 +2,14 @@ package com.guhui.common;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ImportResource;
 
 /**
  * Created by guhui ^-^ on 2018/12/7.
  */
+@EnableEurekaClient
 @SpringBootApplication
 @ComponentScan(basePackages = "com.guhui.common")
 @ImportResource("classpath:spring/spring-context.xml")

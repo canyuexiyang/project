@@ -12,6 +12,7 @@
 
     <modules>
         <module>../boyguhui-common-service</module>
+        <module>../boyguhui-cloud-eureka</module>
     </modules>
 
 
@@ -89,6 +90,7 @@
         <!-- system app -->
 
         <boyguhui-common-service.version>1.0.0-SNAPSHOT</boyguhui-common-service.version>
+        <boyguhui-cloud-eureka.version>1.0.0-SHAPSHOT</boyguhui-cloud-eureka.version>
         <spring-boot-sqltoy.version>1.0.0-SNAPSHOT</spring-boot-sqltoy.version>
 
     </properties>
