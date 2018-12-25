@@ -56,7 +56,7 @@
 		<!-- 针对不同数据库函数进行转换,非必须属性 -->
 		<property name="functionConverts" value="default"/>
 		<!-- 缓存翻译管理器,非必须属性 -->
-		<property name="translateConfig" value="classpath:sqltoy/sqltoy-translate.xml" />
+		<!--<property name="translateConfig" value="classpath:sqltoy/sqltoy-translate.xml" />-->
 		<!-- 默认值为:false -->
 		<property name="debug" value="${sqltoy.debug}" />
 		<!-- 默认值为:50,提供sqltoy批量更新的batch量 -->
