@@ -1,6 +1,7 @@
 package com.guhui.common;
 
 import com.guhui.common.controller.GdStoreController;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -35,6 +36,11 @@ public class GdStoreControllerTest {
 	@Before
 	public void setMockMvc(){
 		mvc = MockMvcBuilders.standaloneSetup(gdStoreController).build();
+	}
+
+	@After
+	public void after(){
+		log.info("--柴犬小七--小六--");
 	}
 
 	@Test
