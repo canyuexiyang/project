@@ -47,12 +47,14 @@ public class GdStoreController {
 	public BizResult<Boolean> emailError(){
 		log.info("---info---");
 		try {
-			log.warn("---warn---");System.out.println("111");
+			log.warn("---warn---");
 			int a = 1 / 0;
 		}catch (Exception e){
 			log.warn("---warn---");
-			log.error("---error---");
-			log.error(e.getMessage());
+//			log.error("---error---");
+//			log.error(e.getMessage());
+			log.error("Exception",e);
+			log.error(String.valueOf(e));
 		}
 		return BizResult.success(Boolean.TRUE);
 	}
