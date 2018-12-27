@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!--<property name="logname" value="test"/>-->
+    <!--获取配置中的参数信息-->
+    <!--<springProperty scope="context" name="logname" source="spring.application.name"/>-->
+    <!--<springProperty scope="context" name="smtpHost" source="email.smtpHost"/>-->
+    <!--<springProperty scope="context" name="smtpPort" source="email.smtpPort"/>-->
+    <!--<springProperty scope="context" name="to" source="email.to"/>-->
+    <!--<springProperty scope="context" name="from" source="email.from"/>-->
+    <!--<springProperty scope="context" name="username" source="email.username"/>-->
+    <!--<springProperty scope="context" name="password" source="email.password"/>-->
+
+    <property name="logname" value="boyguhui-common-service"/>
+    <property name="smtpHost" value="smtp.qq.com"/>
+    <property name="smtpPort" value="465"/>
+    <property name="to" value="boyguhui@qq.com"/>
+    <property name="from" value="boyguhui@qq.com"/>
+    <property name="username" value="boyguhui@qq.com"/>
+    <property name="password" value="maoqinqin171014"/>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.out</target>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="FILE_INFO" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--如果只是想要 Info 级别的日志，只是过滤 info 还是会输出 Error 日志，因为 Error 的级别高， 所以我们使用下面的策略，可以避免输出 Error 的日志-->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <!--过滤 INFO-->
+            <level>INFO</level>
+            <!--匹配到就允许-->
+            <onMatch>ACCEPT</onMatch>
+            <!--没有匹配到就禁止-->
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <!--日志名称，如果没有File 属性，那么只会使用FileNamePattern的文件路径规则 如果同时有<File>和<FileNamePattern>，那么当天日志是<File>，明天会自动把今天的日志改名为今天的日期。即，<File> 的日志都是当天的。 -->
+        <File>/home/logs/${logname}-info.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--文件路径,定义了日志的切分方式——把每一天的日志归档到一个文件中,以防止日志填满整个磁盘空间-->
+            <fileNamePattern>/home/logs/${logname}-info-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!--只保留最近30天的日志-->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE_WARN" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--如果只是想要 Error 级别的日志，那么需要过滤一下，默认是 info 级别的，ThresholdFilter-->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>WARN</level>
+        </filter>
+        <!--日志名称，如果没有File 属性，那么只会使用FileNamePattern的文件路径规则 如果同时有<File>和<FileNamePattern>，那么当天日志是<File>，明天会自动把今天的日志改名为今天的日期。即，<File> 的日志都是当天的。 -->
+        <File>/home/logs/${logname}-warn.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--文件路径,定义了日志的切分方式——把每一天的日志归档到一个文件中,以防止日志填满整个磁盘空间-->
+            <fileNamePattern>/home/logs/${logname}-warn-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!--只保留最近30天的日志-->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE_ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--如果只是想要 Error 级别的日志，那么需要过滤一下，默认是 info 级别的，ThresholdFilter-->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>Error</level>
+        </filter>
+        <!--日志名称，如果没有File 属性，那么只会使用FileNamePattern的文件路径规则 如果同时有<File>和<FileNamePattern>，那么当天日志是<File>，明天会自动把今天的日志改名为今天的日期。即，<File> 的日志都是当天的。 -->
+        <File>/home/logs/${logname}-error.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--文件路径,定义了日志的切分方式——把每一天的日志归档到一个文件中,以防止日志填满整个磁盘空间-->
+            <fileNamePattern>/home/logs/${logname}-error-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!--只保留最近30天的日志-->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--&lt;!&ndash;邮件发送&ndash;&gt;-->
+    <!--<appender name="EMAIL" class="ch.qos.logback.classic.net.SMTPAppender">-->
+        <!--&lt;!&ndash;smtp 服务器&ndash;&gt;-->
+        <!--<smtpHost>smtp.163.com</smtpHost>-->
+        <!--&lt;!&ndash;port&ndash;&gt;-->
+        <!--<smtpPort>25</smtpPort>-->
+        <!--&lt;!&ndash; 发给谁的邮件列表，多个人用逗号分隔 &ndash;&gt;-->
+        <!--<to>leiyang_hui@163.com</to>-->
+        <!--&lt;!&ndash;发件人，添加邮箱和上面的username保持一致&ndash;&gt;-->
+        <!--<from>leiyang_hui@163.com</from>-->
+        <!--<subject>boyguhui-common-service.%d{yyyy-MM-dd}.log</subject>-->
+        <!--&lt;!&ndash;发件人的邮箱&ndash;&gt;-->
+        <!--<username>leiyang_hui@163.com</username>-->
+        <!--&lt;!&ndash;发件人的邮箱密码&ndash;&gt;-->
+        <!--<password>964053056guhui</password>-->
+        <!--<SSL>false</SSL>-->
+        <!--&lt;!&ndash;是否异步&ndash;&gt;-->
+        <!--<asynchronousSending>true</asynchronousSending>-->
+        <!--<layout class="ch.qos.logback.classic.PatternLayout">-->
+            <!--<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>-->
+        <!--</layout>-->
+        <!--<cyclicBufferTracker class = "ch.qos.logback.core.spi.CyclicBufferTracker" >-->
+            <!--<bufferSize> 1 </bufferSize>-->
+        <!--</cyclicBufferTracker>-->
+        <!--&lt;!&ndash;过滤器&ndash;&gt;-->
+        <!--&lt;!&ndash; 这里采用等级过滤器 指定等级相符才发送 &ndash;&gt;-->
+        <!--<filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+            <!--<level>INFO</level>-->
+            <!--<level>ERROR</level>-->
+            <!--<onMatch>ACCEPT</onMatch>-->
+            <!--<onMismatch>DENY</onMismatch>-->
+        <!--</filter>-->
+    <!--</appender>-->
+    <!--　　　　　　　　-->
+    <!--<root level="INFO">-->
+        <!--<appender-ref ref="CONSOLE"/>-->
+        <!--<appender-ref ref="FILE_INFO"/>-->
+        <!--<appender-ref ref="FILE_WARN"/>-->
+        <!--<appender-ref ref="FILE_ERROR"/>-->
+        <!--&lt;!&ndash;  log error send EMAIL &ndash;&gt;-->
+        <!--<appender-ref ref="EMAIL"/>-->
+    <!--</root>-->
+    <!--&lt;!&ndash;<root level="ERROR">&ndash;&gt;-->
+        <!--&lt;!&ndash;<appender-ref ref="EMAIL" />&ndash;&gt;-->
+    <!--&lt;!&ndash;</root>&ndash;&gt;-->
+
+    <appender name="EMAIL" class="ch.qos.logback.classic.net.SMTPAppender">-->
+        <smtpHost>smtp.ym.163.com</smtpHost>
+        <username>leiyang_hui@163.com</username>
+        <password>964053056guhui</password>
+        <smtpPort>25</smtpPort>
+        <to>leiyang_hui@163.com</to>
+        <from>leiyang_hui@163.com</from>
+        <subject>boyguhui-common-service %logger{20} - %m</subject>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d{HH:mm:ss.SSS}[%thread] %-5level %logger{1}-%msg%n</pattern>
+        </layout>
+    </appender>
+    <root level="DEBUG">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE_INFO"/>
+        <appender-ref ref="FILE_WARN"/>
+        <appender-ref ref="FILE_ERROR"/>
+    </root>
+    <root level="ERROR">
+        <appender-ref ref="EMAIL" />
+    </root>
+
+</configuration>
+<!-- https://blog.csdn.net/luhong327/article/details/84862722 -->
+<!-- https://www.cnblogs.com/lspz/p/6473686.html -->
