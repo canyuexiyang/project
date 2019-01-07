@@ -1,14 +1,18 @@
 package com.guhui.common;
 
+import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
 
 /**
  * Created by guhui ^-^ on 2018/12/7.
  */
+@Configuration
+@EnableApolloConfig
 @EnableEurekaClient
 @SpringBootApplication
 @ComponentScan(basePackages = "com.guhui.common")

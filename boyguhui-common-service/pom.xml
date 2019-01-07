@@ -142,6 +142,19 @@
             <version>2.1.0</version>
         </dependency>
 
+        <!-- apollo 携程apollo配置中心框架 -->
+        <dependency>
+            <groupId>com.ctrip.framework.apollo</groupId>
+            <artifactId>apollo-client</artifactId>
+            <version>0.9.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ctrip.framework.apollo</groupId>
+            <artifactId>apollo-core</artifactId>
+            <version>0.9.1</version>
+        </dependency>
+
+
     </dependencies>
 
 
