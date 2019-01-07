@@ -1,24 +1,32 @@
-#Ö÷ÅäÖÃÎÄ¼ş£¬ÅäÖÃÁËÕâ¸ö»áÓÅÏÈ¶ÁÈ¡ÀïÃæµÄÊôĞÔ¸²¸ÇÖ÷ÅäÖÃÎÄ¼şµÄÊôĞÔ
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¶ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #spring.profiles.active=peer1
 
 #server.port=8080
-##ÓÉÓÚ¸ÃÓ¦ÓÃÎª×¢²áÖĞĞÄ£¬ËùÒÔÉèÖÃÎªfalse, ´ú±í²»Ïò×¢²áÖĞĞÄ×¢²á×Ô¼º
+##ï¿½ï¿½ï¿½Ú¸ï¿½Ó¦ï¿½ï¿½Îª×¢ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªfalse, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½Ô¼ï¿½
 #eureka.client.register-with-eureka=false
-##ÓÉÓÚ×¢²áÖĞĞÄµÄÖ°Ôğ¾ÍÊÇÎ¬»¤·şÎñÊµÀı£¬Ëü²¢²»ĞèÒªÈ¥¼ìË÷·şÎñ£¬ ËùÒÔÒ²ÉèÖÃÎªfalse
+##ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½Äµï¿½Ö°ï¿½ï¿½ï¿½ï¿½ï¿½Î¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒªÈ¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½Îªfalse
 #eureka.client.fetch-registry=false
-##Ö¸¶¨·şÎñ×¢²áÖĞĞÄµÄµØÖ·
+##Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½ÄµÄµï¿½Ö·
 #eureka.client.serviceUrl.defaultZone=http://localhost:${server.port}/eureka/
 
 server:
   port: 8081
 eureka:
   client:
-    register-with-eureka: true
-    fetch-registry: true
+  #è¡¨ç¤ºæ˜¯å¦å°†è‡ªå·±æ³¨å†Œåˆ°Eureka Serverï¼Œé»˜è®¤ä¸ºtrueã€‚
+    register-with-eureka: false
+    #è¡¨ç¤ºæ˜¯å¦ä»Eureka Serverè·å–æ³¨å†Œä¿¡æ¯ï¼Œé»˜è®¤ä¸ºtrueã€‚
+    fetch-registry: false
     service-url:
        defaultZone: http://peer1:${server.port}/eureka/
   instance:
     hostname: peer1
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
 spring:
   application:
     name: eureka-server
+ #æ˜¾ç¤ºipæ³¨å†Œ
+ #eureka.instance.preferIpAddress=true
+ #eureka.instance.prefer-ip-address=true
+ #eureka.instance.instance-id=${spring.cloud.client.ipAddress}:${server.port}

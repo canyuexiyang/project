@@ -7,6 +7,7 @@ import com.guhui.common.vo.GdStoreVO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -25,6 +26,8 @@ public class GdStoreController {
 
 	@Autowired
 	private IGdStoreService gdStoreService;
+	@Value("${encrypt.test.sign}")
+	private String sign;
 
 	@GetMapping("/getGdStoreAll")
 	public BizResult<List<GdStoreVO>> getGdStoreAll(){
@@ -36,7 +39,7 @@ public class GdStoreController {
 		log.info("---info---");
 		try {
 			String str = "nishizhuma";
-			return BizResult.success(str);
+			return BizResult.success(sign);
 		}catch (Exception e){
 			log.error("---error---");
 			return BizResult.error();
