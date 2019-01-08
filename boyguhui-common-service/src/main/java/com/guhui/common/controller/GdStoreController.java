@@ -1,5 +1,6 @@
 package com.guhui.common.controller;
 
+import com.guhui.common.CommonServiceApp;
 import com.guhui.common.entity.BizResult;
 import com.guhui.common.service.IGdStoreService;
 import com.guhui.common.service.imp.GdServiceImpI;
@@ -26,6 +27,7 @@ public class GdStoreController {
 
 	@Autowired
 	private IGdStoreService gdStoreService;
+
 	@Value("${encrypt.test.sign}")
 	private String sign;
 
@@ -38,8 +40,10 @@ public class GdStoreController {
 	public BizResult<String> emailInfo(){
 		log.info("---info---");
 		try {
-			String str = "nishizhuma";
-			return BizResult.success(sign);
+			String name = CommonServiceApp.getGuhuiNameValue();
+			log.info(sign);
+			log.info(name);
+			return BizResult.success(name);
 		}catch (Exception e){
 			log.error("---error---");
 			return BizResult.error();
@@ -54,10 +58,7 @@ public class GdStoreController {
 			int a = 1 / 0;
 		}catch (Exception e){
 			log.warn("---warn---");
-//			log.error("---error---");
-//			log.error(e.getMessage());
 			log.error("Exception",e);
-			log.error(String.valueOf(e));
 		}
 		return BizResult.success(Boolean.TRUE);
 	}
