@@ -1,6 +1,9 @@
 package com.guhui.common;
 
 import com.guhui.common.controller.GdStoreController;
+import com.ulisesbocchio.jasyptspringboot.annotation.EnableEncryptableProperties;
+import org.jasypt.encryption.StringEncryptor;
+import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -22,6 +25,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 /**
  * Created by guhui ^-^ on 2018/12/24.
  */
+@EnableEncryptableProperties
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class GdStoreControllerTest {
@@ -32,6 +36,9 @@ public class GdStoreControllerTest {
 
 	@Autowired
 	private GdStoreController gdStoreController;
+
+	@Autowired
+	StringEncryptor stringEncryptor;//密码解码器注入
 
 	@Before
 	public void setMockMvc(){
@@ -61,6 +68,16 @@ public class GdStoreControllerTest {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+
+	@Test
+	public void testThree(){
+		//加密密码
+//		StringEncryptor ss = new StandardPBEStringEncryptor();
+//		((StandardPBEStringEncryptor) ss).setPassword("123");
+//		//String pwd = stringEncryptor.encrypt("123456");
+//		String pwd = ss.encrypt("123456");
+		System.out.println(stringEncryptor.encrypt("guhui960308"));
 	}
 
 

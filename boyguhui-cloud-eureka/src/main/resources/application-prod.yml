@@ -1,0 +1,32 @@
+#�������ļ�����������������ȶ�ȡ��������Ը����������ļ�������
+#spring.profiles.active=peer1
+
+#server.port=8080
+##���ڸ�Ӧ��Ϊע�����ģ���������Ϊfalse, ������ע������ע���Լ�
+#eureka.client.register-with-eureka=false
+##����ע�����ĵ�ְ�����ά������ʵ������������Ҫȥ�������� ����Ҳ����Ϊfalse
+#eureka.client.fetch-registry=false
+##ָ������ע�����ĵĵ�ַ
+#eureka.client.serviceUrl.defaultZone=http://localhost:${server.port}/eureka/
+
+server:
+  port: 8081
+eureka:
+  client:
+  #表示是否将自己注册到Eureka Server，默认为true。
+    register-with-eureka: false
+    #表示是否从Eureka Server获取注册信息，默认为true。
+    fetch-registry: false
+    service-url:
+       defaultZone: http://peer1:${server.port}/eureka/
+  instance:
+    hostname: peer1
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+spring:
+  application:
+    name: eureka-server
+ #显示ip注册
+ #eureka.instance.preferIpAddress=true
+ #eureka.instance.prefer-ip-address=true
+ #eureka.instance.instance-id=${spring.cloud.client.ipAddress}:${server.port}

@@ -1,0 +1,82 @@
+##主配置文件，配置了这个会优先读取里面的属性覆盖主配置文件的属性
+#spring.profiles.active=dev
+server.port=8801
+#用于配置应用名，该名称会作为注册中心中的服务名，调用者也通过调用该服务名实现服务的调用，不同服务不同服务名称，相同服务配置为同一个，不区分大小写。
+spring.application.name=boyguhui-common-service
+
+############## eureka #######################
+#配置注册中心地址，多个以逗号隔开。
+eureka.client.service-url.defaultZone=http://peer1:8081/eureka
+#,http://peer2:8082/eureka,http://peer3:8083/eureka
+#配置心跳续约周期时间间隔，默认为30秒。注册中心以该心跳来识别实例状态。
+eureka.client.instance.lease-renewal-interval-in-seconds=25
+#默认为true，表示将自己注册到注册中心。
+eureka.client.register-with-eureka=true
+#显示ip注册
+eureka.instance.prefer-ip-address=true
+eureka.instance.instance-id=${spring.cloud.client.ipAddress}:${server.port}
+
+
+
+############ mysql config ########################
+jdbc.driverClassName=com.mysql.jdbc.Driver
+jdbc.pool.validationQuery=select current_timestamp()
+dialectDb=mysql
+jdbc.maxActive=50
+jdbc.maxWait=-1
+jdbc.minIdle=3
+jdbc.initialSize=20
+#数据库
+jdbc.url.info=jdbc:mysql://localhost:3306/tqq?autoReconnect\=true&useUnicode\=true&characterEncoding\=utf-8&useSSL=true
+jdbc.username=root
+jdbc.password=123456
+
+
+############ sqltoy config ########################
+sqltoy.debug=true
+sqltoy.dialect=mysql
+sqltoy.batchSize=200
+sqltoy.autoCommit=false
+sqltoy.showSql=true
+
+######################################### ehcache ###############################
+ehcache.configFile=cache/ehcache-local.xml
+
+######################################### log ###############################
+
+#=========================logback-spring 相关邮箱信息=====================
+email.smtpHost=smtp.163.com
+email.smtpPort=25
+email.to=leiyang_hui@163.com
+email.from=leiyang_hui@163.com
+email.username=leiyang_hui@163.com
+email.password=guhui960308
+
+#==============================================
+#   Redis Conf : key=val
+#==============================================
+redis.maxIdle=10
+redis.minIdle=10
+redis.maxTotal=30
+redis.maxWaitMillis=1500
+
+redis.testWhileIdle=true
+redis.testOnBorrow=true
+redis.testOnReturn=false
+
+redis.timeBetweenEvictionRunsMillis=30000
+redis.minEvictableIdleTimeMillis=1800000
+redis.blockWhenExhausted=false
+redis.numTestsPerEvictionRun=1024
+redis.softMinEvictableIdleTimeMillis=100000
+redis.timeout=30000
+
+
+#==============================================
+#   配置文件加密  jasypt
+#==============================================
+#加密密钥
+jasypt.encryptor.password=guhui
+
+encrypt.test.sign=ENC(gfJpnO8cwx6s4BbOCr/0Y+JGfKNvV913)
+
