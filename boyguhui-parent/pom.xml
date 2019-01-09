@@ -13,6 +13,7 @@
     <modules>
         <module>../boyguhui-common-service</module>
         <module>../boyguhui-cloud-eureka</module>
+        <module>../boyguhui-cloud-hystrix-dashboard</module>
     </modules>
 
 
@@ -86,12 +87,16 @@
         <feign-httpclient.version>9.5.1</feign-httpclient.version>
         <tomcat.version>9.0.5</tomcat.version>
         <netflix-feign-httpclient.version>8.18.0</netflix-feign-httpclient.version>
-        <apollo.version>2.0.0</apollo.version>
+        <apollo.version>0.9.1</apollo.version>
+        <jasypt-spring-boot-starter.version>2.1.0</jasypt-spring-boot-starter.version>
+        <logback.version>1.1.11</logback.version>
+        <javax-mail.version>1.4.7</javax-mail.version>
         <!-- system app -->
 
         <boyguhui-common-service.version>1.0.0-SNAPSHOT</boyguhui-common-service.version>
-        <boyguhui-cloud-eureka.version>1.0.0-SHAPSHOT</boyguhui-cloud-eureka.version>
+        <boyguhui-cloud-eureka.version>1.0.0-SNAPSHOT</boyguhui-cloud-eureka.version>
         <spring-boot-sqltoy.version>1.0.0-SNAPSHOT</spring-boot-sqltoy.version>
+        <boyguhui-cloud-hystrix-dashboard.version>1.0.0-SNAPSHOT</boyguhui-cloud-hystrix-dashboard.version>
 
     </properties>
 

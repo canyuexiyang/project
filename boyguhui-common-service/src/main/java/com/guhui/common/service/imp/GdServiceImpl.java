@@ -13,11 +13,12 @@ import java.util.List;
 
 /**
  * Created by guhui ^-^ on 2018/12/20.
+ * @author : guhui
  */
 @Service
-public class GdServiceImpI implements IGdStoreService {
+public class GdServiceImpl implements IGdStoreService {
 
-	private static final Logger log = LoggerFactory.getLogger(GdServiceImpI.class);
+	private static final Logger log = LoggerFactory.getLogger(GdServiceImpl.class);
 
 	@Autowired
 	private SqlToyLazyDao sqlToyLazyDao;
