@@ -14,7 +14,9 @@
         <module>../boyguhui-common-service</module>
         <module>../boyguhui-cloud-eureka</module>
         <module>../boyguhui-cloud-hystrix-dashboard</module>
+        <module>../boyguhui-component-swagger</module>
     </modules>
+
 
 
     <parent>
@@ -95,7 +97,7 @@
 
         <boyguhui-common-service.version>1.0.0-SNAPSHOT</boyguhui-common-service.version>
         <boyguhui-cloud-eureka.version>1.0.0-SNAPSHOT</boyguhui-cloud-eureka.version>
-        <spring-boot-sqltoy.version>1.0.0-SNAPSHOT</spring-boot-sqltoy.version>
+        <boyguhui-component-swagger.version>1.0.0-SNAPSHOT</boyguhui-component-swagger.version>
         <boyguhui-cloud-hystrix-dashboard.version>1.0.0-SNAPSHOT</boyguhui-cloud-hystrix-dashboard.version>
 
     </properties>
@@ -193,6 +195,18 @@
                     </exclusion>
                 </exclusions>
             </dependency>
+
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

@@ -152,6 +152,12 @@
             <version>${apollo.version}</version>
         </dependency>
 
+        <!-- 引入swagger服务 -->
+        <dependency>
+            <groupId>com.boyguhui</groupId>
+            <artifactId>boyguhui-component-swagger</artifactId>
+            <version>${boyguhui-component-swagger.version}</version>
+        </dependency>
 
     </dependencies>
 
