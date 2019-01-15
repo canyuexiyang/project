@@ -1,4 +1,4 @@
-package com.guhui.common.entity;
+package com.guhui.order.api.entity;
 
 import org.springframework.util.Assert;
 

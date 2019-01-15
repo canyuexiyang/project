@@ -15,6 +15,8 @@
         <module>../boyguhui-cloud-eureka</module>
         <module>../boyguhui-cloud-hystrix-dashboard</module>
         <module>../boyguhui-component-swagger</module>
+        <module>../boyguhui-order-service</module>
+        <module>../boyguhui-order-api</module>
     </modules>
 
 
@@ -99,7 +101,8 @@
         <boyguhui-cloud-eureka.version>1.0.0-SNAPSHOT</boyguhui-cloud-eureka.version>
         <boyguhui-component-swagger.version>1.0.0-SNAPSHOT</boyguhui-component-swagger.version>
         <boyguhui-cloud-hystrix-dashboard.version>1.0.0-SNAPSHOT</boyguhui-cloud-hystrix-dashboard.version>
-
+        <boyguhui-order-service.version>1.0.0-SNAPSHOT</boyguhui-order-service.version>
+        <boyguhui-order-api.version>1.0.0-SNAPSHOT</boyguhui-order-api.version>
     </properties>
 
     <dependencyManagement>

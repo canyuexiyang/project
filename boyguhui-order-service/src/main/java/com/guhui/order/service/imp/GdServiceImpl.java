@@ -1,8 +1,9 @@
-package com.guhui.common.service.imp;
+package com.guhui.order.service.imp;
 
-import com.guhui.common.service.IGdStoreService;
+
 import com.guhui.order.api.entity.BizResult;
 import com.guhui.order.api.vo.GdStoreVO;
+import com.guhui.order.service.IGdStoreService;
 import org.sagacity.sqltoy.dao.SqlToyLazyDao;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,9 +37,19 @@ public class GdServiceImpl implements IGdStoreService {
 			return BizResult.success(list);
 		}catch (Exception e){
 			log.error("-----GdServiceImpI -> getGdStoreAll 方法错误");
-			log.error("========================start========================");
 			log.error(e.getMessage(),e.getLocalizedMessage(),e.getCause(),e.getStackTrace());
-			log.error("========================end========================");
+			return BizResult.error();
+		}
+	}
+
+	@Override
+	public BizResult<GdStoreVO> getGdStoreById(GdStoreVO gdStoreVO) {
+		try {
+			gdStoreVO = (GdStoreVO) this.sqlToyLazyDao.loadBySql("getGdStoreById",new String[]{"gdId"},new Object[]{gdStoreVO.getGdId()},GdStoreVO.class);
+			return BizResult.success(gdStoreVO);
+		}catch (Exception e){
+			log.error("-----GdServiceImpI -> getGdStoreById 方法错误");
+			log.error(e.getMessage(),e.getStackTrace());
 			return BizResult.error();
 		}
 	}

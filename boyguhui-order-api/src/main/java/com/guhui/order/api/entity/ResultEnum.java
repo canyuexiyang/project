@@ -1,4 +1,4 @@
-package com.guhui.common.entity;
+package com.guhui.order.api.entity;
 
 /**
  * @author xuan <a href="zhangshixuanj@163.com">联系作者</a>

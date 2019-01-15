@@ -1,10 +1,9 @@
 package com.guhui.common.controller;
 
-import com.guhui.common.entity.BizResult;
 import com.guhui.common.service.IGdStoreService;
-import com.guhui.common.vo.GdStoreVO;
+import com.guhui.order.api.entity.BizResult;
+import com.guhui.order.api.vo.GdStoreVO;
 import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiModelProperty;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
