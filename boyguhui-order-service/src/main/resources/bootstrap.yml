@@ -1,0 +1,7 @@
+#spring:
+#    profiles:
+#        active: uat
+#    application:
+#        name: boyguhui-demo
+#logging:
+#    file: /data/logs/boyguhui-demo1.log
