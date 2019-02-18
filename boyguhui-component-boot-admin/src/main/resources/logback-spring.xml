@@ -10,6 +10,15 @@
 	<!-- log文件名称 -->
 	<property name="LOG_FILE_NAME" value="boyguhui-component-boot-admin"/>
 
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>${PATTERN}</pattern>
+		</encoder>
+	</appender>
+	<logger name="com.sinochem" level="debug"/>
+	<root level="info">
+		<appender-ref ref="CONSOLE" />
+	</root>
 
 	<!-- 开发环境 -->
 	<springProfile name="dev">

@@ -45,7 +45,7 @@ public class BootAdminApp {
 		}
 	}
 
-	@Profile("secure")
+	@Profile("dev")
 	@Configuration
 	public static class SecuritySecureConfig extends WebSecurityConfigurerAdapter {
 		private final String adminContextPath;

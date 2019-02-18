@@ -6,7 +6,8 @@ spring.application.name=boyguhui-component-boot-admin
 
 eureka.instance.metadata-map.user.name=admin
 eureka.instance.metadata-map.user.password=admin123
-eureka.instance.easeRenewalIntervalInSeconds=10
+#eureka.instance.easeRenewalIntervalInSeconds=10
+eureka.instance.lease-renewal-interval-in-seconds=10
 eureka.instance.health-check-url-path=/actuator/health
 #eureka.instance.ip-address=peer1
 #eureka.instance.instance-id=${eureka.instance.ip-address}:${server.port}
@@ -15,10 +16,11 @@ eureka.client.registry-fetch-interval-seconds=5
 #http://peer1:8081/eureka
 eureka.client.service-url.defaultZone=${EUREKA_SERVICE_URL:http://peer1:8081}/eureka/
 
+spring.profiles=dev
 spring.security.user.name=admin
 spring.security.user.password=admin123
 spring.boot.admin.ui.title=boyguhui
-management.endpoints.web.exposure.include='*'
+management.endpoints.web.exposure.include="*"
 management.endpoint.health.show-details=ALWAYS
 
 
