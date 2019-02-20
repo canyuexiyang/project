@@ -18,10 +18,17 @@
 
     <dependencies>
 
-        <!-- sqlstoy -->
+        <dependency>
+            <groupId>com.boyguhui</groupId>
+            <artifactId>boyguhui-order-api</artifactId>
+            <version>${boyguhui-order-api.version}</version>
+        </dependency>
+
+        <!--sqlstoy-->
         <dependency>
             <groupId>org.sagacity</groupId>
             <artifactId>sagacity-sqltoy</artifactId>
+            <version>${sagacity-sqltoy.version}</version>
         </dependency>
 
         <dependency>
@@ -113,6 +120,30 @@
             <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-httpclient</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>javax.mail</groupId>
@@ -152,6 +183,18 @@
             <version>${apollo.version}</version>
         </dependency>
 
+        <!-- 引入swagger服务 -->
+        <dependency>
+            <groupId>com.boyguhui</groupId>
+            <artifactId>boyguhui-component-swagger</artifactId>
+            <version>${boyguhui-component-swagger.version}</version>
+        </dependency>
+
+        <!--<dependency>-->
+            <!--<groupId>de.codecentric</groupId>-->
+            <!--<artifactId>spring-boot-admin-starter-client</artifactId>-->
+            <!--<version>${spring-boot-admin.version}</version>-->
+        <!--</dependency>-->
 
     </dependencies>
 

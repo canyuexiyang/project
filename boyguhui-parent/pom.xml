@@ -14,7 +14,13 @@
         <module>../boyguhui-common-service</module>
         <module>../boyguhui-cloud-eureka</module>
         <module>../boyguhui-cloud-hystrix-dashboard</module>
+        <module>../boyguhui-component-swagger</module>
+        <module>../boyguhui-order-service</module>
+        <module>../boyguhui-order-api</module>
+        <module>../boyguhui-component-boot-admin</module>
+        <module>../boyguhui-component-demo-admin</module>
     </modules>
+
 
 
     <parent>
@@ -91,13 +97,17 @@
         <jasypt-spring-boot-starter.version>2.1.0</jasypt-spring-boot-starter.version>
         <logback.version>1.1.11</logback.version>
         <javax-mail.version>1.4.7</javax-mail.version>
+        <spring-boot-admin.version>2.0.1</spring-boot-admin.version>
         <!-- system app -->
 
         <boyguhui-common-service.version>1.0.0-SNAPSHOT</boyguhui-common-service.version>
         <boyguhui-cloud-eureka.version>1.0.0-SNAPSHOT</boyguhui-cloud-eureka.version>
-        <spring-boot-sqltoy.version>1.0.0-SNAPSHOT</spring-boot-sqltoy.version>
+        <boyguhui-component-swagger.version>1.0.0-SNAPSHOT</boyguhui-component-swagger.version>
         <boyguhui-cloud-hystrix-dashboard.version>1.0.0-SNAPSHOT</boyguhui-cloud-hystrix-dashboard.version>
-
+        <boyguhui-order-service.version>1.0.0-SNAPSHOT</boyguhui-order-service.version>
+        <boyguhui-order-api.version>1.0.0-SNAPSHOT</boyguhui-order-api.version>
+        <boyguhui-component-boot-admin>1.0.0-SNAPSHOT</boyguhui-component-boot-admin>
+        <boyguhui-component-demo-admin>1.0.0-SNAPSHOT</boyguhui-component-demo-admin>
     </properties>
 
     <dependencyManagement>
@@ -182,17 +192,29 @@
                 <artifactId>aopalliance</artifactId>
                 <version>${aopalliance.version}</version>
             </dependency>
+            <!--<dependency>-->
+                <!--<groupId>org.sagacity</groupId>-->
+                <!--<artifactId>sagacity-sqltoy</artifactId>-->
+                <!--<version>${sagacity-sqltoy.version}</version>-->
+                <!--&lt;!&ndash;<exclusions>&ndash;&gt;-->
+                <!--&lt;!&ndash;<exclusion>&ndash;&gt;-->
+                <!--&lt;!&ndash;<groupId>*</groupId>&ndash;&gt;-->
+                <!--&lt;!&ndash;<artifactId>*</artifactId>&ndash;&gt;-->
+                <!--&lt;!&ndash;</exclusion>&ndash;&gt;-->
+                <!--&lt;!&ndash;</exclusions>&ndash;&gt;-->
+            <!--</dependency>-->
+
             <dependency>
-                <groupId>org.sagacity</groupId>
-                <artifactId>sagacity-sqltoy</artifactId>
-                <version>${sagacity-sqltoy.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>*</groupId>
-                        <artifactId>*</artifactId>
-                    </exclusion>
-                </exclusions>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${swagger.version}</version>
             </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

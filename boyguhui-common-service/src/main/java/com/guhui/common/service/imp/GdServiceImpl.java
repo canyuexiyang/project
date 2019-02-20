@@ -1,8 +1,8 @@
 package com.guhui.common.service.imp;
 
-import com.guhui.common.entity.BizResult;
 import com.guhui.common.service.IGdStoreService;
-import com.guhui.common.vo.GdStoreVO;
+import com.guhui.order.api.entity.BizResult;
+import com.guhui.order.api.vo.GdStoreVO;
 import org.sagacity.sqltoy.dao.SqlToyLazyDao;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

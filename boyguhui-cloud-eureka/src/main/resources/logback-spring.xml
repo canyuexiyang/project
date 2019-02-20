@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<!-- 文件输出格式 -->
+	<property name="PATTERN" value="%-12(%d{yyyy-MM-dd HH:mm:ss.SSS}) |-%-5level [%thread] %c [%L] -| %msg%n" />
+	<!-- test文件路径 -->
+	<property name="TEST_FILE_PATH" value="/data/logs/boyguhui-cloud-eureka"/>
+	<!-- pro文件路径 -->
+	<property name="PRO_FILE_PATH" value="/data/logs/boyguhui-cloud-eureka"/>
+	<!-- log文件名称 -->
+	<property name="LOG_FILE_NAME" value="boyguhui-cloud-eureka"/>
+
+	<!-- 开发环境 -->
+	<springProfile name="dev">
+		<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+			<encoder>
+				<pattern>${PATTERN}</pattern>
+			</encoder>
+		</appender>
+		<logger name="com.guhui" level="debug"/>
+		<root level="info">
+			<appender-ref ref="CONSOLE" />
+		</root>
+	</springProfile>
+
+	<!-- 测试环境 -->
+	<springProfile name="test">
+		<appender name="TEST-FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+			<!-- 文件路径 -->
+			<file>${TEST_FILE_PATH}/${LOG_FILE_NAME}.log</file>
+			<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+				<!-- 文件名称 -->
+				<fileNamePattern>${TEST_FILE_PATH}/${LOG_FILE_NAME}.%d{yyyy-MM-dd}.log</fileNamePattern>
+				<!-- 文件最大保存历史数量 -->
+				<MaxHistory>100</MaxHistory>
+			</rollingPolicy>
+
+			<layout class="ch.qos.logback.classic.PatternLayout">
+				<pattern>${PATTERN}</pattern>
+			</layout>
+		</appender>
+
+		<root level="info">
+			<appender-ref ref="TEST-FILE" />
+		</root>
+	</springProfile>
+
+
+	<!-- sit环境 -->
+	<springProfile name="sit">
+		<appender name="PROD_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+			<file>${PRO_FILE_PATH}/${LOG_FILE_NAME}.log</file>
+			<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+				<fileNamePattern>${PRO_FILE_PATH}/${LOG_FILE_NAME}.%d{yyyy-MM-dd}.log</fileNamePattern>
+				<MaxHistory>100</MaxHistory>
+			</rollingPolicy>
+			<layout class="ch.qos.logback.classic.PatternLayout">
+				<pattern>${PATTERN}</pattern>
+			</layout>
+		</appender>
+		<root level="info">
+			<appender-ref ref="PROD_FILE" />
+		</root>
+	</springProfile>
+
+
+	<!-- uat环境 -->
+	<springProfile name="uat">
+		<appender name="PROD_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+			<file>${PRO_FILE_PATH}/${LOG_FILE_NAME}.log</file>
+			<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+				<fileNamePattern>${PRO_FILE_PATH}/${LOG_FILE_NAME}.%d{yyyy-MM-dd}.log</fileNamePattern>
+				<MaxHistory>100</MaxHistory>
+			</rollingPolicy>
+			<layout class="ch.qos.logback.classic.PatternLayout">
+				<pattern>${PATTERN}</pattern>
+			</layout>
+		</appender>
+
+		<root level="info">
+			<appender-ref ref="PROD_FILE" />
+		</root>
+	</springProfile>
+
+	<!-- 生产环境 -->
+	<springProfile name="prod">
+		<appender name="PROD_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+			<file>${PRO_FILE_PATH}/${LOG_FILE_NAME}.log</file>
+			<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+				<fileNamePattern>${PRO_FILE_PATH}/${LOG_FILE_NAME}.%d{yyyy-MM-dd}.log</fileNamePattern>
+				<MaxHistory>100</MaxHistory>
+			</rollingPolicy>
+			<layout class="ch.qos.logback.classic.PatternLayout">
+				<pattern>${PATTERN}</pattern>
+			</layout>
+		</appender>
+		<root level="info">
+			<appender-ref ref="PROD_FILE" />
+		</root>
+	</springProfile>
+
+
+	<!-- 开发环境 -->
+	<!--<springProfile name="dev">-->
+		<!--&lt;!&ndash;<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">&ndash;&gt;-->
+			<!--&lt;!&ndash;<encoder>&ndash;&gt;-->
+				<!--&lt;!&ndash;<pattern>${PATTERN}</pattern>&ndash;&gt;-->
+			<!--&lt;!&ndash;</encoder>&ndash;&gt;-->
+		<!--&lt;!&ndash;</appender>&ndash;&gt;-->
+		<!--&lt;!&ndash;<logger name="com.guhui" level="info"/>&ndash;&gt;-->
+
+		<!--<appender name="DEV-FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+			<!--&lt;!&ndash; 文件路径 &ndash;&gt;-->
+			<!--<file>${TEST_FILE_PATH}/${LOG_FILE_NAME}.log</file>-->
+			<!--<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+				<!--&lt;!&ndash; 文件名称 &ndash;&gt;-->
+				<!--<fileNamePattern>${TEST_FILE_PATH}/${LOG_FILE_NAME}.%d{yyyy-MM-dd}.log</fileNamePattern>-->
+				<!--&lt;!&ndash; 文件最大保存历史数量 &ndash;&gt;-->
+				<!--<MaxHistory>100</MaxHistory>-->
+			<!--</rollingPolicy>-->
+			<!--<layout class="ch.qos.logback.classic.PatternLayout">-->
+				<!--<pattern>${PATTERN}</pattern>-->
+			<!--</layout>-->
+		<!--</appender>-->
+
+		<!--&lt;!&ndash;邮件发送&ndash;&gt;-->
+		<!--<appender name="EMAIL" class="ch.qos.logback.classic.net.SMTPAppender">-->
+			<!--&lt;!&ndash;smtp 服务器&ndash;&gt;-->
+			<!--<smtpHost>smtp.163.com</smtpHost>-->
+			<!--&lt;!&ndash;port&ndash;&gt;-->
+			<!--<smtpPort>25</smtpPort>-->
+			<!--&lt;!&ndash; 发给谁的邮件列表，多个人用逗号分隔 &ndash;&gt;-->
+			<!--<to>leiyang_hui@163.com</to>-->
+			<!--&lt;!&ndash;发件人，添加邮箱和上面的username保持一致&ndash;&gt;-->
+			<!--<from>leiyang_hui@163.com</from>-->
+			<!--&lt;!&ndash;<subject>${LOG_FILE_NAME}.%d{yyyy-MM-dd}.log</subject>&ndash;&gt;-->
+			<!--<subject>boyguhui-common-service.%d{yyyy-MM-dd}.log</subject>-->
+			<!--&lt;!&ndash;发件人的邮箱&ndash;&gt;-->
+			<!--<username>leiyang_hui@163.com</username>-->
+			<!--&lt;!&ndash;发件人的邮箱密码&ndash;&gt;-->
+			<!--<password>guhui960308</password>-->
+			<!--<SSL>false</SSL>-->
+			<!--&lt;!&ndash;是否异步&ndash;&gt;-->
+			<!--<asynchronousSending>true</asynchronousSending>-->
+			<!--<layout class="ch.qos.logback.classic.PatternLayout">-->
+				<!--<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>-->
+			<!--</layout>-->
+			<!--<cyclicBufferTracker class ="ch.qos.logback.core.spi.CyclicBufferTracker" >-->
+				<!--<bufferSize> 1 </bufferSize>-->
+			<!--</cyclicBufferTracker>-->
+			<!--&lt;!&ndash;过滤器&ndash;&gt;-->
+			<!--&lt;!&ndash; 这里采用等级过滤器 指定等级相符才发送 &ndash;&gt;-->
+			<!--<filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+				<!--<level>ERROR</level>-->
+				<!--<onMatch>ACCEPT</onMatch>-->
+				<!--<onMismatch>DENY</onMismatch>-->
+			<!--</filter>-->
+		<!--</appender>-->
+		<!---->
+		<!--<root level="info">-->
+			<!--<appender-ref ref="DEV-FILE" />-->
+			<!--<appender-ref ref="EMAIL"/>-->
+		<!--</root>-->
+	<!--</springProfile>-->
+
+	<!--&lt;!&ndash; 测试环境 &ndash;&gt;-->
+	<!--<springProfile name="test">-->
+		<!--<appender name="TEST-FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+			<!--&lt;!&ndash; 文件路径 &ndash;&gt;-->
+			<!--<file>${TEST_FILE_PATH}/${LOG_FILE_NAME}.log</file>-->
+			<!--<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+				<!--&lt;!&ndash; 文件名称 &ndash;&gt;-->
+				<!--<fileNamePattern>${TEST_FILE_PATH}/${LOG_FILE_NAME}.%d{yyyy-MM-dd}.log</fileNamePattern>-->
+				<!--&lt;!&ndash; 文件最大保存历史数量 &ndash;&gt;-->
+				<!--<MaxHistory>100</MaxHistory>-->
+			<!--</rollingPolicy>-->
+			<!--<layout class="ch.qos.logback.classic.PatternLayout">-->
+				<!--<pattern>${PATTERN}</pattern>-->
+			<!--</layout>-->
+		<!--</appender>-->
+
+		<!--&lt;!&ndash;邮件发送&ndash;&gt;-->
+		<!--<appender name="EMAIL" class="ch.qos.logback.classic.net.SMTPAppender">-->
+			<!--&lt;!&ndash;smtp 服务器&ndash;&gt;-->
+			<!--<smtpHost>smtp.qq.com</smtpHost>-->
+			<!--&lt;!&ndash;port&ndash;&gt;-->
+			<!--<smtpPort>465</smtpPort>-->
+			<!--&lt;!&ndash; 发给谁的邮件列表，多个人用逗号分隔 &ndash;&gt;-->
+			<!--<to>boyguhui@qq.com</to>-->
+			<!--&lt;!&ndash;发件人，添加邮箱和上面的username保持一致&ndash;&gt;-->
+			<!--<from>boyguhui@qq.com</from>-->
+			<!--<subject>${LOG_FILE_NAME}.%d{yyyy-MM-dd}.log</subject>-->
+			<!--&lt;!&ndash;发件人的邮箱&ndash;&gt;-->
+			<!--<username>boyguhui@qq.com</username>-->
+			<!--&lt;!&ndash;发件人的邮箱密码&ndash;&gt;-->
+			<!--<password>maoqinqin171014</password>-->
+			<!--<SSL>false</SSL>-->
+			<!--&lt;!&ndash;是否异步&ndash;&gt;-->
+			<!--<asynchronousSending>true</asynchronousSending>-->
+			<!--<layout class="ch.qos.logback.classic.PatternLayout">-->
+				<!--<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>-->
+			<!--</layout>-->
+			<!--<cyclicBufferTracker class ="ch.qos.logback.core.spi.CyclicBufferTracker" >-->
+				<!--<bufferSize> 1 </bufferSize>-->
+			<!--</cyclicBufferTracker>-->
+			<!--&lt;!&ndash;过滤器&ndash;&gt;-->
+			<!--&lt;!&ndash; 这里采用等级过滤器 指定等级相符才发送 &ndash;&gt;-->
+			<!--<filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+				<!--<level>ERROR</level>-->
+				<!--<level>INFO</level>-->
+				<!--<onMatch>ACCEPT</onMatch>-->
+				<!--<onMismatch>DENY</onMismatch>-->
+			<!--</filter>-->
+		<!--</appender>-->
+
+		<!--<root level="info">-->
+			<!--<appender-ref ref="TEST-FILE" />-->
+			<!--<appender-ref ref="EMAIL"/>-->
+		<!--</root>-->
+	<!--</springProfile>-->
+	<!---->
+	<!--&lt;!&ndash; sit环境 &ndash;&gt;-->
+	<!--<springProfile name="sit">-->
+		<!--<appender name="PROD_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+			<!--<file>${PRO_FILE_PATH}/${LOG_FILE_NAME}.log</file>-->
+			<!--<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+				<!--<fileNamePattern>${PRO_FILE_PATH}/${LOG_FILE_NAME}.%d{yyyy-MM-dd}.log</fileNamePattern>-->
+				<!--<MaxHistory>100</MaxHistory>-->
+			<!--</rollingPolicy>-->
+			<!--<layout class="ch.qos.logback.classic.PatternLayout">-->
+				<!--<pattern>${PATTERN}</pattern>-->
+			<!--</layout>-->
+		<!--</appender>-->
+		<!--<root level="debug">-->
+			<!--<appender-ref ref="PROD_FILE" />-->
+		<!--</root>-->
+	<!--</springProfile>-->
+	<!---->
+	<!--&lt;!&ndash; uat环境 &ndash;&gt;-->
+	<!--<springProfile name="uat">-->
+		<!--<appender name="PROD_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+			<!--<file>${PRO_FILE_PATH}/${LOG_FILE_NAME}.log</file>-->
+			<!--<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+				<!--<fileNamePattern>${PRO_FILE_PATH}/${LOG_FILE_NAME}.%d{yyyy-MM-dd}.log</fileNamePattern>-->
+				<!--<MaxHistory>100</MaxHistory>-->
+			<!--</rollingPolicy>-->
+			<!--<layout class="ch.qos.logback.classic.PatternLayout">-->
+				<!--<pattern>${PATTERN}</pattern>-->
+			<!--</layout>-->
+		<!--</appender>-->
+		<!--<root level="info">-->
+			<!--<appender-ref ref="PROD_FILE" />-->
+		<!--</root>-->
+	<!--</springProfile>-->
+
+	<!--&lt;!&ndash; 生产环境 &ndash;&gt;-->
+	<!--<springProfile name="prod">-->
+		<!--<appender name="PROD_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+			<!--<file>${PRO_FILE_PATH}/${LOG_FILE_NAME}.log</file>-->
+			<!--<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+				<!--<fileNamePattern>${PRO_FILE_PATH}/${LOG_FILE_NAME}.%d{yyyy-MM-dd}.log</fileNamePattern>-->
+				<!--<MaxHistory>100</MaxHistory>-->
+			<!--</rollingPolicy>-->
+			<!--<layout class="ch.qos.logback.classic.PatternLayout">-->
+				<!--<pattern>${PATTERN}</pattern>-->
+			<!--</layout>-->
+		<!--</appender>-->
+		<!--<root level="info">-->
+			<!--<appender-ref ref="PROD_FILE" />-->
+		<!--</root>-->
+	<!--</springProfile>-->
+</configuration>

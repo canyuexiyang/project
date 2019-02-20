@@ -1,4 +1,4 @@
-package com.guhui.common.vo.base;
+package com.guhui.order.api.vo.base;
 
 import org.sagacity.sqltoy.config.annotation.Column;
 import org.sagacity.sqltoy.config.annotation.Entity;
