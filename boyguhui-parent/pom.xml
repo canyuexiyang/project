@@ -18,6 +18,7 @@
         <module>../boyguhui-order-service</module>
         <module>../boyguhui-order-api</module>
         <module>../boyguhui-component-boot-admin</module>
+        <module>../boyguhui-component-demo-admin</module>
     </modules>
 
 
@@ -106,6 +107,7 @@
         <boyguhui-order-service.version>1.0.0-SNAPSHOT</boyguhui-order-service.version>
         <boyguhui-order-api.version>1.0.0-SNAPSHOT</boyguhui-order-api.version>
         <boyguhui-component-boot-admin>1.0.0-SNAPSHOT</boyguhui-component-boot-admin>
+        <boyguhui-component-demo-admin>1.0.0-SNAPSHOT</boyguhui-component-demo-admin>
     </properties>
 
     <dependencyManagement>
@@ -190,17 +192,17 @@
                 <artifactId>aopalliance</artifactId>
                 <version>${aopalliance.version}</version>
             </dependency>
-            <dependency>
-                <groupId>org.sagacity</groupId>
-                <artifactId>sagacity-sqltoy</artifactId>
-                <version>${sagacity-sqltoy.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>*</groupId>
-                        <artifactId>*</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>org.sagacity</groupId>-->
+                <!--<artifactId>sagacity-sqltoy</artifactId>-->
+                <!--<version>${sagacity-sqltoy.version}</version>-->
+                <!--&lt;!&ndash;<exclusions>&ndash;&gt;-->
+                <!--&lt;!&ndash;<exclusion>&ndash;&gt;-->
+                <!--&lt;!&ndash;<groupId>*</groupId>&ndash;&gt;-->
+                <!--&lt;!&ndash;<artifactId>*</artifactId>&ndash;&gt;-->
+                <!--&lt;!&ndash;</exclusion>&ndash;&gt;-->
+                <!--&lt;!&ndash;</exclusions>&ndash;&gt;-->
+            <!--</dependency>-->
 
             <dependency>
                 <groupId>io.springfox</groupId>

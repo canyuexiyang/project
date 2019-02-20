@@ -1,0 +1,22 @@
+server:
+  port: 9377
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://peer1:8081/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+spring:
+  application:
+    name: boyguhui-component-demo-admin
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+      health:
+        show-details: ALWAYS
+

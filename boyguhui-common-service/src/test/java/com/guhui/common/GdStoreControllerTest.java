@@ -22,6 +22,9 @@ import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by guhui ^-^ on 2018/12/24.
  */
@@ -52,8 +55,41 @@ public class GdStoreControllerTest {
 
 	@Test
 	public void testOne(){
+		List<String> aa = new ArrayList<>();
+		aa.add("1");
+		aa.add("1");
+		aa.add("1");
+		aa.add("1");
+		aa.add("1");
+		aa.add("1");
+		List<Integer> bb = new ArrayList<>();
+
+		for (int i = 1; i <= aa.size(); i ++){
+			bb.add(i);
+		}
+		for (Integer i : bb) {
+			System.out.println(i);
+		}
 		System.out.println("-----单元测试案例");
 		log.info("--柴犬小七--");
+	}
+
+	public static void main(String[] args){
+		List<String> aa = new ArrayList<>();
+		aa.add("1");
+		aa.add("1");
+		aa.add("1");
+		aa.add("1");
+		aa.add("1");
+		aa.add("1");
+		List<Integer> bb = new ArrayList<>();
+
+		for (int i = 1; i <= aa.size(); i ++){
+			bb.add(i);
+		}
+		for (Integer i : bb) {
+			System.out.println(i);
+		}
 	}
 
 	@Test

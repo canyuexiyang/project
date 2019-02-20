@@ -17,7 +17,7 @@
 				<pattern>${PATTERN}</pattern>
 			</encoder>
 		</appender>
-		<logger name="com.sinochem" level="debug"/>
+		<logger name="com.guhui" level="debug"/>
 		<root level="info">
 			<appender-ref ref="CONSOLE" />
 		</root>
@@ -107,7 +107,7 @@
 				<!--&lt;!&ndash;<pattern>${PATTERN}</pattern>&ndash;&gt;-->
 			<!--&lt;!&ndash;</encoder>&ndash;&gt;-->
 		<!--&lt;!&ndash;</appender>&ndash;&gt;-->
-		<!--&lt;!&ndash;<logger name="com.sinochem" level="info"/>&ndash;&gt;-->
+		<!--&lt;!&ndash;<logger name="com.guhui" level="info"/>&ndash;&gt;-->
 
 		<!--<appender name="DEV-FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
 			<!--&lt;!&ndash; 文件路径 &ndash;&gt;-->

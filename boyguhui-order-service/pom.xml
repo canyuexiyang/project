@@ -23,12 +23,19 @@
             <groupId>com.boyguhui</groupId>
             <artifactId>boyguhui-order-api</artifactId>
             <version>${boyguhui-order-api.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>*</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
-        <!-- sqlstoy -->
+        <!--sqlstoy -->
         <dependency>
             <groupId>org.sagacity</groupId>
             <artifactId>sagacity-sqltoy</artifactId>
+            <version>${sagacity-sqltoy.version}</version>
         </dependency>
 
         <dependency>
