@@ -1,1 +1,1 @@
-框架测试项目。搭建springcloud框架，ORM集成SqlToy
+框架测试项目。搭建springcloud框架，ORM集成SqlToy。配置中心集成apolle。
