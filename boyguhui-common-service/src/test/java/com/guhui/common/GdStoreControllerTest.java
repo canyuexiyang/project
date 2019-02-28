@@ -22,7 +22,11 @@ import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 /**
@@ -55,41 +59,25 @@ public class GdStoreControllerTest {
 
 	@Test
 	public void testOne(){
-		List<String> aa = new ArrayList<>();
-		aa.add("1");
-		aa.add("1");
-		aa.add("1");
-		aa.add("1");
-		aa.add("1");
-		aa.add("1");
-		List<Integer> bb = new ArrayList<>();
+		String price = "4615142.03";
+		BigDecimal bigDecimal = new BigDecimal(price);
+		// 转换为万元（除以10000）
+		BigDecimal decimal = bigDecimal.divide(new BigDecimal("10000"));
+		// 保留两位小数
+		DecimalFormat formater = new DecimalFormat("0");
+		// 四舍五入
+		formater.setRoundingMode(RoundingMode.DOWN);    // 5000008.89
+//        formater.setRoundingMode(RoundingMode.HALF_DOWN);// 5000008.89
+//        formater.setRoundingMode(RoundingMode.HALF_EVEN);
 
-		for (int i = 1; i <= aa.size(); i ++){
-			bb.add(i);
-		}
-		for (Integer i : bb) {
-			System.out.println(i);
-		}
-		System.out.println("-----单元测试案例");
-		log.info("--柴犬小七--");
+		// 格式化完成之后得出结果
+		String formatNum = formater.format(decimal);
+		System.out.println(formatNum);
+
 	}
 
 	public static void main(String[] args){
-		List<String> aa = new ArrayList<>();
-		aa.add("1");
-		aa.add("1");
-		aa.add("1");
-		aa.add("1");
-		aa.add("1");
-		aa.add("1");
-		List<Integer> bb = new ArrayList<>();
 
-		for (int i = 1; i <= aa.size(); i ++){
-			bb.add(i);
-		}
-		for (Integer i : bb) {
-			System.out.println(i);
-		}
 	}
 
 	@Test
@@ -115,6 +103,7 @@ public class GdStoreControllerTest {
 //		String pwd = ss.encrypt("123456");
 		System.out.println(stringEncryptor.encrypt("guhui960308"));
 	}
+
 
 
 
