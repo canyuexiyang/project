@@ -70,6 +70,8 @@ public class GdStoreControllerTest {
 //        formater.setRoundingMode(RoundingMode.HALF_DOWN);// 5000008.89
 //        formater.setRoundingMode(RoundingMode.HALF_EVEN);
 
+
+
 		// 格式化完成之后得出结果
 		String formatNum = formater.format(decimal);
 		System.out.println(formatNum);
