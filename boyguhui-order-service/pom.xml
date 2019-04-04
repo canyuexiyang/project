@@ -28,6 +28,10 @@
                     <groupId>org.sagacity</groupId>
                     <artifactId>sagacity-sqltoy</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>org.springframework.cloud</groupId>
+                    <artifactId>spring-cloud-starter-openfeign</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
 

@@ -19,6 +19,7 @@
         <module>../boyguhui-order-api</module>
         <module>../boyguhui-component-boot-admin</module>
         <module>../boyguhui-component-demo-admin</module>
+        <module>../boyguhui-component-es-bboss</module>
     </modules>
 
 
@@ -108,6 +109,7 @@
         <boyguhui-order-api.version>1.0.0-SNAPSHOT</boyguhui-order-api.version>
         <boyguhui-component-boot-admin>1.0.0-SNAPSHOT</boyguhui-component-boot-admin>
         <boyguhui-component-demo-admin>1.0.0-SNAPSHOT</boyguhui-component-demo-admin>
+        <boyguhui-component-es-bboss>1.0.0-SNAPSHOT</boyguhui-component-es-bboss>
     </properties>
 
     <dependencyManagement>
