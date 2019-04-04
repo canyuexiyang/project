@@ -26,7 +26,6 @@
         <dependency>
             <groupId>org.sagacity</groupId>
             <artifactId>sagacity-sqltoy</artifactId>
-            <version>${sagacity-sqltoy.version}</version>
         </dependency>
 
     </dependencies>
