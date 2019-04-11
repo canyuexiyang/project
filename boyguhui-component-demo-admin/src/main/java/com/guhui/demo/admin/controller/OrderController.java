@@ -3,8 +3,10 @@ package com.guhui.demo.admin.controller;
 import com.guhui.order.api.entity.BizResult;
 import com.guhui.order.api.feign.GdStoreFeignClient;
 import com.guhui.order.api.vo.GdStoreVO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.annotation.Order;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
@@ -26,6 +28,11 @@ public class OrderController {
 	@GetMapping("/getGdStore")
 	public BizResult<GdStoreVO> getGdStore(){
 		return this.gdStoreFeignClient.getGdStoreById(new GdStoreVO(1));
+	}
+
+	@GetMapping("/testOne")
+	public BizResult<String> getZuulTestOne(){
+		return BizResult.error("success");
 	}
 
 }
