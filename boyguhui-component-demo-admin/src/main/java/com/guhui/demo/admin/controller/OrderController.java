@@ -3,10 +3,10 @@ package com.guhui.demo.admin.controller;
 import com.guhui.order.api.entity.BizResult;
 import com.guhui.order.api.feign.GdStoreFeignClient;
 import com.guhui.order.api.vo.GdStoreVO;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.annotation.Order;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
@@ -22,6 +22,8 @@ import javax.annotation.Resource;
 @RestController
 public class OrderController {
 
+	private static final Logger logger = LoggerFactory.getLogger(OrderController.class);
+
 	@Resource
 	private GdStoreFeignClient gdStoreFeignClient;
 
@@ -33,6 +35,19 @@ public class OrderController {
 	@GetMapping("/testOne")
 	public BizResult<String> getZuulTestOne(){
 		return BizResult.error("success");
+	}
+
+	@GetMapping("/testSleep")
+	public BizResult testSleep(@RequestParam("sleep") int sleep){
+		logger.info("sleep..........start");
+		try{
+			Thread.sleep(sleep*1000);
+		}
+		catch (Exception e){
+			logger.error(e.toString());
+		}
+		logger.info("sleep..........end");
+		return BizResult.success();
 	}
 
 }

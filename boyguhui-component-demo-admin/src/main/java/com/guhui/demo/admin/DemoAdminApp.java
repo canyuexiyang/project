@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Profile;
 
 /**
  * Created by guhui ^-^ on 2019/2/18.
@@ -21,6 +21,7 @@ import org.springframework.context.annotation.Profile;
 @EnableEurekaClient
 @SpringBootApplication
 @ComponentScan(basePackages = "com.guhui.demo")
+@EnableFeignClients(basePackages = "com.guhui")
 public class DemoAdminApp {
 
 	public static void main(String[] args){
