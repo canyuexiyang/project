@@ -18,8 +18,8 @@ import java.util.Date;
  * @CreateDate: 2019/4/4$ 17:01$
  * @Version: 1.0
  */
-@RunWith(SpringRunner.class)
-@SpringBootTest(classes = EsBbossApp.class)
+//@RunWith(SpringRunner.class)
+//@SpringBootTest(classes = EsBbossApp.class)
 public class EsBbossTest {
 
 	private static SimpleDateFormat formatYMD = new SimpleDateFormat("yyyy-MM-dd");
@@ -60,34 +60,34 @@ public class EsBbossTest {
 
 	}
 
-	@Test
-	public void test4(){
-		ClientInterface clientUtil = ElasticSearchHelper.
-				getConfigRestClientUtil("esmapper/estrace/ESTemplate.xml");
-		/**
-		 * 指定模板
-		 * /_template/demoTemplate_1
-		 * /_template/demoTemplate*
-		 * 所有模板 /_template
-		 *
-		 */
-		//获取模板
-		String template = clientUtil.executeHttp("/_template/demotemplate_one", ClientUtil.HTTP_GET);
-		System.out.println("HTTP_GET-------------------------");
-		System.out.println(template);
-
-		//删除模板
-		template = clientUtil.executeHttp("/_template/demotemplate_1",ClientUtil.HTTP_DELETE);
-		System.out.println("HTTP_DELETE-------------------------");
-		System.out.println(template);
-	}
-
-	@Test
-	public void test5(){
-		ClientInterface clientUtil = ElasticSearchHelper.getConfigRestClientUtil("esmapper/estrace/ESTemplate.xml");
-		String ret = clientUtil.createIndiceMapping("trace", "createTraceIndice") ;
-		System.out.println(ret);
-	}
+//	@Test
+//	public void test4(){
+//		ClientInterface clientUtil = ElasticSearchHelper.
+//				getConfigRestClientUtil("esmapper/estrace/ESTemplate.xml");
+//		/**
+//		 * 指定模板
+//		 * /_template/demoTemplate_1
+//		 * /_template/demoTemplate*
+//		 * 所有模板 /_template
+//		 *
+//		 */
+//		//获取模板
+//		String template = clientUtil.executeHttp("/_template/demotemplate_one", ClientUtil.HTTP_GET);
+//		System.out.println("HTTP_GET-------------------------");
+//		System.out.println(template);
+//
+//		//删除模板
+//		template = clientUtil.executeHttp("/_template/demotemplate_1",ClientUtil.HTTP_DELETE);
+//		System.out.println("HTTP_DELETE-------------------------");
+//		System.out.println(template);
+//	}
+//
+//	@Test
+//	public void test5(){
+//		ClientInterface clientUtil = ElasticSearchHelper.getConfigRestClientUtil("esmapper/estrace/ESTemplate.xml");
+//		String ret = clientUtil.createIndiceMapping("trace", "createTraceIndice") ;
+//		System.out.println(ret);
+//	}
 
 	public void testGetmapping(){
 		String date = formatYMD.format(new Date());
