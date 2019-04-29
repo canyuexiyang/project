@@ -21,6 +21,7 @@
         <module>../boyguhui-component-demo-admin</module>
         <module>../boyguhui-component-es-bboss</module>
         <module>../boyguhui-component-zuul</module>
+        <module>../boyguhui-component-rabbitmq-producer</module>
     </modules>
 
 
@@ -113,6 +114,7 @@
         <boyguhui-component-demo-admin>1.0.0-SNAPSHOT</boyguhui-component-demo-admin>
         <boyguhui-component-es-bboss>1.0.0-SNAPSHOT</boyguhui-component-es-bboss>
         <boyguhui-component-zuul>1.0.0-SNAPSHOT</boyguhui-component-zuul>
+        <boyguhui-component-rabbitmq-producer>1.0.0-SNAPSHOT</boyguhui-component-rabbitmq-producer>
     </properties>
 
     <dependencyManagement>
