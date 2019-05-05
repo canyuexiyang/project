@@ -10,31 +10,26 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>boyguhui-component-demo-admin</artifactId>
+    <artifactId>boyguhui-component-rabbitmq-producer</artifactId>
     <groupId>com.boyguhui</groupId>
+    <version>${boyguhui-component-rabbitmq-producer}</version>
     <packaging>jar</packaging>
-    <name>boyguhui-component-demo-admin</name>
-    <version>${boyguhui-component-demo-admin}</version>
+    <name>boyguhui-component-rabbitmq-producer</name>
 
     <dependencies>
 
+        <!--boot jar-->
         <dependency>
-            <groupId>com.boyguhui</groupId>
-            <artifactId>boyguhui-order-api</artifactId>
-            <version>${boyguhui-order-api.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>*</groupId>
-                    <artifactId>*</artifactId>
-                </exclusion>
-            </exclusions>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
 
-        <!--<dependency>-->
-            <!--<groupId>org.springframework.boot</groupId>-->
-            <!--<artifactId>spring-boot-starter-security</artifactId>-->
-        <!--</dependency>-->
-
+        <!--eureka jar-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
@@ -42,17 +37,7 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>io.github.openfeign</groupId>
-            <artifactId>feign-httpclient</artifactId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
 
     </dependencies>
