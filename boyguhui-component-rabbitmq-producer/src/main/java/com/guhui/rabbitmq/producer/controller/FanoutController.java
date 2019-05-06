@@ -24,7 +24,14 @@ public class FanoutController {
 		System.out.println("---------------");
 		amqpTemplate.convertAndSend("My-Fanout-Exchange","","生产者第一条消息");
 		System.out.println("---------------");
-		return "suesscc";
+		return "success";
+	}
+
+	@GetMapping("/directTest")
+	public String directExchangeTest(){
+		System.out.println("--------------");
+		amqpTemplate.convertAndSend("My-Direct-Exchange","boyguhui","生产者第二条消息:nishizhuma");
+		return "success";
 	}
 
 }
