@@ -1,9 +1,13 @@
 package com.guhui.rabbitmq.producer.controller;
 
 import org.springframework.amqp.core.AmqpTemplate;
+import org.springframework.amqp.core.MessagePostProcessor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by guhui ^-^ on.
@@ -34,4 +38,27 @@ public class FanoutController {
 		return "success";
 	}
 
+	@GetMapping("/topicTest")
+	public String topicExchangeTest(){
+		System.out.println("--------------");
+		amqpTemplate.convertAndSend("My-Topic-Exchange","boyguhuiKey.guhui","生产者Topic[boyguhuiKey]类型消息:nishizhuma");
+		amqpTemplate.convertAndSend("My-Topic-Exchange","guhui.topic","生产者Topic[topic]类型消息:nicaishizhu");
+		amqpTemplate.convertAndSend("My-Topic-Exchange","guhui","生产者Topic[#]类型消息:开黑不,我辅助贼六");
+		return "success";
+	}
+
+	@GetMapping("/headerTest")
+	public String headerExchangeTest(){
+		System.out.println("--------------");
+		Map<String, Object> header = new HashMap<>();
+		header.put("name", "guhui");
+		header.put("age", "18");
+		amqpTemplate.convertAndSend("My-Headers-Exchange","","【头交换机】全部匹配", (MessagePostProcessor) header);
+
+		Map<String, Object> headerAny = new HashMap<>();
+		headerAny.put("name", "pyf");
+		headerAny.put("age", "18");
+		amqpTemplate.convertAndSend("My-Headers-Exchange","","【头交换机】匹配其中一个",(MessagePostProcessor) headerAny);
+		return "success";
+	}
 }
