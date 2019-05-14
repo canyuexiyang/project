@@ -1,0 +1,1797 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.boyguhui:boyguhui-common-service:jar:1.0.0-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ com.boyguhui:boyguhui-common-service:${boyguhui-common-service.version}, D:\JAVA\project\boyguhui-common-service\pom.xml, line 16, column 14
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar -> duplicate declaration of version (?) @ com.boyguhui:boyguhui-common-service:${boyguhui-common-service.version}, D:\JAVA\project\boyguhui-common-service\pom.xml, line 148, column 21
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.boyguhui:boyguhui-cloud-eureka:jar:1.0.0-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ com.boyguhui:boyguhui-cloud-eureka:${boyguhui-cloud-eureka.version}, D:\JAVA\project\boyguhui-cloud-eureka\pom.xml, line 16, column 14
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.boyguhui:boyguhui-cloud-hystrix-dashboard:jar:1.0.0-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ com.boyguhui:boyguhui-cloud-hystrix-dashboard:${boyguhui-cloud-hystrix-dashboard.version}, D:\JAVA\project\boyguhui-cloud-hystrix-dashboard\pom.xml, line 16, column 14
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.boyguhui:boyguhui-component-swagger:jar:1.0.0-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ com.boyguhui:boyguhui-component-swagger:${boyguhui-component-swagger.version}, D:\JAVA\project\boyguhui-component-swagger\pom.xml, line 16, column 14
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.boyguhui:boyguhui-order-service:jar:1.0.0-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ com.boyguhui:boyguhui-order-service:${boyguhui-order-service.version}, D:\JAVA\project\boyguhui-order-service\pom.xml, line 16, column 14
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.boyguhui:boyguhui-order-api:jar:1.0.0-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ com.boyguhui:boyguhui-order-api:${boyguhui-order-api.version}, D:\JAVA\project\boyguhui-order-api\pom.xml, line 16, column 14
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.boyguhui:boyguhui-component-boot-admin:jar:1.0.0-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ com.boyguhui:boyguhui-component-boot-admin:${boyguhui-component-boot-admin}, D:\JAVA\project\boyguhui-component-boot-admin\pom.xml, line 16, column 14
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.boyguhui:boyguhui-component-demo-admin:jar:1.0.0-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ com.boyguhui:boyguhui-component-demo-admin:${boyguhui-component-demo-admin}, D:\JAVA\project\boyguhui-component-demo-admin\pom.xml, line 17, column 14
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.boyguhui:boyguhui-component-es-bboss:jar:1.0.0-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ com.boyguhui:boyguhui-component-es-bboss:${boyguhui-component-es-bboss}, D:\JAVA\project\boyguhui-component-es-bboss\pom.xml, line 16, column 14
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.boyguhui:boyguhui-component-zuul:jar:1.0.0-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ com.boyguhui:boyguhui-component-zuul:${boyguhui-component-zuul}, D:\JAVA\project\boyguhui-component-zuul\pom.xml, line 16, column 14
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.boyguhui:boyguhui-component-rabbitmq-producer:jar:1.0.0-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ com.boyguhui:boyguhui-component-rabbitmq-producer:${boyguhui-component-rabbitmq-producer}, D:\JAVA\project\boyguhui-component-rabbitmq-producer\pom.xml, line 15, column 14
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.boyguhui:boyguhui-component-rabbitmq-consumer:jar:1.0.0-SNAPSHOT
+[WARNING] 'version' contains an expression but should be a constant. @ com.boyguhui:boyguhui-component-rabbitmq-consumer:${boyguhui-component-rabbitmq-consumer}, D:\JAVA\project\boyguhui-component-rabbitmq-consumer\pom.xml, line 15, column 14
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.boyguhui:boyguhui-parent:pom:1.0.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] boyguhui-parent                                                    [pom]
+[INFO] boyguhui-order-api                                                 [jar]
+[INFO] boyguhui-component-swagger                                         [jar]
+[INFO] boyguhui-common-service                                            [jar]
+[INFO] boyguhui-cloud-eureka                                              [jar]
+[INFO] boyguhui-cloud-hystrix-dashboard                                   [jar]
+[INFO] boyguhui-order-service                                             [jar]
+[INFO] boyguhui-component-boot-admin                                      [jar]
+[INFO] boyguhui-component-demo-admin                                      [jar]
+[INFO] boyguhui-component-es-bboss                                        [jar]
+[INFO] boyguhui-component-zuul                                            [jar]
+[INFO] boyguhui-component-rabbitmq-producer                               [jar]
+[INFO] boyguhui-component-rabbitmq-consumer                               [jar]
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.51/kotlin-maven-plugin-1.2.51.pom
+Progress (1): 3.9/6.1 kBProgress (1): 6.1 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.51/kotlin-maven-plugin-1.2.51.pom (6.1 kB at 1.6 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jetbrains/kotlin/kotlin-project/1.2.51/kotlin-project-1.2.51.pom
+Progress (1): 2.4/10 kBProgress (1): 6.5/10 kBProgress (1): 10 kB                       Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jetbrains/kotlin/kotlin-project/1.2.51/kotlin-project-1.2.51.pom (10 kB at 22 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.51/kotlin-maven-plugin-1.2.51.jar
+Progress (1): 2.4/79 kBProgress (1): 6.5/79 kBProgress (1): 11/79 kB Progress (1): 14/79 kBProgress (1): 17/79 kBProgress (1): 21/79 kBProgress (1): 25/79 kBProgress (1): 29/79 kBProgress (1): 33/79 kBProgress (1): 38/79 kBProgress (1): 42/79 kBProgress (1): 43/79 kBProgress (1): 45/79 kBProgress (1): 49/79 kBProgress (1): 53/79 kBProgress (1): 57/79 kBProgress (1): 61/79 kBProgress (1): 65/79 kBProgress (1): 69/79 kBProgress (1): 73/79 kBProgress (1): 78/79 kBProgress (1): 79 kB                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.51/kotlin-maven-plugin-1.2.51.jar (79 kB at 136 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jooq/jooq-codegen-maven/3.10.8/jooq-codegen-maven-3.10.8.pom
+Progress (1): 3.3 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jooq/jooq-codegen-maven/3.10.8/jooq-codegen-maven-3.10.8.pom (3.3 kB at 11 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jooq/jooq-parent/3.10.8/jooq-parent-3.10.8.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jooq/jooq-parent/3.10.8/jooq-parent-3.10.8.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jooq/jooq-codegen-maven/3.10.8/jooq-codegen-maven-3.10.8.jar
+Progress (1): 1.0/16 kBProgress (1): 5.1/16 kBProgress (1): 9.2/16 kBProgress (1): 13/16 kB Progress (1): 16 kB                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/jooq/jooq-codegen-maven/3.10.8/jooq-codegen-maven-3.10.8.jar (16 kB at 35 kB/s)
+[INFO] 
+[INFO] --------------------< com.boyguhui:boyguhui-parent >--------------------
+[INFO] Building boyguhui-parent 1.0.0-SNAPSHOT                           [1/13]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ boyguhui-parent ---
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven/2.0.5/maven-2.0.5.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven/2.0.5/maven-2.0.5.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact/2.0.5/maven-artifact-2.0.5.pom
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact/2.0.5/maven-artifact-2.0.5.pom (0 B at 0 B/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.jar
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar (0 B at 0 B/s)
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.jar (0 B at 0 B/s)
+[INFO] com.boyguhui:boyguhui-parent:pom:1.0.0-SNAPSHOT
+[INFO] 
+[INFO] ------------------< com.boyguhui:boyguhui-order-api >-------------------
+[INFO] Building boyguhui-order-api 1.0.0-SNAPSHOT                        [2/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.sagacity:sagacity-sqltoy:jar:4.2.15 is missing, no dependency information available
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ boyguhui-order-api ---
+[INFO] com.boyguhui:boyguhui-order-api:jar:1.0.0-SNAPSHOT
+[INFO] +- org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  +- org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  |  \- org.springframework:spring-context:jar:5.0.8.RELEASE:compile
+[INFO] |  |  |  |     \- org.springframework:spring-expression:jar:5.0.8.RELEASE:compile
+[INFO] |  |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  |  +- ch.qos.logback:logback-classic:jar:1.1.11:compile
+[INFO] |  |  |  |  |  \- ch.qos.logback:logback-core:jar:1.1.11:compile
+[INFO] |  |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-context:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE:compile
+[INFO] |  |     \- org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile
+[INFO] |  |        \- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-openfeign-core:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.boot:spring-boot-starter-aop:jar:2.0.4.RELEASE:compile
+[INFO] |  |     +- org.springframework:spring-aop:jar:5.0.8.RELEASE:compile
+[INFO] |  |     \- org.aspectj:aspectjweaver:jar:1.8.13:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.0.8.RELEASE:compile
+[INFO] |  |  +- org.springframework:spring-beans:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-core:jar:5.0.8.RELEASE:compile
+[INFO] |  |     \- org.springframework:spring-jcl:jar:5.0.8.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-commons:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.security:spring-security-crypto:jar:5.0.7.RELEASE:compile
+[INFO] |  +- io.github.openfeign:feign-core:jar:9.5.1:compile
+[INFO] |  +- io.github.openfeign:feign-slf4j:jar:9.5.1:compile
+[INFO] |  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  +- io.github.openfeign:feign-hystrix:jar:9.5.1:compile
+[INFO] |  |  +- com.netflix.archaius:archaius-core:jar:0.7.6:compile
+[INFO] |  |  |  +- com.google.code.findbugs:jsr305:jar:3.0.1:runtime
+[INFO] |  |  |  +- com.google.guava:guava:jar:16.0:runtime
+[INFO] |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:runtime
+[INFO] |  |  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:runtime
+[INFO] |  |  |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:runtime
+[INFO] |  |  \- com.netflix.hystrix:hystrix-core:jar:1.5.12:compile
+[INFO] |  |     \- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+[INFO] |  +- io.github.openfeign:feign-java8:jar:9.5.1:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon:jar:2.2.5:compile
+[INFO] |  |  |  +- com.netflix.ribbon:ribbon-transport:jar:2.2.5:runtime
+[INFO] |  |  |  |  +- io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+[INFO] |  |  |  |  \- io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+[INFO] |  |  |  +- javax.inject:javax.inject:jar:1:runtime
+[INFO] |  |  |  \- io.reactivex:rxnetty:jar:0.4.9:runtime
+[INFO] |  |  |     +- io.netty:netty-codec-http:jar:4.1.27.Final:runtime
+[INFO] |  |  |     |  \- io.netty:netty-codec:jar:4.1.27.Final:runtime
+[INFO] |  |  |     \- io.netty:netty-transport-native-epoll:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-common:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-buffer:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-transport-native-unix-common:jar:4.1.27.Final:runtime
+[INFO] |  |  |        \- io.netty:netty-transport:jar:4.1.27.Final:runtime
+[INFO] |  |  |           \- io.netty:netty-resolver:jar:4.1.27.Final:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-core:jar:2.2.5:compile
+[INFO] |  |  |  \- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon-httpclient:jar:2.2.5:compile
+[INFO] |  |  |  +- commons-collections:commons-collections:jar:3.2.2:runtime
+[INFO] |  |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.6:runtime
+[INFO] |  |  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.10:runtime
+[INFO] |  |  |  |  \- commons-codec:commons-codec:jar:1.11:runtime
+[INFO] |  |  |  +- com.sun.jersey:jersey-client:jar:1.19.1:runtime
+[INFO] |  |  |  |  \- com.sun.jersey:jersey-core:jar:1.19.1:runtime
+[INFO] |  |  |  |     \- javax.ws.rs:jsr311-api:jar:1.1.1:runtime
+[INFO] |  |  |  +- com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime
+[INFO] |  |  |  +- com.netflix.servo:servo-core:jar:0.12.21:runtime
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5:compile
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+[INFO] |  |  \- io.reactivex:rxjava:jar:1.3.8:compile
+[INFO] |  \- org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |     +- org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |     \- commons-configuration:commons-configuration:jar:1.8:compile
+[INFO] \- org.sagacity:sagacity-sqltoy:jar:4.2.15:compile
+[INFO] 
+[INFO] --------------< com.boyguhui:boyguhui-component-swagger >---------------
+[INFO] Building boyguhui-component-swagger 1.0.0-SNAPSHOT                [3/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ boyguhui-component-swagger ---
+[INFO] com.boyguhui:boyguhui-component-swagger:jar:1.0.0-SNAPSHOT
+[INFO] +- org.springframework:spring-web:jar:5.0.8.RELEASE:compile
+[INFO] |  +- org.springframework:spring-beans:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.springframework:spring-core:jar:5.0.8.RELEASE:compile
+[INFO] |     \- org.springframework:spring-jcl:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.1.11:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.1.11:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.5:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.5:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.5:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.0.11.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  \- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-context:jar:5.0.8.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.0.8.RELEASE:compile
+[INFO] +- io.springfox:springfox-swagger2:jar:2.8.0:compile
+[INFO] |  +- io.swagger:swagger-annotations:jar:1.5.14:compile
+[INFO] |  +- io.swagger:swagger-models:jar:1.5.14:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  +- io.springfox:springfox-spi:jar:2.8.0:compile
+[INFO] |  |  \- io.springfox:springfox-core:jar:2.8.0:compile
+[INFO] |  |     \- net.bytebuddy:byte-buddy:jar:1.7.11:compile
+[INFO] |  +- io.springfox:springfox-schema:jar:2.8.0:compile
+[INFO] |  +- io.springfox:springfox-swagger-common:jar:2.8.0:compile
+[INFO] |  +- io.springfox:springfox-spring-web:jar:2.8.0:compile
+[INFO] |  |  \- org.reflections:reflections:jar:0.9.11:compile
+[INFO] |  |     \- org.javassist:javassist:jar:3.21.0-GA:compile
+[INFO] |  +- com.google.guava:guava:jar:20.0:compile
+[INFO] |  +- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  +- org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:compile
+[INFO] |  +- org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE:compile
+[INFO] |  \- org.mapstruct:mapstruct:jar:1.2.0.Final:compile
+[INFO] +- io.springfox:springfox-swagger-ui:jar:2.8.0:compile
+[INFO] +- com.github.caspar-chen:swagger-ui-layer:jar:0.0.4:compile
+[INFO] \- com.github.xiaoymin:swagger-bootstrap-ui:jar:1.6:compile
+[INFO] 
+[INFO] ----------------< com.boyguhui:boyguhui-common-service >----------------
+[INFO] Building boyguhui-common-service 1.0.0-SNAPSHOT                   [4/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from aliyun-repository: http://maven.aliyun.com/nexus/content/groups/public/com/boyguhui/boyguhui-order-api/1.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from brc-nexus: http://nexus.lybrc:8081/nexus/content/groups/public/com/boyguhui/boyguhui-order-api/1.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from brc-nexus: http://nexus.lybrc:8081/nexus/content/groups/public/com/boyguhui/boyguhui-component-swagger/1.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from aliyun-repository: http://maven.aliyun.com/nexus/content/groups/public/com/boyguhui/boyguhui-component-swagger/1.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ boyguhui-common-service ---
+[INFO] com.boyguhui:boyguhui-common-service:jar:1.0.0-SNAPSHOT
+[INFO] +- com.boyguhui:boyguhui-order-api:jar:1.0.0-SNAPSHOT:compile
+[INFO] +- org.sagacity:sagacity-sqltoy:jar:4.2.15:compile
+[INFO] +- com.alibaba:druid:jar:1.1.6:compile
+[INFO] +- mysql:mysql-connector-java:jar:5.1.38:compile
+[INFO] +- aopalliance:aopalliance:jar:1.0:compile
+[INFO] +- org.apache.logging.log4j:log4j-core:jar:2.10.0:compile
+[INFO] |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] +- dom4j:dom4j:jar:1.6.1:compile
+[INFO] |  \- xml-apis:xml-apis:jar:1.4.01:compile
+[INFO] +- org.springframework:spring-aop:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework:spring-aspects:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.aspectj:aspectjweaver:jar:1.8.13:compile
+[INFO] +- org.springframework:spring-beans:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework:spring-context:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.springframework:spring-expression:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework:spring-context-support:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework:spring-core:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.springframework:spring-jcl:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework:spring-web:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework:spring-jdbc:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.springframework:spring-tx:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.0.11.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test:jar:2.0.4.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.4.RELEASE:test
+[INFO] |  +- com.jayway.jsonpath:json-path:jar:2.4.0:test
+[INFO] |  |  \- net.minidev:json-smart:jar:2.3:test
+[INFO] |  |     \- net.minidev:accessors-smart:jar:1.2:test
+[INFO] |  +- junit:junit:jar:4.12:test
+[INFO] |  +- org.assertj:assertj-core:jar:3.9.1:test
+[INFO] |  +- org.mockito:mockito-core:jar:2.15.0:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy:jar:1.7.11:compile
+[INFO] |  |  +- net.bytebuddy:byte-buddy-agent:jar:1.7.11:test
+[INFO] |  |  \- org.objenesis:objenesis:jar:2.6:test
+[INFO] |  +- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] |  +- org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO] |  +- org.skyscreamer:jsonassert:jar:1.5.0:test
+[INFO] |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO] |  +- org.springframework:spring-test:jar:5.0.8.RELEASE:test
+[INFO] |  \- org.xmlunit:xmlunit-core:jar:2.5.1:test
+[INFO] +- org.springframework.boot:spring-boot-starter-undertow:jar:2.0.4.RELEASE:compile
+[INFO] |  +- io.undertow:undertow-core:jar:1.4.25.Final:compile
+[INFO] |  |  +- org.jboss.xnio:xnio-api:jar:3.3.8.Final:compile
+[INFO] |  |  \- org.jboss.xnio:xnio-nio:jar:3.3.8.Final:runtime
+[INFO] |  +- io.undertow:undertow-websockets-jsr:jar:1.4.25.Final:compile
+[INFO] |  |  \- org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:jar:1.1.3.Final:compile
+[INFO] |  +- javax.servlet:javax.servlet-api:jar:3.0.1:compile
+[INFO] |  \- org.glassfish:javax.el:jar:3.0.0:compile
+[INFO] +- io.undertow:undertow-servlet:jar:1.4.25.Final:compile
+[INFO] |  +- org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.2.Final:compile
+[INFO] |  \- org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.2.Final:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-context:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE:compile
+[INFO] |  |     \- org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile
+[INFO] |  |        \- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.boot:spring-boot-starter-aop:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO] |  +- com.netflix.eureka:eureka-client:jar:1.9.2:compile
+[INFO] |  |  +- org.codehaus.jettison:jettison:jar:1.3.7:runtime
+[INFO] |  |  |  \- stax:stax-api:jar:1.0.1:runtime
+[INFO] |  |  +- com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0:runtime
+[INFO] |  |  |  +- com.netflix.netflix-commons:netflix-infix:jar:0.3.0:runtime
+[INFO] |  |  |  |  +- commons-jxpath:commons-jxpath:jar:1.3:runtime
+[INFO] |  |  |  |  +- joda-time:joda-time:jar:2.9.9:runtime
+[INFO] |  |  |  |  \- org.antlr:antlr-runtime:jar:3.4:runtime
+[INFO] |  |  |  |     +- org.antlr:stringtemplate:jar:3.2.1:runtime
+[INFO] |  |  |  |     \- antlr:antlr:jar:2.7.7:runtime
+[INFO] |  |  |  \- org.apache.commons:commons-math:jar:2.2:runtime
+[INFO] |  |  +- com.netflix.archaius:archaius-core:jar:0.7.6:compile
+[INFO] |  |  +- javax.ws.rs:jsr311-api:jar:1.1.1:runtime
+[INFO] |  |  +- com.netflix.servo:servo-core:jar:0.12.21:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-core:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-client:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime
+[INFO] |  |  +- com.github.vlsi.compactmap:compactmap:jar:1.2.1:runtime
+[INFO] |  |  |  \- com.github.andrewoma.dexx:dexx-collections:jar:0.2:runtime
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+[INFO] |  +- com.netflix.eureka:eureka-core:jar:1.9.2:compile
+[INFO] |  |  \- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:runtime
+[INFO] |  |     +- javax.xml.stream:stax-api:jar:1.0-2:runtime
+[INFO] |  |     \- org.codehaus.woodstox:stax2-api:jar:3.1.4:runtime
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- commons-configuration:commons-configuration:jar:1.8:compile
+[INFO] |  |     \- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon:jar:2.2.5:compile
+[INFO] |  |  |  +- com.netflix.ribbon:ribbon-transport:jar:2.2.5:runtime
+[INFO] |  |  |  |  +- io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+[INFO] |  |  |  |  \- io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+[INFO] |  |  |  \- io.reactivex:rxnetty:jar:0.4.9:runtime
+[INFO] |  |  |     +- io.netty:netty-codec-http:jar:4.1.27.Final:runtime
+[INFO] |  |  |     |  \- io.netty:netty-codec:jar:4.1.27.Final:runtime
+[INFO] |  |  |     \- io.netty:netty-transport-native-epoll:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-common:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-buffer:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-transport-native-unix-common:jar:4.1.27.Final:runtime
+[INFO] |  |  |        \- io.netty:netty-transport:jar:4.1.27.Final:runtime
+[INFO] |  |  |           \- io.netty:netty-resolver:jar:4.1.27.Final:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-core:jar:2.2.5:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon-httpclient:jar:2.2.5:compile
+[INFO] |  |  |  +- commons-collections:commons-collections:jar:3.2.2:runtime
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5:compile
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+[INFO] |  |  \- io.reactivex:rxjava:jar:1.3.8:compile
+[INFO] |  +- com.netflix.ribbon:ribbon-eureka:jar:2.2.5:compile
+[INFO] |  \- com.thoughtworks.xstream:xstream:jar:1.4.10:compile
+[INFO] |     +- xmlpull:xmlpull:jar:1.1.3.1:compile
+[INFO] |     \- xpp3:xpp3_min:jar:1.1.4c:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  +- com.netflix.hystrix:hystrix-core:jar:1.5.12:compile
+[INFO] |  |  \- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+[INFO] |  +- com.netflix.hystrix:hystrix-serialization:jar:1.5.12:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.9.6:runtime
+[INFO] |  +- com.netflix.hystrix:hystrix-metrics-event-stream:jar:1.5.12:compile
+[INFO] |  +- com.netflix.hystrix:hystrix-javanica:jar:1.5.12:compile
+[INFO] |  |  +- org.apache.commons:commons-lang3:jar:3.6:runtime
+[INFO] |  |  \- org.ow2.asm:asm:jar:5.0.4:runtime
+[INFO] |  \- io.reactivex:rxjava-reactive-streams:jar:1.2.1:compile
+[INFO] |     \- org.reactivestreams:reactive-streams:jar:1.0.2:runtime
+[INFO] +- org.springframework.boot:spring-boot-starter-actuator:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO] |  |  \- org.springframework.boot:spring-boot-actuator:jar:2.0.4.RELEASE:compile
+[INFO] |  \- io.micrometer:micrometer-core:jar:1.0.6:compile
+[INFO] |     \- org.latencyutils:LatencyUtils:jar:2.0.3:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-netflix-hystrix-dashboard:jar:2.0.0.RELEASE:compile
+[INFO] |  \- org.springframework.cloud:spring-cloud-netflix-hystrix-dashboard:jar:2.0.0.RELEASE:compile
+[INFO] |     +- org.springframework.boot:spring-boot-starter-freemarker:jar:2.0.4.RELEASE:compile
+[INFO] |     |  \- org.freemarker:freemarker:jar:2.3.28:compile
+[INFO] |     +- org.webjars:jquery:jar:2.1.1:compile
+[INFO] |     \- org.webjars:d3js:jar:3.4.11:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-openfeign-core:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-commons:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.security:spring-security-crypto:jar:5.0.7.RELEASE:compile
+[INFO] |  +- io.github.openfeign:feign-core:jar:9.5.1:compile
+[INFO] |  +- io.github.openfeign:feign-slf4j:jar:9.5.1:compile
+[INFO] |  +- io.github.openfeign:feign-hystrix:jar:9.5.1:compile
+[INFO] |  \- io.github.openfeign:feign-java8:jar:9.5.1:compile
+[INFO] +- io.github.openfeign:feign-httpclient:jar:9.5.1:compile
+[INFO] |  \- org.apache.httpcomponents:httpclient:jar:4.5.6:compile
+[INFO] |     +- org.apache.httpcomponents:httpcore:jar:4.4.10:compile
+[INFO] |     \- commons-codec:commons-codec:jar:1.11:compile
+[INFO] +- javax.mail:mail:jar:1.4.7:compile
+[INFO] |  \- javax.activation:activation:jar:1.1:compile
+[INFO] +- ch.qos.logback:logback-classic:jar:1.1.11:compile
+[INFO] |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] +- ch.qos.logback:logback-core:jar:1.1.11:compile
+[INFO] +- com.github.ulisesbocchio:jasypt-spring-boot-starter:jar:2.1.0:compile
+[INFO] |  \- com.github.ulisesbocchio:jasypt-spring-boot:jar:2.1.0:compile
+[INFO] |     \- org.jasypt:jasypt:jar:1.9.2:compile
+[INFO] +- com.ctrip.framework.apollo:apollo-client:jar:0.9.1:compile
+[INFO] |  \- com.google.inject:guice:jar:4.1.0:compile
+[INFO] |     \- javax.inject:javax.inject:jar:1:compile
+[INFO] +- com.ctrip.framework.apollo:apollo-core:jar:0.9.1:compile
+[INFO] |  +- com.google.code.gson:gson:jar:2.8.5:compile
+[INFO] |  \- com.google.guava:guava:jar:19.0:compile
+[INFO] +- com.boyguhui:boyguhui-component-swagger:jar:1.0.0-SNAPSHOT:compile
+[INFO] |  +- io.springfox:springfox-swagger2:jar:2.8.0:compile
+[INFO] |  |  +- io.swagger:swagger-annotations:jar:1.5.14:compile
+[INFO] |  |  +- io.swagger:swagger-models:jar:1.5.14:compile
+[INFO] |  |  +- io.springfox:springfox-spi:jar:2.8.0:compile
+[INFO] |  |  |  \- io.springfox:springfox-core:jar:2.8.0:compile
+[INFO] |  |  +- io.springfox:springfox-schema:jar:2.8.0:compile
+[INFO] |  |  +- io.springfox:springfox-swagger-common:jar:2.8.0:compile
+[INFO] |  |  +- io.springfox:springfox-spring-web:jar:2.8.0:compile
+[INFO] |  |  |  \- org.reflections:reflections:jar:0.9.11:compile
+[INFO] |  |  |     \- org.javassist:javassist:jar:3.21.0-GA:compile
+[INFO] |  |  +- org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE:compile
+[INFO] |  |  \- org.mapstruct:mapstruct:jar:1.2.0.Final:compile
+[INFO] |  +- io.springfox:springfox-swagger-ui:jar:2.8.0:compile
+[INFO] |  +- com.github.caspar-chen:swagger-ui-layer:jar:0.0.4:compile
+[INFO] |  \- com.github.xiaoymin:swagger-bootstrap-ui:jar:1.6:compile
+[INFO] \- com.alibaba:fastjson:jar:1.2.31:compile
+[INFO] 
+[INFO] -----------------< com.boyguhui:boyguhui-cloud-eureka >-----------------
+[INFO] Building boyguhui-cloud-eureka 1.0.0-SNAPSHOT                     [5/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ boyguhui-cloud-eureka ---
+[INFO] com.boyguhui:boyguhui-cloud-eureka:jar:1.0.0-SNAPSHOT
+[INFO] \- org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE:compile
+[INFO]    +- org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RELEASE:compile
+[INFO]    |  +- org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile
+[INFO]    |  |  +- org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile
+[INFO]    |  |  |  \- org.springframework:spring-context:jar:5.0.8.RELEASE:compile
+[INFO]    |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO]    |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE:compile
+[INFO]    |  |  |  +- ch.qos.logback:logback-classic:jar:1.1.11:compile
+[INFO]    |  |  |  |  \- ch.qos.logback:logback-core:jar:1.1.11:compile
+[INFO]    |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO]    |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO]    |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO]    |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO]    |  |  +- org.springframework:spring-core:jar:5.0.8.RELEASE:compile
+[INFO]    |  |  |  \- org.springframework:spring-jcl:jar:5.0.8.RELEASE:compile
+[INFO]    |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO]    |  +- org.springframework.cloud:spring-cloud-context:jar:2.0.0.RELEASE:compile
+[INFO]    |  |  \- org.springframework.security:spring-security-crypto:jar:5.0.7.RELEASE:compile
+[INFO]    |  +- org.springframework.cloud:spring-cloud-commons:jar:2.0.0.RELEASE:compile
+[INFO]    |  \- org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE:compile
+[INFO]    |     \- org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile
+[INFO]    |        \- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
+[INFO]    +- org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE:compile
+[INFO]    |  +- org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE:compile
+[INFO]    |  |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE:compile
+[INFO]    |  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:compile
+[INFO]    |  |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:compile
+[INFO]    |  |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6:compile
+[INFO]    |  |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE:compile
+[INFO]    |  |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.5:compile
+[INFO]    |  |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.5:compile
+[INFO]    |  |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.5:compile
+[INFO]    |  |  +- org.hibernate.validator:hibernate-validator:jar:6.0.11.Final:compile
+[INFO]    |  |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO]    |  |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO]    |  |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO]    |  |  +- org.springframework:spring-web:jar:5.0.8.RELEASE:compile
+[INFO]    |  |  |  \- org.springframework:spring-beans:jar:5.0.8.RELEASE:compile
+[INFO]    |  |  \- org.springframework:spring-webmvc:jar:5.0.8.RELEASE:compile
+[INFO]    |  |     +- org.springframework:spring-aop:jar:5.0.8.RELEASE:compile
+[INFO]    |  |     \- org.springframework:spring-expression:jar:5.0.8.RELEASE:compile
+[INFO]    |  +- org.springframework.boot:spring-boot-starter-actuator:jar:2.0.4.RELEASE:compile
+[INFO]    |  |  +- org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO]    |  |  |  \- org.springframework.boot:spring-boot-actuator:jar:2.0.4.RELEASE:compile
+[INFO]    |  |  \- io.micrometer:micrometer-core:jar:1.0.6:compile
+[INFO]    |  |     +- org.hdrhistogram:HdrHistogram:jar:2.1.10:compile
+[INFO]    |  |     \- org.latencyutils:LatencyUtils:jar:2.0.3:compile
+[INFO]    |  +- org.springframework.boot:spring-boot-starter-freemarker:jar:2.0.4.RELEASE:compile
+[INFO]    |  |  +- org.freemarker:freemarker:jar:2.3.28:compile
+[INFO]    |  |  \- org.springframework:spring-context-support:jar:5.0.8.RELEASE:compile
+[INFO]    |  +- org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RELEASE:compile
+[INFO]    |  |  \- org.springframework.boot:spring-boot-starter-aop:jar:2.0.4.RELEASE:compile
+[INFO]    |  |     \- org.aspectj:aspectjweaver:jar:1.8.13:compile
+[INFO]    |  +- org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO]    |  +- com.netflix.eureka:eureka-client:jar:1.9.2:compile
+[INFO]    |  |  +- org.codehaus.jettison:jettison:jar:1.3.7:runtime
+[INFO]    |  |  |  \- stax:stax-api:jar:1.0.1:runtime
+[INFO]    |  |  +- com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0:runtime
+[INFO]    |  |  |  +- com.netflix.netflix-commons:netflix-infix:jar:0.3.0:runtime
+[INFO]    |  |  |  |  +- commons-jxpath:commons-jxpath:jar:1.3:runtime
+[INFO]    |  |  |  |  +- joda-time:joda-time:jar:2.9.9:runtime
+[INFO]    |  |  |  |  +- org.antlr:antlr-runtime:jar:3.4:runtime
+[INFO]    |  |  |  |  |  +- org.antlr:stringtemplate:jar:3.2.1:runtime
+[INFO]    |  |  |  |  |  \- antlr:antlr:jar:2.7.7:runtime
+[INFO]    |  |  |  |  \- com.google.code.gson:gson:jar:2.8.5:runtime
+[INFO]    |  |  |  \- org.apache.commons:commons-math:jar:2.2:runtime
+[INFO]    |  |  +- javax.ws.rs:jsr311-api:jar:1.1.1:compile
+[INFO]    |  |  +- com.netflix.servo:servo-core:jar:0.12.21:runtime
+[INFO]    |  |  +- com.sun.jersey:jersey-core:jar:1.19.1:compile
+[INFO]    |  |  +- com.sun.jersey:jersey-client:jar:1.19.1:runtime
+[INFO]    |  |  +- com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime
+[INFO]    |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.6:runtime
+[INFO]    |  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.10:runtime
+[INFO]    |  |  |  \- commons-codec:commons-codec:jar:1.11:runtime
+[INFO]    |  |  +- com.google.inject:guice:jar:4.1.0:runtime
+[INFO]    |  |  |  \- aopalliance:aopalliance:jar:1.0:runtime
+[INFO]    |  |  +- com.github.vlsi.compactmap:compactmap:jar:1.2.1:runtime
+[INFO]    |  |  |  \- com.github.andrewoma.dexx:dexx-collections:jar:0.2:runtime
+[INFO]    |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO]    |  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+[INFO]    |  |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+[INFO]    |  +- com.sun.jersey:jersey-servlet:jar:1.19.1:compile
+[INFO]    |  +- com.sun.jersey:jersey-server:jar:1.19.1:compile
+[INFO]    |  +- com.netflix.eureka:eureka-core:jar:1.9.2:compile
+[INFO]    |  |  \- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:runtime
+[INFO]    |  |     \- javax.xml.stream:stax-api:jar:1.0-2:runtime
+[INFO]    |  +- com.netflix.archaius:archaius-core:jar:0.7.6:compile
+[INFO]    |  |  +- com.google.code.findbugs:jsr305:jar:3.0.1:runtime
+[INFO]    |  |  \- com.google.guava:guava:jar:16.0:runtime
+[INFO]    |  +- javax.inject:javax.inject:jar:1:compile
+[INFO]    |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.6:compile
+[INFO]    |  |  +- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.6:compile
+[INFO]    |  |  +- org.codehaus.woodstox:stax2-api:jar:3.1.4:compile
+[INFO]    |  |  \- com.fasterxml.woodstox:woodstox-core:jar:5.0.3:compile
+[INFO]    |  \- com.thoughtworks.xstream:xstream:jar:1.4.10:compile
+[INFO]    |     +- xmlpull:xmlpull:jar:1.1.3.1:compile
+[INFO]    |     \- xpp3:xpp3_min:jar:1.1.4c:compile
+[INFO]    +- org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO]    |  +- org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO]    |  +- org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO]    |  \- commons-configuration:commons-configuration:jar:1.8:compile
+[INFO]    |     \- commons-lang:commons-lang:jar:2.6:compile
+[INFO]    +- org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO]    |  +- com.netflix.ribbon:ribbon:jar:2.2.5:compile
+[INFO]    |  |  +- com.netflix.ribbon:ribbon-transport:jar:2.2.5:runtime
+[INFO]    |  |  |  +- io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+[INFO]    |  |  |  \- io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+[INFO]    |  |  +- com.netflix.hystrix:hystrix-core:jar:1.5.12:runtime
+[INFO]    |  |  \- io.reactivex:rxnetty:jar:0.4.9:runtime
+[INFO]    |  |     +- io.netty:netty-codec-http:jar:4.1.27.Final:runtime
+[INFO]    |  |     |  \- io.netty:netty-codec:jar:4.1.27.Final:runtime
+[INFO]    |  |     \- io.netty:netty-transport-native-epoll:jar:4.1.27.Final:runtime
+[INFO]    |  |        +- io.netty:netty-common:jar:4.1.27.Final:runtime
+[INFO]    |  |        +- io.netty:netty-buffer:jar:4.1.27.Final:runtime
+[INFO]    |  |        +- io.netty:netty-transport-native-unix-common:jar:4.1.27.Final:runtime
+[INFO]    |  |        \- io.netty:netty-transport:jar:4.1.27.Final:runtime
+[INFO]    |  |           \- io.netty:netty-resolver:jar:4.1.27.Final:runtime
+[INFO]    |  +- com.netflix.ribbon:ribbon-core:jar:2.2.5:compile
+[INFO]    |  +- com.netflix.ribbon:ribbon-httpclient:jar:2.2.5:compile
+[INFO]    |  |  +- commons-collections:commons-collections:jar:3.2.2:runtime
+[INFO]    |  |  \- com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0:runtime
+[INFO]    |  +- com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5:compile
+[INFO]    |  |  \- com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+[INFO]    |  \- io.reactivex:rxjava:jar:1.3.8:compile
+[INFO]    \- com.netflix.ribbon:ribbon-eureka:jar:2.2.5:compile
+[INFO]       \- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] 
+[INFO] -----------< com.boyguhui:boyguhui-cloud-hystrix-dashboard >------------
+[INFO] Building boyguhui-cloud-hystrix-dashboard 1.0.0-SNAPSHOT          [6/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ boyguhui-cloud-hystrix-dashboard ---
+[INFO] com.boyguhui:boyguhui-cloud-hystrix-dashboard:jar:1.0.0-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.1.11:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.1.11:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  +- org.springframework:spring-core:jar:5.0.8.RELEASE:compile
+[INFO] |  |  |  \- org.springframework:spring-jcl:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.5:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.5:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.5:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.0.11.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-context:jar:5.0.8.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-context:jar:2.0.0.RELEASE:compile
+[INFO] |  |  |  \- org.springframework.security:spring-security-crypto:jar:5.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-commons:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE:compile
+[INFO] |  |     \- org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile
+[INFO] |  |        \- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.boot:spring-boot-starter-aop:jar:2.0.4.RELEASE:compile
+[INFO] |  |     \- org.aspectj:aspectjweaver:jar:1.8.13:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO] |  +- com.netflix.eureka:eureka-client:jar:1.9.2:compile
+[INFO] |  |  +- org.codehaus.jettison:jettison:jar:1.3.7:runtime
+[INFO] |  |  |  \- stax:stax-api:jar:1.0.1:runtime
+[INFO] |  |  +- com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0:runtime
+[INFO] |  |  |  +- com.netflix.netflix-commons:netflix-infix:jar:0.3.0:runtime
+[INFO] |  |  |  |  +- commons-jxpath:commons-jxpath:jar:1.3:runtime
+[INFO] |  |  |  |  +- joda-time:joda-time:jar:2.9.9:runtime
+[INFO] |  |  |  |  +- org.antlr:antlr-runtime:jar:3.4:runtime
+[INFO] |  |  |  |  |  +- org.antlr:stringtemplate:jar:3.2.1:runtime
+[INFO] |  |  |  |  |  \- antlr:antlr:jar:2.7.7:runtime
+[INFO] |  |  |  |  \- com.google.code.gson:gson:jar:2.8.5:runtime
+[INFO] |  |  |  \- org.apache.commons:commons-math:jar:2.2:runtime
+[INFO] |  |  +- com.netflix.archaius:archaius-core:jar:0.7.6:compile
+[INFO] |  |  |  \- com.google.guava:guava:jar:16.0:compile
+[INFO] |  |  +- javax.ws.rs:jsr311-api:jar:1.1.1:runtime
+[INFO] |  |  +- com.netflix.servo:servo-core:jar:0.12.21:compile
+[INFO] |  |  +- com.sun.jersey:jersey-core:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-client:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime
+[INFO] |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.6:compile
+[INFO] |  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.10:compile
+[INFO] |  |  |  \- commons-codec:commons-codec:jar:1.11:compile
+[INFO] |  |  +- com.google.inject:guice:jar:4.1.0:runtime
+[INFO] |  |  |  +- javax.inject:javax.inject:jar:1:runtime
+[INFO] |  |  |  \- aopalliance:aopalliance:jar:1.0:runtime
+[INFO] |  |  +- com.github.vlsi.compactmap:compactmap:jar:1.2.1:runtime
+[INFO] |  |  |  \- com.github.andrewoma.dexx:dexx-collections:jar:0.2:runtime
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+[INFO] |  +- com.netflix.eureka:eureka-core:jar:1.9.2:compile
+[INFO] |  |  \- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:runtime
+[INFO] |  |     +- javax.xml.stream:stax-api:jar:1.0-2:runtime
+[INFO] |  |     \- org.codehaus.woodstox:stax2-api:jar:3.1.4:runtime
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- commons-configuration:commons-configuration:jar:1.8:compile
+[INFO] |  |     \- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon:jar:2.2.5:compile
+[INFO] |  |  |  +- com.netflix.ribbon:ribbon-transport:jar:2.2.5:runtime
+[INFO] |  |  |  |  +- io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+[INFO] |  |  |  |  \- io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+[INFO] |  |  |  \- io.reactivex:rxnetty:jar:0.4.9:runtime
+[INFO] |  |  |     +- io.netty:netty-codec-http:jar:4.1.27.Final:runtime
+[INFO] |  |  |     |  \- io.netty:netty-codec:jar:4.1.27.Final:runtime
+[INFO] |  |  |     \- io.netty:netty-transport-native-epoll:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-common:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-buffer:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-transport-native-unix-common:jar:4.1.27.Final:runtime
+[INFO] |  |  |        \- io.netty:netty-transport:jar:4.1.27.Final:runtime
+[INFO] |  |  |           \- io.netty:netty-resolver:jar:4.1.27.Final:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-core:jar:2.2.5:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon-httpclient:jar:2.2.5:compile
+[INFO] |  |  |  +- commons-collections:commons-collections:jar:3.2.2:runtime
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5:compile
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+[INFO] |  |  \- io.reactivex:rxjava:jar:1.3.8:compile
+[INFO] |  +- com.netflix.ribbon:ribbon-eureka:jar:2.2.5:compile
+[INFO] |  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  \- com.thoughtworks.xstream:xstream:jar:1.4.10:compile
+[INFO] |     +- xmlpull:xmlpull:jar:1.1.3.1:compile
+[INFO] |     \- xpp3:xpp3_min:jar:1.1.4c:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-netflix-hystrix-dashboard:jar:2.0.0.RELEASE:compile
+[INFO] |  \- org.springframework.cloud:spring-cloud-netflix-hystrix-dashboard:jar:2.0.0.RELEASE:compile
+[INFO] |     +- org.springframework.boot:spring-boot-starter-freemarker:jar:2.0.4.RELEASE:compile
+[INFO] |     |  +- org.freemarker:freemarker:jar:2.3.28:compile
+[INFO] |     |  \- org.springframework:spring-context-support:jar:5.0.8.RELEASE:compile
+[INFO] |     +- com.netflix.hystrix:hystrix-core:jar:1.5.12:compile
+[INFO] |     +- com.netflix.hystrix:hystrix-metrics-event-stream:jar:1.5.12:compile
+[INFO] |     |  \- com.netflix.hystrix:hystrix-serialization:jar:1.5.12:runtime
+[INFO] |     |     \- com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.9.6:runtime
+[INFO] |     +- org.webjars:jquery:jar:2.1.1:compile
+[INFO] |     \- org.webjars:d3js:jar:3.4.11:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-netflix-turbine:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-turbine:jar:2.0.0.RELEASE:compile
+[INFO] |  \- com.netflix.turbine:turbine-core:jar:1.0.0:compile
+[INFO] |     +- junit:junit:jar:4.12:compile
+[INFO] |     |  \- org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] |     +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2:compile
+[INFO] |     +- commons-io:commons-io:jar:2.5:compile
+[INFO] |     \- org.codehaus.jackson:jackson-core-asl:jar:1.9.2:compile
+[INFO] \- org.springframework.boot:spring-boot-starter-actuator:jar:2.0.4.RELEASE:compile
+[INFO]    +- org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO]    |  \- org.springframework.boot:spring-boot-actuator:jar:2.0.4.RELEASE:compile
+[INFO]    \- io.micrometer:micrometer-core:jar:1.0.6:compile
+[INFO]       +- org.hdrhistogram:HdrHistogram:jar:2.1.10:compile
+[INFO]       \- org.latencyutils:LatencyUtils:jar:2.0.3:compile
+[INFO] 
+[INFO] ----------------< com.boyguhui:boyguhui-order-service >-----------------
+[INFO] Building boyguhui-order-service 1.0.0-SNAPSHOT                    [7/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ boyguhui-order-service ---
+[INFO] com.boyguhui:boyguhui-order-service:jar:1.0.0-SNAPSHOT
+[INFO] +- com.boyguhui:boyguhui-order-api:jar:1.0.0-SNAPSHOT:compile
+[INFO] +- org.sagacity:sagacity-sqltoy:jar:4.2.15:compile
+[INFO] +- com.alibaba:druid:jar:1.1.6:compile
+[INFO] +- mysql:mysql-connector-java:jar:5.1.38:compile
+[INFO] +- aopalliance:aopalliance:jar:1.0:compile
+[INFO] +- org.apache.logging.log4j:log4j-core:jar:2.10.0:compile
+[INFO] |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] +- dom4j:dom4j:jar:1.6.1:compile
+[INFO] |  \- xml-apis:xml-apis:jar:1.4.01:compile
+[INFO] +- org.springframework:spring-aop:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework:spring-aspects:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.aspectj:aspectjweaver:jar:1.8.13:compile
+[INFO] +- org.springframework:spring-beans:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework:spring-context:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.springframework:spring-expression:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework:spring-context-support:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework:spring-core:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.springframework:spring-jcl:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework:spring-web:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework:spring-jdbc:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.springframework:spring-tx:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.1.11:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.1.11:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.0.11.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test:jar:2.0.4.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.4.RELEASE:test
+[INFO] |  +- com.jayway.jsonpath:json-path:jar:2.4.0:test
+[INFO] |  |  \- net.minidev:json-smart:jar:2.3:test
+[INFO] |  |     \- net.minidev:accessors-smart:jar:1.2:test
+[INFO] |  +- junit:junit:jar:4.12:test
+[INFO] |  +- org.assertj:assertj-core:jar:3.9.1:test
+[INFO] |  +- org.mockito:mockito-core:jar:2.15.0:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy:jar:1.7.11:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy-agent:jar:1.7.11:test
+[INFO] |  |  \- org.objenesis:objenesis:jar:2.6:test
+[INFO] |  +- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] |  +- org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO] |  +- org.skyscreamer:jsonassert:jar:1.5.0:test
+[INFO] |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO] |  +- org.springframework:spring-test:jar:5.0.8.RELEASE:test
+[INFO] |  \- org.xmlunit:xmlunit-core:jar:2.5.1:test
+[INFO] +- org.springframework.boot:spring-boot-starter-undertow:jar:2.0.4.RELEASE:compile
+[INFO] |  +- io.undertow:undertow-core:jar:1.4.25.Final:compile
+[INFO] |  |  +- org.jboss.xnio:xnio-api:jar:3.3.8.Final:compile
+[INFO] |  |  \- org.jboss.xnio:xnio-nio:jar:3.3.8.Final:runtime
+[INFO] |  +- io.undertow:undertow-websockets-jsr:jar:1.4.25.Final:compile
+[INFO] |  |  \- org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:jar:1.1.3.Final:compile
+[INFO] |  +- javax.servlet:javax.servlet-api:jar:3.0.1:compile
+[INFO] |  \- org.glassfish:javax.el:jar:3.0.0:compile
+[INFO] +- io.undertow:undertow-servlet:jar:1.4.25.Final:compile
+[INFO] |  +- org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.2.Final:compile
+[INFO] |  \- org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.2.Final:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-context:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE:compile
+[INFO] |  |     \- org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile
+[INFO] |  |        \- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.boot:spring-boot-starter-aop:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO] |  +- com.netflix.eureka:eureka-client:jar:1.9.2:compile
+[INFO] |  |  +- org.codehaus.jettison:jettison:jar:1.3.7:runtime
+[INFO] |  |  |  \- stax:stax-api:jar:1.0.1:runtime
+[INFO] |  |  +- com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0:runtime
+[INFO] |  |  |  +- com.netflix.netflix-commons:netflix-infix:jar:0.3.0:runtime
+[INFO] |  |  |  |  +- commons-jxpath:commons-jxpath:jar:1.3:runtime
+[INFO] |  |  |  |  +- joda-time:joda-time:jar:2.9.9:runtime
+[INFO] |  |  |  |  \- org.antlr:antlr-runtime:jar:3.4:runtime
+[INFO] |  |  |  |     +- org.antlr:stringtemplate:jar:3.2.1:runtime
+[INFO] |  |  |  |     \- antlr:antlr:jar:2.7.7:runtime
+[INFO] |  |  |  \- org.apache.commons:commons-math:jar:2.2:runtime
+[INFO] |  |  +- com.netflix.archaius:archaius-core:jar:0.7.6:compile
+[INFO] |  |  +- javax.ws.rs:jsr311-api:jar:1.1.1:runtime
+[INFO] |  |  +- com.netflix.servo:servo-core:jar:0.12.21:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-core:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-client:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime
+[INFO] |  |  +- com.github.vlsi.compactmap:compactmap:jar:1.2.1:runtime
+[INFO] |  |  |  \- com.github.andrewoma.dexx:dexx-collections:jar:0.2:runtime
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+[INFO] |  +- com.netflix.eureka:eureka-core:jar:1.9.2:compile
+[INFO] |  |  \- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:runtime
+[INFO] |  |     +- javax.xml.stream:stax-api:jar:1.0-2:runtime
+[INFO] |  |     \- org.codehaus.woodstox:stax2-api:jar:3.1.4:runtime
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- commons-configuration:commons-configuration:jar:1.8:compile
+[INFO] |  |     \- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon:jar:2.2.5:compile
+[INFO] |  |  |  +- com.netflix.ribbon:ribbon-transport:jar:2.2.5:runtime
+[INFO] |  |  |  |  +- io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+[INFO] |  |  |  |  \- io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+[INFO] |  |  |  \- io.reactivex:rxnetty:jar:0.4.9:runtime
+[INFO] |  |  |     +- io.netty:netty-codec-http:jar:4.1.27.Final:runtime
+[INFO] |  |  |     |  \- io.netty:netty-codec:jar:4.1.27.Final:runtime
+[INFO] |  |  |     \- io.netty:netty-transport-native-epoll:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-common:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-buffer:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-transport-native-unix-common:jar:4.1.27.Final:runtime
+[INFO] |  |  |        \- io.netty:netty-transport:jar:4.1.27.Final:runtime
+[INFO] |  |  |           \- io.netty:netty-resolver:jar:4.1.27.Final:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-core:jar:2.2.5:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon-httpclient:jar:2.2.5:compile
+[INFO] |  |  |  +- commons-collections:commons-collections:jar:3.2.2:runtime
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5:compile
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+[INFO] |  |  \- io.reactivex:rxjava:jar:1.3.8:compile
+[INFO] |  +- com.netflix.ribbon:ribbon-eureka:jar:2.2.5:compile
+[INFO] |  \- com.thoughtworks.xstream:xstream:jar:1.4.10:compile
+[INFO] |     +- xmlpull:xmlpull:jar:1.1.3.1:compile
+[INFO] |     \- xpp3:xpp3_min:jar:1.1.4c:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-actuator:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO] |  |  \- org.springframework.boot:spring-boot-actuator:jar:2.0.4.RELEASE:compile
+[INFO] |  \- io.micrometer:micrometer-core:jar:1.0.6:compile
+[INFO] |     +- org.hdrhistogram:HdrHistogram:jar:2.1.10:compile
+[INFO] |     \- org.latencyutils:LatencyUtils:jar:2.0.3:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-netflix-hystrix-dashboard:jar:2.0.0.RELEASE:compile
+[INFO] |  \- org.springframework.cloud:spring-cloud-netflix-hystrix-dashboard:jar:2.0.0.RELEASE:compile
+[INFO] |     +- org.springframework.boot:spring-boot-starter-freemarker:jar:2.0.4.RELEASE:compile
+[INFO] |     |  \- org.freemarker:freemarker:jar:2.3.28:compile
+[INFO] |     +- org.webjars:jquery:jar:2.1.1:compile
+[INFO] |     \- org.webjars:d3js:jar:3.4.11:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  +- com.netflix.hystrix:hystrix-core:jar:1.5.12:compile
+[INFO] |  +- com.netflix.hystrix:hystrix-serialization:jar:1.5.12:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.9.6:runtime
+[INFO] |  +- com.netflix.hystrix:hystrix-metrics-event-stream:jar:1.5.12:compile
+[INFO] |  +- com.netflix.hystrix:hystrix-javanica:jar:1.5.12:compile
+[INFO] |  |  +- org.apache.commons:commons-lang3:jar:3.6:runtime
+[INFO] |  |  \- org.ow2.asm:asm:jar:5.0.4:runtime
+[INFO] |  \- io.reactivex:rxjava-reactive-streams:jar:1.2.1:compile
+[INFO] |     \- org.reactivestreams:reactive-streams:jar:1.0.2:runtime
+[INFO] +- org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-openfeign-core:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-commons:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.security:spring-security-crypto:jar:5.0.7.RELEASE:compile
+[INFO] |  +- io.github.openfeign:feign-core:jar:9.5.1:compile
+[INFO] |  +- io.github.openfeign:feign-slf4j:jar:9.5.1:compile
+[INFO] |  +- io.github.openfeign:feign-hystrix:jar:9.5.1:compile
+[INFO] |  \- io.github.openfeign:feign-java8:jar:9.5.1:compile
+[INFO] +- io.github.openfeign:feign-httpclient:jar:9.5.1:compile
+[INFO] |  \- org.apache.httpcomponents:httpclient:jar:4.5.6:compile
+[INFO] |     +- org.apache.httpcomponents:httpcore:jar:4.4.10:compile
+[INFO] |     \- commons-codec:commons-codec:jar:1.11:compile
+[INFO] +- com.ctrip.framework.apollo:apollo-client:jar:0.9.1:compile
+[INFO] |  +- com.google.inject:guice:jar:4.1.0:compile
+[INFO] |  |  \- javax.inject:javax.inject:jar:1:compile
+[INFO] |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] \- com.ctrip.framework.apollo:apollo-core:jar:0.9.1:compile
+[INFO]    +- com.google.code.gson:gson:jar:2.8.5:compile
+[INFO]    \- com.google.guava:guava:jar:19.0:compile
+[INFO] 
+[INFO] -------------< com.boyguhui:boyguhui-component-boot-admin >-------------
+[INFO] Building boyguhui-component-boot-admin 1.0.0-SNAPSHOT             [8/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ boyguhui-component-boot-admin ---
+[INFO] com.boyguhui:boyguhui-component-boot-admin:jar:1.0.0-SNAPSHOT
+[INFO] +- de.codecentric:spring-boot-admin-starter-server:jar:2.0.1:compile
+[INFO] |  +- de.codecentric:spring-boot-admin-server:jar:2.0.1:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-webflux:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  +- org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  |  \- io.projectreactor.ipc:reactor-netty:jar:0.7.8.RELEASE:compile
+[INFO] |  |  |  |     +- io.netty:netty-handler:jar:4.1.27.Final:compile
+[INFO] |  |  |  |     +- io.netty:netty-handler-proxy:jar:4.1.27.Final:compile
+[INFO] |  |  |  |     |  \- io.netty:netty-codec-socks:jar:4.1.27.Final:compile
+[INFO] |  |  |  |     \- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.27.Final:compile
+[INFO] |  |  |  +- org.springframework:spring-webflux:jar:5.0.8.RELEASE:compile
+[INFO] |  |  |  \- org.synchronoss.cloud:nio-multipart-parser:jar:1.1.0:compile
+[INFO] |  |  |     \- org.synchronoss.cloud:nio-stream-storage:jar:1.1.3:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  +- org.thymeleaf:thymeleaf-spring5:jar:3.0.9.RELEASE:compile
+[INFO] |  |  |  |  \- org.thymeleaf:thymeleaf:jar:3.0.9.RELEASE:compile
+[INFO] |  |  |  |     +- org.attoparser:attoparser:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  |     \- org.unbescape:unbescape:jar:1.1.5.RELEASE:compile
+[INFO] |  |  |  \- org.thymeleaf.extras:thymeleaf-extras-java8time:jar:3.0.1.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-actuator:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  +- org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  |  \- org.springframework.boot:spring-boot-actuator:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  \- io.micrometer:micrometer-core:jar:1.0.6:compile
+[INFO] |  |  |     +- org.hdrhistogram:HdrHistogram:jar:2.1.10:compile
+[INFO] |  |  |     \- org.latencyutils:LatencyUtils:jar:2.0.3:compile
+[INFO] |  |  \- io.projectreactor.addons:reactor-extra:jar:3.1.6.RELEASE:compile
+[INFO] |  |     \- io.projectreactor:reactor-core:jar:3.1.8.RELEASE:compile
+[INFO] |  |        \- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+[INFO] |  +- de.codecentric:spring-boot-admin-server-ui:jar:2.0.1:compile
+[INFO] |  \- de.codecentric:spring-boot-admin-server-cloud:jar:2.0.1:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-security:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.1.11:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.1.11:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  +- org.springframework:spring-core:jar:5.0.8.RELEASE:compile
+[INFO] |  |  |  \- org.springframework:spring-jcl:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.springframework:spring-aop:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.0.8.RELEASE:compile
+[INFO] |  +- org.springframework.security:spring-security-config:jar:5.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.security:spring-security-core:jar:5.0.7.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-context:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.springframework.security:spring-security-web:jar:5.0.7.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-context:jar:2.0.0.RELEASE:compile
+[INFO] |  |  |  \- org.springframework.security:spring-security-crypto:jar:5.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-commons:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE:compile
+[INFO] |  |     \- org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile
+[INFO] |  |        \- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.boot:spring-boot-starter-aop:jar:2.0.4.RELEASE:compile
+[INFO] |  |     \- org.aspectj:aspectjweaver:jar:1.8.13:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO] |  +- com.netflix.eureka:eureka-client:jar:1.9.2:compile
+[INFO] |  |  +- org.codehaus.jettison:jettison:jar:1.3.7:runtime
+[INFO] |  |  |  \- stax:stax-api:jar:1.0.1:runtime
+[INFO] |  |  +- com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0:runtime
+[INFO] |  |  |  +- com.netflix.netflix-commons:netflix-infix:jar:0.3.0:runtime
+[INFO] |  |  |  |  +- commons-jxpath:commons-jxpath:jar:1.3:runtime
+[INFO] |  |  |  |  +- joda-time:joda-time:jar:2.9.9:runtime
+[INFO] |  |  |  |  +- org.antlr:antlr-runtime:jar:3.4:runtime
+[INFO] |  |  |  |  |  +- org.antlr:stringtemplate:jar:3.2.1:runtime
+[INFO] |  |  |  |  |  \- antlr:antlr:jar:2.7.7:runtime
+[INFO] |  |  |  |  \- com.google.code.gson:gson:jar:2.8.5:runtime
+[INFO] |  |  |  \- org.apache.commons:commons-math:jar:2.2:runtime
+[INFO] |  |  +- com.netflix.archaius:archaius-core:jar:0.7.6:compile
+[INFO] |  |  |  \- com.google.guava:guava:jar:16.0:runtime
+[INFO] |  |  +- javax.ws.rs:jsr311-api:jar:1.1.1:runtime
+[INFO] |  |  +- com.netflix.servo:servo-core:jar:0.12.21:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-core:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-client:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime
+[INFO] |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.6:runtime
+[INFO] |  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.10:runtime
+[INFO] |  |  |  \- commons-codec:commons-codec:jar:1.11:runtime
+[INFO] |  |  +- com.google.inject:guice:jar:4.1.0:runtime
+[INFO] |  |  |  +- javax.inject:javax.inject:jar:1:runtime
+[INFO] |  |  |  \- aopalliance:aopalliance:jar:1.0:runtime
+[INFO] |  |  +- com.github.vlsi.compactmap:compactmap:jar:1.2.1:runtime
+[INFO] |  |  |  \- com.github.andrewoma.dexx:dexx-collections:jar:0.2:runtime
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+[INFO] |  +- com.netflix.eureka:eureka-core:jar:1.9.2:compile
+[INFO] |  |  \- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:runtime
+[INFO] |  |     +- javax.xml.stream:stax-api:jar:1.0-2:runtime
+[INFO] |  |     \- org.codehaus.woodstox:stax2-api:jar:3.1.4:runtime
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- commons-configuration:commons-configuration:jar:1.8:compile
+[INFO] |  |     \- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon:jar:2.2.5:compile
+[INFO] |  |  |  +- com.netflix.ribbon:ribbon-transport:jar:2.2.5:runtime
+[INFO] |  |  |  |  +- io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+[INFO] |  |  |  |  \- io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+[INFO] |  |  |  +- com.netflix.hystrix:hystrix-core:jar:1.5.12:runtime
+[INFO] |  |  |  \- io.reactivex:rxnetty:jar:0.4.9:runtime
+[INFO] |  |  |     +- io.netty:netty-codec-http:jar:4.1.27.Final:compile
+[INFO] |  |  |     |  \- io.netty:netty-codec:jar:4.1.27.Final:compile
+[INFO] |  |  |     \- io.netty:netty-transport-native-epoll:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-common:jar:4.1.27.Final:compile
+[INFO] |  |  |        +- io.netty:netty-buffer:jar:4.1.27.Final:compile
+[INFO] |  |  |        +- io.netty:netty-transport-native-unix-common:jar:4.1.27.Final:compile
+[INFO] |  |  |        \- io.netty:netty-transport:jar:4.1.27.Final:compile
+[INFO] |  |  |           \- io.netty:netty-resolver:jar:4.1.27.Final:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon-core:jar:2.2.5:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon-httpclient:jar:2.2.5:compile
+[INFO] |  |  |  +- commons-collections:commons-collections:jar:3.2.2:runtime
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5:compile
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+[INFO] |  |  \- io.reactivex:rxjava:jar:1.3.8:compile
+[INFO] |  +- com.netflix.ribbon:ribbon-eureka:jar:2.2.5:compile
+[INFO] |  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  \- com.thoughtworks.xstream:xstream:jar:1.4.10:compile
+[INFO] |     +- xmlpull:xmlpull:jar:1.1.3.1:compile
+[INFO] |     \- xpp3:xpp3_min:jar:1.1.4c:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.5:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.5:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.5:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.0.11.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.0.8.RELEASE:compile
+[INFO] \- org.jolokia:jolokia-core:jar:1.5.0:compile
+[INFO]    \- com.googlecode.json-simple:json-simple:jar:1.1.1:compile
+[INFO] 
+[INFO] -------------< com.boyguhui:boyguhui-component-demo-admin >-------------
+[INFO] Building boyguhui-component-demo-admin 1.0.0-SNAPSHOT             [9/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ boyguhui-component-demo-admin ---
+[INFO] com.boyguhui:boyguhui-component-demo-admin:jar:1.0.0-SNAPSHOT
+[INFO] +- com.boyguhui:boyguhui-order-api:jar:1.0.0-SNAPSHOT:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-context:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE:compile
+[INFO] |  |     \- org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile
+[INFO] |  |        \- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO] |  |  \- org.springframework.boot:spring-boot-starter-aop:jar:2.0.4.RELEASE:compile
+[INFO] |  |     \- org.aspectj:aspectjweaver:jar:1.8.13:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO] |  +- com.netflix.eureka:eureka-client:jar:1.9.2:compile
+[INFO] |  |  +- org.codehaus.jettison:jettison:jar:1.3.7:runtime
+[INFO] |  |  |  \- stax:stax-api:jar:1.0.1:runtime
+[INFO] |  |  +- com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0:runtime
+[INFO] |  |  |  +- com.netflix.netflix-commons:netflix-infix:jar:0.3.0:runtime
+[INFO] |  |  |  |  +- commons-jxpath:commons-jxpath:jar:1.3:runtime
+[INFO] |  |  |  |  +- joda-time:joda-time:jar:2.9.9:runtime
+[INFO] |  |  |  |  +- org.antlr:antlr-runtime:jar:3.4:runtime
+[INFO] |  |  |  |  |  +- org.antlr:stringtemplate:jar:3.2.1:runtime
+[INFO] |  |  |  |  |  \- antlr:antlr:jar:2.7.7:runtime
+[INFO] |  |  |  |  \- com.google.code.gson:gson:jar:2.8.5:runtime
+[INFO] |  |  |  \- org.apache.commons:commons-math:jar:2.2:runtime
+[INFO] |  |  +- com.netflix.archaius:archaius-core:jar:0.7.6:compile
+[INFO] |  |  +- javax.ws.rs:jsr311-api:jar:1.1.1:runtime
+[INFO] |  |  +- com.netflix.servo:servo-core:jar:0.12.21:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-core:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-client:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime
+[INFO] |  |  +- com.google.inject:guice:jar:4.1.0:runtime
+[INFO] |  |  |  +- javax.inject:javax.inject:jar:1:runtime
+[INFO] |  |  |  \- aopalliance:aopalliance:jar:1.0:runtime
+[INFO] |  |  +- com.github.vlsi.compactmap:compactmap:jar:1.2.1:runtime
+[INFO] |  |  |  \- com.github.andrewoma.dexx:dexx-collections:jar:0.2:runtime
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+[INFO] |  +- com.netflix.eureka:eureka-core:jar:1.9.2:compile
+[INFO] |  |  \- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:runtime
+[INFO] |  |     +- javax.xml.stream:stax-api:jar:1.0-2:runtime
+[INFO] |  |     \- org.codehaus.woodstox:stax2-api:jar:3.1.4:runtime
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- commons-configuration:commons-configuration:jar:1.8:compile
+[INFO] |  |     \- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon:jar:2.2.5:compile
+[INFO] |  |  |  +- com.netflix.ribbon:ribbon-transport:jar:2.2.5:runtime
+[INFO] |  |  |  |  +- io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+[INFO] |  |  |  |  \- io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+[INFO] |  |  |  \- io.reactivex:rxnetty:jar:0.4.9:runtime
+[INFO] |  |  |     +- io.netty:netty-codec-http:jar:4.1.27.Final:runtime
+[INFO] |  |  |     |  \- io.netty:netty-codec:jar:4.1.27.Final:runtime
+[INFO] |  |  |     \- io.netty:netty-transport-native-epoll:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-common:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-buffer:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-transport-native-unix-common:jar:4.1.27.Final:runtime
+[INFO] |  |  |        \- io.netty:netty-transport:jar:4.1.27.Final:runtime
+[INFO] |  |  |           \- io.netty:netty-resolver:jar:4.1.27.Final:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-core:jar:2.2.5:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon-httpclient:jar:2.2.5:compile
+[INFO] |  |  |  +- commons-collections:commons-collections:jar:3.2.2:runtime
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5:compile
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+[INFO] |  |  \- io.reactivex:rxjava:jar:1.3.8:compile
+[INFO] |  +- com.netflix.ribbon:ribbon-eureka:jar:2.2.5:compile
+[INFO] |  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  \- com.thoughtworks.xstream:xstream:jar:1.4.10:compile
+[INFO] |     +- xmlpull:xmlpull:jar:1.1.3.1:compile
+[INFO] |     \- xpp3:xpp3_min:jar:1.1.4c:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.1.11:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.1.11:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  +- org.springframework:spring-core:jar:5.0.8.RELEASE:compile
+[INFO] |  |  |  \- org.springframework:spring-jcl:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.5:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.5:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.5:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.0.11.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-context:jar:5.0.8.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-openfeign:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-openfeign-core:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-commons:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.security:spring-security-crypto:jar:5.0.7.RELEASE:compile
+[INFO] |  +- io.github.openfeign:feign-core:jar:9.5.1:compile
+[INFO] |  +- io.github.openfeign:feign-slf4j:jar:9.5.1:compile
+[INFO] |  +- io.github.openfeign:feign-hystrix:jar:9.5.1:compile
+[INFO] |  |  \- com.netflix.hystrix:hystrix-core:jar:1.5.12:compile
+[INFO] |  |     \- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+[INFO] |  \- io.github.openfeign:feign-java8:jar:9.5.1:compile
+[INFO] +- io.github.openfeign:feign-httpclient:jar:9.5.1:compile
+[INFO] |  \- org.apache.httpcomponents:httpclient:jar:4.5.6:compile
+[INFO] |     +- org.apache.httpcomponents:httpcore:jar:4.4.10:compile
+[INFO] |     \- commons-codec:commons-codec:jar:1.11:compile
+[INFO] \- com.google.guava:guava:jar:19.0:compile
+[INFO] 
+[INFO] --------------< com.boyguhui:boyguhui-component-es-bboss >--------------
+[INFO] Building boyguhui-component-es-bboss 1.0.0-SNAPSHOT              [10/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ boyguhui-component-es-bboss ---
+[INFO] com.boyguhui:boyguhui-component-es-bboss:jar:1.0.0-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.1.11:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.1.11:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.5:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.5:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.5:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.0.11.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-context:jar:5.0.8.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test:jar:2.0.4.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.4.RELEASE:test
+[INFO] |  +- com.jayway.jsonpath:json-path:jar:2.4.0:test
+[INFO] |  |  +- net.minidev:json-smart:jar:2.3:test
+[INFO] |  |  |  \- net.minidev:accessors-smart:jar:1.2:test
+[INFO] |  |  |     \- org.ow2.asm:asm:jar:5.0.4:test
+[INFO] |  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  +- junit:junit:jar:4.12:test
+[INFO] |  +- org.assertj:assertj-core:jar:3.9.1:test
+[INFO] |  +- org.mockito:mockito-core:jar:2.15.0:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy:jar:1.7.11:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy-agent:jar:1.7.11:test
+[INFO] |  |  \- org.objenesis:objenesis:jar:2.6:test
+[INFO] |  +- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] |  +- org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO] |  +- org.skyscreamer:jsonassert:jar:1.5.0:test
+[INFO] |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO] |  +- org.springframework:spring-core:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-jcl:jar:5.0.8.RELEASE:compile
+[INFO] |  +- org.springframework:spring-test:jar:5.0.8.RELEASE:test
+[INFO] |  \- org.xmlunit:xmlunit-core:jar:2.5.1:test
+[INFO] +- com.bbossgroups.plugins:bboss-elasticsearch-rest-jdbc:jar:5.5.8:compile
+[INFO] |  +- com.bbossgroups.plugins:bboss-elasticsearch-rest-booter:jar:5.5.8:compile
+[INFO] |  |  \- com.bbossgroups.plugins:bboss-elasticsearch-rest:jar:5.5.8:compile
+[INFO] |  |     \- com.bbossgroups:bboss-http:jar:5.2.5:compile
+[INFO] |  |        +- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |  |        \- org.apache.httpcomponents:httpmime:jar:4.5.6:compile
+[INFO] |  \- com.bbossgroups:bboss-persistent:jar:5.2.5:compile
+[INFO] |     +- com.bbossgroups:bboss-velocity:jar:5.2.5:compile
+[INFO] |     +- com.bbossgroups:bboss-core:jar:5.2.5:compile
+[INFO] |     +- com.bbossgroups:bboss-util:jar:5.2.5:compile
+[INFO] |     +- oro:oro:jar:2.0.8:compile
+[INFO] |     +- org.slf4j:slf4j-log4j12:jar:1.7.25:compile
+[INFO] |     |  \- log4j:log4j:jar:1.2.17:compile
+[INFO] |     +- com.fasterxml.uuid:java-uuid-generator:jar:3.1.4:compile
+[INFO] |     +- cglib:cglib-nodep:jar:3.1:compile
+[INFO] |     +- commons-collections:commons-collections:jar:3.2.1:compile
+[INFO] |     +- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |     \- javax.transaction:jta:jar:1.1:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-context:jar:2.0.0.RELEASE:compile
+[INFO] |  |  |  \- org.springframework.security:spring-security-crypto:jar:5.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-commons:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE:compile
+[INFO] |  |     \- org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile
+[INFO] |  |        \- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.boot:spring-boot-starter-aop:jar:2.0.4.RELEASE:compile
+[INFO] |  |     \- org.aspectj:aspectjweaver:jar:1.8.13:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO] |  +- com.netflix.eureka:eureka-client:jar:1.9.2:compile
+[INFO] |  |  +- org.codehaus.jettison:jettison:jar:1.3.7:runtime
+[INFO] |  |  |  \- stax:stax-api:jar:1.0.1:runtime
+[INFO] |  |  +- com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0:runtime
+[INFO] |  |  |  +- com.netflix.netflix-commons:netflix-infix:jar:0.3.0:runtime
+[INFO] |  |  |  |  +- commons-jxpath:commons-jxpath:jar:1.3:runtime
+[INFO] |  |  |  |  +- joda-time:joda-time:jar:2.9.9:runtime
+[INFO] |  |  |  |  +- org.antlr:antlr-runtime:jar:3.4:runtime
+[INFO] |  |  |  |  |  +- org.antlr:stringtemplate:jar:3.2.1:runtime
+[INFO] |  |  |  |  |  \- antlr:antlr:jar:2.7.7:runtime
+[INFO] |  |  |  |  \- com.google.code.gson:gson:jar:2.8.5:runtime
+[INFO] |  |  |  \- org.apache.commons:commons-math:jar:2.2:runtime
+[INFO] |  |  +- com.netflix.archaius:archaius-core:jar:0.7.6:compile
+[INFO] |  |  |  \- com.google.guava:guava:jar:16.0:runtime
+[INFO] |  |  +- javax.ws.rs:jsr311-api:jar:1.1.1:runtime
+[INFO] |  |  +- com.netflix.servo:servo-core:jar:0.12.21:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-core:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-client:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime
+[INFO] |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.6:compile
+[INFO] |  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.10:compile
+[INFO] |  |  |  \- commons-codec:commons-codec:jar:1.11:compile
+[INFO] |  |  +- com.google.inject:guice:jar:4.1.0:runtime
+[INFO] |  |  |  +- javax.inject:javax.inject:jar:1:runtime
+[INFO] |  |  |  \- aopalliance:aopalliance:jar:1.0:runtime
+[INFO] |  |  +- com.github.vlsi.compactmap:compactmap:jar:1.2.1:runtime
+[INFO] |  |  |  \- com.github.andrewoma.dexx:dexx-collections:jar:0.2:runtime
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+[INFO] |  +- com.netflix.eureka:eureka-core:jar:1.9.2:compile
+[INFO] |  |  \- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:runtime
+[INFO] |  |     +- javax.xml.stream:stax-api:jar:1.0-2:runtime
+[INFO] |  |     \- org.codehaus.woodstox:stax2-api:jar:3.1.4:runtime
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- commons-configuration:commons-configuration:jar:1.8:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon:jar:2.2.5:compile
+[INFO] |  |  |  +- com.netflix.ribbon:ribbon-transport:jar:2.2.5:runtime
+[INFO] |  |  |  |  +- io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+[INFO] |  |  |  |  \- io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+[INFO] |  |  |  +- com.netflix.hystrix:hystrix-core:jar:1.5.12:runtime
+[INFO] |  |  |  |  \- org.hdrhistogram:HdrHistogram:jar:2.1.9:runtime
+[INFO] |  |  |  \- io.reactivex:rxnetty:jar:0.4.9:runtime
+[INFO] |  |  |     +- io.netty:netty-codec-http:jar:4.1.27.Final:runtime
+[INFO] |  |  |     |  \- io.netty:netty-codec:jar:4.1.27.Final:runtime
+[INFO] |  |  |     \- io.netty:netty-transport-native-epoll:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-common:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-buffer:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-transport-native-unix-common:jar:4.1.27.Final:runtime
+[INFO] |  |  |        \- io.netty:netty-transport:jar:4.1.27.Final:runtime
+[INFO] |  |  |           \- io.netty:netty-resolver:jar:4.1.27.Final:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-core:jar:2.2.5:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon-httpclient:jar:2.2.5:compile
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5:compile
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+[INFO] |  |  \- io.reactivex:rxjava:jar:1.3.8:compile
+[INFO] |  +- com.netflix.ribbon:ribbon-eureka:jar:2.2.5:compile
+[INFO] |  \- com.thoughtworks.xstream:xstream:jar:1.4.10:compile
+[INFO] |     +- xmlpull:xmlpull:jar:1.1.3.1:compile
+[INFO] |     \- xpp3:xpp3_min:jar:1.1.4c:compile
+[INFO] \- org.projectlombok:lombok:jar:1.18.6:compile
+[INFO] 
+[INFO] ----------------< com.boyguhui:boyguhui-component-zuul >----------------
+[INFO] Building boyguhui-component-zuul 1.0.0-SNAPSHOT                  [11/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ boyguhui-component-zuul ---
+[INFO] com.boyguhui:boyguhui-component-zuul:jar:1.0.0-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.1.11:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.1.11:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.5:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.5:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.5:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.0.11.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-context:jar:5.0.8.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-zuul:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.6:compile
+[INFO] |  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.10:compile
+[INFO] |  |  |  \- commons-codec:commons-codec:jar:1.11:compile
+[INFO] |  |  \- com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0:compile
+[INFO] |  |     \- javax.inject:javax.inject:jar:1:runtime
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-context:jar:2.0.0.RELEASE:compile
+[INFO] |  |  |  \- org.springframework.security:spring-security-crypto:jar:5.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-commons:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE:compile
+[INFO] |  |     \- org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile
+[INFO] |  |        \- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-actuator:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  \- org.springframework.boot:spring-boot-actuator:jar:2.0.4.RELEASE:compile
+[INFO] |  |  \- io.micrometer:micrometer-core:jar:1.0.6:compile
+[INFO] |  |     +- org.hdrhistogram:HdrHistogram:jar:2.1.10:compile
+[INFO] |  |     \- org.latencyutils:LatencyUtils:jar:2.0.3:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- com.netflix.hystrix:hystrix-core:jar:1.5.12:compile
+[INFO] |  |  +- com.netflix.hystrix:hystrix-serialization:jar:1.5.12:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.9.6:runtime
+[INFO] |  |  +- com.netflix.hystrix:hystrix-metrics-event-stream:jar:1.5.12:compile
+[INFO] |  |  +- com.netflix.hystrix:hystrix-javanica:jar:1.5.12:compile
+[INFO] |  |  |  +- org.apache.commons:commons-lang3:jar:3.6:runtime
+[INFO] |  |  |  +- org.ow2.asm:asm:jar:5.0.4:runtime
+[INFO] |  |  |  +- org.aspectj:aspectjweaver:jar:1.8.13:compile
+[INFO] |  |  |  \- com.google.guava:guava:jar:15.0:compile
+[INFO] |  |  \- io.reactivex:rxjava-reactive-streams:jar:1.2.1:compile
+[INFO] |  |     \- org.reactivestreams:reactive-streams:jar:1.0.2:runtime
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon:jar:2.2.5:compile
+[INFO] |  |  |  +- com.netflix.ribbon:ribbon-transport:jar:2.2.5:runtime
+[INFO] |  |  |  |  +- io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+[INFO] |  |  |  |  \- io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+[INFO] |  |  |  \- io.reactivex:rxnetty:jar:0.4.9:runtime
+[INFO] |  |  |     +- io.netty:netty-codec-http:jar:4.1.27.Final:runtime
+[INFO] |  |  |     |  \- io.netty:netty-codec:jar:4.1.27.Final:runtime
+[INFO] |  |  |     \- io.netty:netty-transport-native-epoll:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-common:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-buffer:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-transport-native-unix-common:jar:4.1.27.Final:runtime
+[INFO] |  |  |        \- io.netty:netty-transport:jar:4.1.27.Final:runtime
+[INFO] |  |  |           \- io.netty:netty-resolver:jar:4.1.27.Final:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-core:jar:2.2.5:compile
+[INFO] |  |  |  \- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon-httpclient:jar:2.2.5:compile
+[INFO] |  |  |  \- commons-collections:commons-collections:jar:3.2.2:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5:compile
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+[INFO] |  |  \- io.reactivex:rxjava:jar:1.3.8:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- com.netflix.archaius:archaius-core:jar:0.7.6:compile
+[INFO] |  |  |  \- com.google.code.findbugs:jsr305:jar:3.0.1:runtime
+[INFO] |  |  \- commons-configuration:commons-configuration:jar:1.8:compile
+[INFO] |  \- com.netflix.zuul:zuul-core:jar:1.3.1:compile
+[INFO] |     +- commons-io:commons-io:jar:2.5:runtime
+[INFO] |     +- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |     \- com.netflix.servo:servo-core:jar:0.12.21:runtime
+[INFO] +- org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.boot:spring-boot-starter-aop:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO] |  +- com.netflix.eureka:eureka-client:jar:1.9.2:compile
+[INFO] |  |  +- org.codehaus.jettison:jettison:jar:1.3.7:runtime
+[INFO] |  |  |  \- stax:stax-api:jar:1.0.1:runtime
+[INFO] |  |  +- com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0:runtime
+[INFO] |  |  |  +- com.netflix.netflix-commons:netflix-infix:jar:0.3.0:runtime
+[INFO] |  |  |  |  +- commons-jxpath:commons-jxpath:jar:1.3:runtime
+[INFO] |  |  |  |  +- joda-time:joda-time:jar:2.9.9:runtime
+[INFO] |  |  |  |  +- org.antlr:antlr-runtime:jar:3.4:runtime
+[INFO] |  |  |  |  |  +- org.antlr:stringtemplate:jar:3.2.1:runtime
+[INFO] |  |  |  |  |  \- antlr:antlr:jar:2.7.7:runtime
+[INFO] |  |  |  |  \- com.google.code.gson:gson:jar:2.8.5:runtime
+[INFO] |  |  |  \- org.apache.commons:commons-math:jar:2.2:runtime
+[INFO] |  |  +- javax.ws.rs:jsr311-api:jar:1.1.1:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-core:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-client:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime
+[INFO] |  |  +- com.google.inject:guice:jar:4.1.0:runtime
+[INFO] |  |  |  \- aopalliance:aopalliance:jar:1.0:runtime
+[INFO] |  |  +- com.github.vlsi.compactmap:compactmap:jar:1.2.1:runtime
+[INFO] |  |  |  \- com.github.andrewoma.dexx:dexx-collections:jar:0.2:runtime
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+[INFO] |  +- com.netflix.eureka:eureka-core:jar:1.9.2:compile
+[INFO] |  |  \- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:runtime
+[INFO] |  |     +- javax.xml.stream:stax-api:jar:1.0-2:runtime
+[INFO] |  |     \- org.codehaus.woodstox:stax2-api:jar:3.1.4:runtime
+[INFO] |  +- com.netflix.ribbon:ribbon-eureka:jar:2.2.5:compile
+[INFO] |  \- com.thoughtworks.xstream:xstream:jar:1.4.10:compile
+[INFO] |     +- xmlpull:xmlpull:jar:1.1.3.1:compile
+[INFO] |     \- xpp3:xpp3_min:jar:1.1.4c:compile
+[INFO] +- org.springframework.retry:spring-retry:jar:1.2.2.RELEASE:compile
+[INFO] |  \- org.springframework:spring-core:jar:5.0.8.RELEASE:compile
+[INFO] |     \- org.springframework:spring-jcl:jar:5.0.8.RELEASE:compile
+[INFO] \- com.boyguhui:boyguhui-order-api:jar:1.0.0-SNAPSHOT:compile
+[INFO] 
+[INFO] ---------< com.boyguhui:boyguhui-component-rabbitmq-producer >----------
+[INFO] Building boyguhui-component-rabbitmq-producer 1.0.0-SNAPSHOT     [12/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ boyguhui-component-rabbitmq-producer ---
+[INFO] com.boyguhui:boyguhui-component-rabbitmq-producer:jar:1.0.0-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.1.11:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.1.11:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.5:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.5:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.5:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.0.11.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-context:jar:5.0.8.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test:jar:2.0.4.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.4.RELEASE:test
+[INFO] |  +- com.jayway.jsonpath:json-path:jar:2.4.0:test
+[INFO] |  |  +- net.minidev:json-smart:jar:2.3:test
+[INFO] |  |  |  \- net.minidev:accessors-smart:jar:1.2:test
+[INFO] |  |  |     \- org.ow2.asm:asm:jar:5.0.4:test
+[INFO] |  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  +- junit:junit:jar:4.12:test
+[INFO] |  +- org.assertj:assertj-core:jar:3.9.1:test
+[INFO] |  +- org.mockito:mockito-core:jar:2.15.0:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy:jar:1.7.11:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy-agent:jar:1.7.11:test
+[INFO] |  |  \- org.objenesis:objenesis:jar:2.6:test
+[INFO] |  +- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] |  +- org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO] |  +- org.skyscreamer:jsonassert:jar:1.5.0:test
+[INFO] |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO] |  +- org.springframework:spring-core:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-jcl:jar:5.0.8.RELEASE:compile
+[INFO] |  +- org.springframework:spring-test:jar:5.0.8.RELEASE:test
+[INFO] |  \- org.xmlunit:xmlunit-core:jar:2.5.1:test
+[INFO] +- org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-context:jar:2.0.0.RELEASE:compile
+[INFO] |  |  |  \- org.springframework.security:spring-security-crypto:jar:5.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-commons:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE:compile
+[INFO] |  |     \- org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile
+[INFO] |  |        \- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.boot:spring-boot-starter-aop:jar:2.0.4.RELEASE:compile
+[INFO] |  |     \- org.aspectj:aspectjweaver:jar:1.8.13:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO] |  +- com.netflix.eureka:eureka-client:jar:1.9.2:compile
+[INFO] |  |  +- org.codehaus.jettison:jettison:jar:1.3.7:runtime
+[INFO] |  |  |  \- stax:stax-api:jar:1.0.1:runtime
+[INFO] |  |  +- com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0:runtime
+[INFO] |  |  |  +- com.netflix.netflix-commons:netflix-infix:jar:0.3.0:runtime
+[INFO] |  |  |  |  +- commons-jxpath:commons-jxpath:jar:1.3:runtime
+[INFO] |  |  |  |  +- joda-time:joda-time:jar:2.9.9:runtime
+[INFO] |  |  |  |  +- org.antlr:antlr-runtime:jar:3.4:runtime
+[INFO] |  |  |  |  |  +- org.antlr:stringtemplate:jar:3.2.1:runtime
+[INFO] |  |  |  |  |  \- antlr:antlr:jar:2.7.7:runtime
+[INFO] |  |  |  |  \- com.google.code.gson:gson:jar:2.8.5:runtime
+[INFO] |  |  |  \- org.apache.commons:commons-math:jar:2.2:runtime
+[INFO] |  |  +- com.netflix.archaius:archaius-core:jar:0.7.6:compile
+[INFO] |  |  |  \- com.google.guava:guava:jar:16.0:runtime
+[INFO] |  |  +- javax.ws.rs:jsr311-api:jar:1.1.1:runtime
+[INFO] |  |  +- com.netflix.servo:servo-core:jar:0.12.21:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-core:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-client:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime
+[INFO] |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.6:runtime
+[INFO] |  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.10:runtime
+[INFO] |  |  |  \- commons-codec:commons-codec:jar:1.11:runtime
+[INFO] |  |  +- com.google.inject:guice:jar:4.1.0:runtime
+[INFO] |  |  |  +- javax.inject:javax.inject:jar:1:runtime
+[INFO] |  |  |  \- aopalliance:aopalliance:jar:1.0:runtime
+[INFO] |  |  +- com.github.vlsi.compactmap:compactmap:jar:1.2.1:runtime
+[INFO] |  |  |  \- com.github.andrewoma.dexx:dexx-collections:jar:0.2:runtime
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+[INFO] |  +- com.netflix.eureka:eureka-core:jar:1.9.2:compile
+[INFO] |  |  \- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:runtime
+[INFO] |  |     +- javax.xml.stream:stax-api:jar:1.0-2:runtime
+[INFO] |  |     \- org.codehaus.woodstox:stax2-api:jar:3.1.4:runtime
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- commons-configuration:commons-configuration:jar:1.8:compile
+[INFO] |  |     \- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon:jar:2.2.5:compile
+[INFO] |  |  |  +- com.netflix.ribbon:ribbon-transport:jar:2.2.5:runtime
+[INFO] |  |  |  |  +- io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+[INFO] |  |  |  |  \- io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+[INFO] |  |  |  +- com.netflix.hystrix:hystrix-core:jar:1.5.12:runtime
+[INFO] |  |  |  |  \- org.hdrhistogram:HdrHistogram:jar:2.1.9:runtime
+[INFO] |  |  |  \- io.reactivex:rxnetty:jar:0.4.9:runtime
+[INFO] |  |  |     +- io.netty:netty-codec-http:jar:4.1.27.Final:runtime
+[INFO] |  |  |     |  \- io.netty:netty-codec:jar:4.1.27.Final:runtime
+[INFO] |  |  |     \- io.netty:netty-transport-native-epoll:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-common:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-buffer:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-transport-native-unix-common:jar:4.1.27.Final:runtime
+[INFO] |  |  |        \- io.netty:netty-transport:jar:4.1.27.Final:runtime
+[INFO] |  |  |           \- io.netty:netty-resolver:jar:4.1.27.Final:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-core:jar:2.2.5:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon-httpclient:jar:2.2.5:compile
+[INFO] |  |  |  +- commons-collections:commons-collections:jar:3.2.2:runtime
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5:compile
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+[INFO] |  |  \- io.reactivex:rxjava:jar:1.3.8:compile
+[INFO] |  +- com.netflix.ribbon:ribbon-eureka:jar:2.2.5:compile
+[INFO] |  \- com.thoughtworks.xstream:xstream:jar:1.4.10:compile
+[INFO] |     +- xmlpull:xmlpull:jar:1.1.3.1:compile
+[INFO] |     \- xpp3:xpp3_min:jar:1.1.4c:compile
+[INFO] \- org.springframework.boot:spring-boot-starter-amqp:jar:2.0.4.RELEASE:compile
+[INFO]    +- org.springframework:spring-messaging:jar:5.0.8.RELEASE:compile
+[INFO]    \- org.springframework.amqp:spring-rabbit:jar:2.0.5.RELEASE:compile
+[INFO]       +- org.springframework.amqp:spring-amqp:jar:2.0.5.RELEASE:compile
+[INFO]       +- com.rabbitmq:amqp-client:jar:5.1.2:compile
+[INFO]       +- org.springframework:spring-tx:jar:5.0.8.RELEASE:compile
+[INFO]       \- org.springframework.retry:spring-retry:jar:1.2.2.RELEASE:compile
+[INFO] 
+[INFO] ---------< com.boyguhui:boyguhui-component-rabbitmq-consumer >----------
+[INFO] Building boyguhui-component-rabbitmq-consumer 1.0.0-SNAPSHOT     [13/13]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ boyguhui-component-rabbitmq-consumer ---
+[INFO] com.boyguhui:boyguhui-component-rabbitmq-consumer:jar:1.0.0-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.1.11:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.1.11:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  +- org.springframework:spring-core:jar:5.0.8.RELEASE:compile
+[INFO] |  |  |  \- org.springframework:spring-jcl:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.5:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.5:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.5:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.0.11.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-context:jar:5.0.8.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.0.8.RELEASE:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-context:jar:2.0.0.RELEASE:compile
+[INFO] |  |  |  \- org.springframework.security:spring-security-crypto:jar:5.0.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-commons:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE:compile
+[INFO] |  |     \- org.bouncycastle:bcpkix-jdk15on:jar:1.56:compile
+[INFO] |  |        \- org.bouncycastle:bcprov-jdk15on:jar:1.56:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- org.springframework.boot:spring-boot-starter-aop:jar:2.0.4.RELEASE:compile
+[INFO] |  |     \- org.aspectj:aspectjweaver:jar:1.8.13:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.0.0.RELEASE:compile
+[INFO] |  +- com.netflix.eureka:eureka-client:jar:1.9.2:compile
+[INFO] |  |  +- org.codehaus.jettison:jettison:jar:1.3.7:runtime
+[INFO] |  |  |  \- stax:stax-api:jar:1.0.1:runtime
+[INFO] |  |  +- com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0:runtime
+[INFO] |  |  |  +- com.netflix.netflix-commons:netflix-infix:jar:0.3.0:runtime
+[INFO] |  |  |  |  +- commons-jxpath:commons-jxpath:jar:1.3:runtime
+[INFO] |  |  |  |  +- joda-time:joda-time:jar:2.9.9:runtime
+[INFO] |  |  |  |  +- org.antlr:antlr-runtime:jar:3.4:runtime
+[INFO] |  |  |  |  |  +- org.antlr:stringtemplate:jar:3.2.1:runtime
+[INFO] |  |  |  |  |  \- antlr:antlr:jar:2.7.7:runtime
+[INFO] |  |  |  |  \- com.google.code.gson:gson:jar:2.8.5:runtime
+[INFO] |  |  |  \- org.apache.commons:commons-math:jar:2.2:runtime
+[INFO] |  |  +- com.netflix.archaius:archaius-core:jar:0.7.6:compile
+[INFO] |  |  |  \- com.google.guava:guava:jar:16.0:runtime
+[INFO] |  |  +- javax.ws.rs:jsr311-api:jar:1.1.1:runtime
+[INFO] |  |  +- com.netflix.servo:servo-core:jar:0.12.21:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-core:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-client:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime
+[INFO] |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.6:runtime
+[INFO] |  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.10:runtime
+[INFO] |  |  |  \- commons-codec:commons-codec:jar:1.11:runtime
+[INFO] |  |  +- com.google.inject:guice:jar:4.1.0:runtime
+[INFO] |  |  |  +- javax.inject:javax.inject:jar:1:runtime
+[INFO] |  |  |  \- aopalliance:aopalliance:jar:1.0:runtime
+[INFO] |  |  +- com.github.vlsi.compactmap:compactmap:jar:1.2.1:runtime
+[INFO] |  |  |  \- com.github.andrewoma.dexx:dexx-collections:jar:0.2:runtime
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+[INFO] |  +- com.netflix.eureka:eureka-core:jar:1.9.2:compile
+[INFO] |  |  \- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:runtime
+[INFO] |  |     +- javax.xml.stream:stax-api:jar:1.0-2:runtime
+[INFO] |  |     \- org.codehaus.woodstox:stax2-api:jar:3.1.4:runtime
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.0.RELEASE:compile
+[INFO] |  |  \- commons-configuration:commons-configuration:jar:1.8:compile
+[INFO] |  |     \- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon:jar:2.2.5:compile
+[INFO] |  |  |  +- com.netflix.ribbon:ribbon-transport:jar:2.2.5:runtime
+[INFO] |  |  |  |  +- io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+[INFO] |  |  |  |  \- io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+[INFO] |  |  |  +- com.netflix.hystrix:hystrix-core:jar:1.5.12:runtime
+[INFO] |  |  |  |  \- org.hdrhistogram:HdrHistogram:jar:2.1.9:runtime
+[INFO] |  |  |  \- io.reactivex:rxnetty:jar:0.4.9:runtime
+[INFO] |  |  |     +- io.netty:netty-codec-http:jar:4.1.27.Final:runtime
+[INFO] |  |  |     |  \- io.netty:netty-codec:jar:4.1.27.Final:runtime
+[INFO] |  |  |     \- io.netty:netty-transport-native-epoll:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-common:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-buffer:jar:4.1.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-transport-native-unix-common:jar:4.1.27.Final:runtime
+[INFO] |  |  |        \- io.netty:netty-transport:jar:4.1.27.Final:runtime
+[INFO] |  |  |           \- io.netty:netty-resolver:jar:4.1.27.Final:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-core:jar:2.2.5:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon-httpclient:jar:2.2.5:compile
+[INFO] |  |  |  +- commons-collections:commons-collections:jar:3.2.2:runtime
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-commons-util:jar:0.3.0:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5:compile
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+[INFO] |  |  \- io.reactivex:rxjava:jar:1.3.8:compile
+[INFO] |  +- com.netflix.ribbon:ribbon-eureka:jar:2.2.5:compile
+[INFO] |  |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  \- com.thoughtworks.xstream:xstream:jar:1.4.10:compile
+[INFO] |     +- xmlpull:xmlpull:jar:1.1.3.1:compile
+[INFO] |     \- xpp3:xpp3_min:jar:1.1.4c:compile
+[INFO] \- org.springframework.boot:spring-boot-starter-amqp:jar:2.0.4.RELEASE:compile
+[INFO]    +- org.springframework:spring-messaging:jar:5.0.8.RELEASE:compile
+[INFO]    \- org.springframework.amqp:spring-rabbit:jar:2.0.5.RELEASE:compile
+[INFO]       +- org.springframework.amqp:spring-amqp:jar:2.0.5.RELEASE:compile
+[INFO]       +- com.rabbitmq:amqp-client:jar:5.1.2:compile
+[INFO]       +- org.springframework:spring-tx:jar:5.0.8.RELEASE:compile
+[INFO]       \- org.springframework.retry:spring-retry:jar:1.2.2.RELEASE:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for boyguhui-parent 1.0.0-SNAPSHOT:
+[INFO] 
+[INFO] boyguhui-parent .................................... SUCCESS [ 11.688 s]
+[INFO] boyguhui-order-api ................................. SUCCESS [  2.961 s]
+[INFO] boyguhui-component-swagger ......................... SUCCESS [  1.222 s]
+[INFO] boyguhui-common-service ............................ SUCCESS [  7.035 s]
+[INFO] boyguhui-cloud-eureka .............................. SUCCESS [  0.847 s]
+[INFO] boyguhui-cloud-hystrix-dashboard ................... SUCCESS [  0.961 s]
+[INFO] boyguhui-order-service ............................. SUCCESS [  2.909 s]
+[INFO] boyguhui-component-boot-admin ...................... SUCCESS [  4.183 s]
+[INFO] boyguhui-component-demo-admin ...................... SUCCESS [  1.484 s]
+[INFO] boyguhui-component-es-bboss ........................ SUCCESS [  2.546 s]
+[INFO] boyguhui-component-zuul ............................ SUCCESS [  1.377 s]
+[INFO] boyguhui-component-rabbitmq-producer ............... SUCCESS [  0.760 s]
+[INFO] boyguhui-component-rabbitmq-consumer ............... SUCCESS [  0.788 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:07 min
+[INFO] Finished at: 2019-05-14T10:16:22+08:00
+[INFO] ------------------------------------------------------------------------
