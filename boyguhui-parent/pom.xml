@@ -23,6 +23,8 @@
         <module>../boyguhui-component-zuul</module>
         <module>../boyguhui-component-rabbitmq-producer</module>
         <module>../boyguhui-component-rabbitmq-consumer</module>
+        <module>../boyguhui-consul-producer</module>
+        <module>../boyguhui-consul-consumer</module>
     </modules>
 
 
@@ -117,6 +119,8 @@
         <boyguhui-component-zuul>1.0.0-SNAPSHOT</boyguhui-component-zuul>
         <boyguhui-component-rabbitmq-producer>1.0.0-SNAPSHOT</boyguhui-component-rabbitmq-producer>
         <boyguhui-component-rabbitmq-consumer>1.0.0-SNAPSHOT</boyguhui-component-rabbitmq-consumer>
+        <boyguhui-consul-producer>1.0.0-SNAPSHOT</boyguhui-consul-producer>
+        <boyguhui-consul-consumer>1.0.0-SNAPSHOT</boyguhui-consul-consumer>
     </properties>
 
     <dependencyManagement>
