@@ -4,14 +4,20 @@ spring:
   profiles:
     active:
       - dev
+  security:
+      user:
+        name: 'admin'
+        password: 'admin'
 server:
   port: 9376
 
-# tag::configuration-eureka[]
-eureka:   #<1>
+eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
     health-check-url-path: /actuator/health
+    metadata-map:
+      user.name: ${spring.security.user.name}
+      user.password: ${spring.security.user.password}
   client:
     registryFetchIntervalSeconds: 5
     serviceUrl:
@@ -21,25 +27,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"  #<2>
+        include: "*"
   endpoint:
     health:
       show-details: ALWAYS
-# end::configuration-eureka[]
-
----
-spring:
-  profiles: insecure
-
----
-spring:
-  profiles: dev
-  security:
-    user:
-      name: "user"
-      password: "password"
-eureka:
-  instance:
-    metadata-map:
-      user.name: "user"         #These two are needed so that the server
-      user.password: "password" #can access the protected client endpoints

@@ -4,10 +4,16 @@ eureka:
   client:
     register-with-eureka: true
     service-url:
-      defaultZone: http://peer1:8081/eureka
+      defaultZone: ${EUREKA_SERVICE_URL:http://peer1:8081}/eureka/
+    registry-fetch-interval-seconds: 20
   instance:
     prefer-ip-address: true
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    leaseRenewalIntervalInSeconds: 10
+    health-check-url-path: /actuator/health
+    metadata-map:
+      user.name : 'client'
+      user.password : 'client'
 spring:
   application:
     name: boyguhui-component-demo-admin
@@ -19,4 +25,3 @@ management:
   endpoint:
       health:
         show-details: ALWAYS
-
