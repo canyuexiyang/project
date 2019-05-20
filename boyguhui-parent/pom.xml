@@ -25,6 +25,7 @@
         <module>../boyguhui-component-rabbitmq-consumer</module>
         <module>../boyguhui-consul-producer</module>
         <module>../boyguhui-consul-consumer</module>
+        <module>../boyguhui-cloud-hystrix-dashboard-turbine</module>
     </modules>
 
 
@@ -111,6 +112,7 @@
         <boyguhui-cloud-eureka.version>1.0.0-SNAPSHOT</boyguhui-cloud-eureka.version>
         <boyguhui-component-swagger.version>1.0.0-SNAPSHOT</boyguhui-component-swagger.version>
         <boyguhui-cloud-hystrix-dashboard.version>1.0.0-SNAPSHOT</boyguhui-cloud-hystrix-dashboard.version>
+        <boyguhui-cloud-hystrix-dashboard-turbine.version>1.0.0-SNAPSHOT</boyguhui-cloud-hystrix-dashboard-turbine.version>
         <boyguhui-order-service.version>1.0.0-SNAPSHOT</boyguhui-order-service.version>
         <boyguhui-order-api.version>1.0.0-SNAPSHOT</boyguhui-order-api.version>
         <boyguhui-component-boot-admin>1.0.0-SNAPSHOT</boyguhui-component-boot-admin>
