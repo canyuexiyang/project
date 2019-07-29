@@ -12,14 +12,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-/**
- * 
-* 项目名称：sinochem-open-front  
-* @ClassName: RequestUtil 
-* @Description: TODO(这里用一句话描述这个类的作用) 
-* @author yekairush@163.com
-* @date 2018年1月6日 上午10:57:33
- */
+
 public class RequestUtil {
 	private static Logger LOGGER = LoggerFactory.getLogger(RequestUtil.class);
 
@@ -47,7 +40,7 @@ public class RequestUtil {
 					} else {
 						value = values[i];
 					}
-					if (!keyValue.equals("urlStr")) {
+					if (!"urlStr".equals(keyValue)) {
 						values[i] = filter(value);
 					}
 				}
@@ -60,7 +53,7 @@ public class RequestUtil {
 				} else {
 					value = (String) map.get(keyValue);
 				}
-				if (!keyValue.equals("urlStr")) {
+				if (!"urlStr".equals(keyValue)) {
 					value = filter(value);
 				}
 				map.put(keyValue, value);
@@ -187,7 +180,7 @@ public class RequestUtil {
 			}
 		}
 
-		return ip.equals("0:0:0:0:0:0:0:1") ? "127.0.0.1" : ip;
+		return "0:0:0:0:0:0:0:1".equals(ip) ? "127.0.0.1" : ip;
 	}
 
 
@@ -208,14 +201,14 @@ public class RequestUtil {
 		String via = request.getHeader("Via");
 		String userAgent = request.getHeader("user-agent");
 		// 判断是否是移动端
-		for (int i = 0; via != null && !via.trim().equals("") && i < mobileGateWayHeaders.length; i++) {
+		for (int i = 0; via != null && !"".equals(via.trim()) && i < mobileGateWayHeaders.length; i++) {
 			if (via.contains(mobileGateWayHeaders[i])) {
 				mobileFlag = true;
 				break;
 			}
 		}
 		// 判断是否是移动端
-		for (int i = 0; !mobileFlag && userAgent != null && !userAgent.trim().equals("")
+		for (int i = 0; !mobileFlag && userAgent != null && !"".equals(userAgent.trim())
 				&& i < mobileUserAgents.length; i++) {
 			if (userAgent.contains(mobileUserAgents[i])) {
 				mobileFlag = true;
@@ -224,13 +217,13 @@ public class RequestUtil {
 		}
 
 		// 判断是否是ios
-		for (int i = 0; !isMobile && userAgent != null && !userAgent.trim().equals("") && i < ios_sys.length; i++) {
-			if (userAgent.contains(ios_sys[i])) {
+		for (int i = 0; !isMobile && userAgent != null && !"".equals(userAgent.trim()) && i < ISO_SYS.length; i++) {
+			if (userAgent.contains(ISO_SYS[i])) {
 				isIOSDevice = true;
 				break;
 			}
 		}
-		for (int i = 0; userAgent != null && !userAgent.trim().equals("") && i < pcHeaders.length; i++) {
+		for (int i = 0; userAgent != null && !"".equals(userAgent.trim()) && i < pcHeaders.length; i++) {
 			if (userAgent.contains(pcHeaders[i])) {
 				pcFlag = true;
 				break;
@@ -284,7 +277,7 @@ public class RequestUtil {
 			"Bytemobile",// 貌似是一个给移动互联网提供解决方案提高网络运行效率的，例如：Via=1.1 Bytemobile OSN
 							// WebProxy/5.1
 	};
-	private static final String[] ios_sys = { "iPhone", "iPad", "iPod" };
+	private static final String[] ISO_SYS = { "iPhone", "iPad", "iPod" };
 	/** 电脑上的IE或Firefox浏览器等的User-Agent关键词 */
 	private static String[] pcHeaders = new String[] { "Windows 98", "Windows ME", "Windows 2000", "Windows XP",
 			"Windows NT", "Ubuntu" };
