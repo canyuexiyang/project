@@ -34,6 +34,10 @@ public class OrderController {
 
 	@GetMapping("/testOne")
 	public BizResult<String> getZuulTestOne(){
+		boolean isInfo = logger.isInfoEnabled();
+		boolean isDebug = logger.isDebugEnabled();
+		boolean isWarn = logger.isWarnEnabled();
+		boolean isError = logger.isErrorEnabled();
 		return BizResult.error("success");
 	}
 

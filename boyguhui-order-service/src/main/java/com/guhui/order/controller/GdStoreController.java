@@ -33,9 +33,28 @@ public class GdStoreController {
 	private IGdStoreService gdStoreService;
 
 	@PostMapping("/getGdStoreById")
-	public BizResult<GdStoreVO> getGdStoreById(@RequestBody GdStoreVO gdStoreVO) throws InterruptedException {
+	public BizResult<GdStoreVO> getGdStoreById(@RequestBody GdStoreVO gdStoreVO){
 		return this.gdStoreService.getGdStoreById(gdStoreVO);
 	}
 
+	@PostMapping("/findId")
+	public BizResult<GdStoreVO> findId(@RequestBody GdStoreVO gdStoreVO){
+		return this.gdStoreService.findId(gdStoreVO.getGdId());
+	}
+
+	@PostMapping("/getGdStoreByRemark")
+	public BizResult<GdStoreVO> getGdStoreByIdCache(@RequestBody GdStoreVO gdStoreVO){
+		return this.gdStoreService.getGdStoreByRemark(gdStoreVO);
+	}
+
+	@PostMapping("/updateById")
+	public BizResult<GdStoreVO> updateById(@RequestBody GdStoreVO gdStoreVO){
+		return this.gdStoreService.updateById(gdStoreVO);
+	}
+
+	@PostMapping("/deleteById")
+	public BizResult<GdStoreVO> deleteById(@RequestBody GdStoreVO gdStoreVO){
+		return this.gdStoreService.deleteById(gdStoreVO);
+	}
 
 }

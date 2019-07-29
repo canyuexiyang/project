@@ -18,4 +18,12 @@ public interface IGdStoreService {
 
 	BizResult<GdStoreVO> getGdStoreById(GdStoreVO gdStoreVO);
 
+	BizResult<GdStoreVO> findId(Integer gdId);
+
+	BizResult<GdStoreVO> getGdStoreByRemark(GdStoreVO gdStoreVO);
+
+	BizResult<GdStoreVO> updateById(GdStoreVO gdStoreVO);
+
+	BizResult deleteById(GdStoreVO gdStoreVO);
+
 }
