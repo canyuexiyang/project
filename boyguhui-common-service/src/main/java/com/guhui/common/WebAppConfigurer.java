@@ -9,9 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 
 /**
- * Spring配置
- * 
- * @author wen.zhang
+ * Token注解拦截器
  */
 @Configuration
 public class WebAppConfigurer implements WebMvcConfigurer {
