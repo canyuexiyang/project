@@ -10,10 +10,12 @@ import org.sagacity.sqltoy.executor.QueryExecutor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.Cache;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
+import org.springframework.cache.ehcache.EhCacheCacheManager;
 import org.springframework.stereotype.Service;
 
 
@@ -24,7 +26,6 @@ import java.util.List;
  * Created by guhui ^-^ on 2018/12/20.
  * @author : guhui
  */
-@CacheConfig(cacheNames = "gdStore")
 @Service
 public class GdServiceImpl implements IGdStoreService {
 
@@ -51,7 +52,7 @@ public class GdServiceImpl implements IGdStoreService {
 		}
 	}
 
-	@Cacheable(cacheNames = "gdStore",key = "#gdStoreVO.gdId")
+	@Cacheable(cacheNames = "users",key = "#gdStoreVO.gdId")
 	@Override
 	public BizResult<GdStoreVO> getGdStoreById(GdStoreVO gdStoreVO) {
 		try {
@@ -76,7 +77,7 @@ public class GdServiceImpl implements IGdStoreService {
 		}
 	}
 
-	@Cacheable(cacheNames = "gdStore",key = "#gdStoreVO.remark")
+	@Cacheable(cacheNames = "users",key = "#gdStoreVO.remark")
 	@Override
 	public BizResult<GdStoreVO> getGdStoreByRemark(GdStoreVO gdStoreVO) {
 		try {
@@ -89,7 +90,7 @@ public class GdServiceImpl implements IGdStoreService {
 		}
 	}
 
-	@CachePut(cacheNames = "gdStore",key = "#a0.gdId")
+	@CachePut(cacheNames = "users",key = "#a0.gdId")
 	@Override
 	public BizResult<GdStoreVO> updateById(GdStoreVO gdStoreVO) {
 		try {
@@ -109,7 +110,7 @@ public class GdServiceImpl implements IGdStoreService {
 		}
 	}
 
-	@CacheEvict(cacheNames = "gdStore",key = "#a0.gdId")
+	@CacheEvict(cacheNames = "users",key = "#a0.gdId")
 	@Override
 	public BizResult deleteById(GdStoreVO gdStoreVO) {
 		try {
