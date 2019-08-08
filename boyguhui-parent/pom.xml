@@ -69,7 +69,6 @@
         <fastjson.version>1.2.31</fastjson.version>
         <commons.io.version>2.5</commons.io.version>
         <kaptcha.version>2.3.2</kaptcha.version>
-        <ehcache.version>3.5.2</ehcache.version>
         <zxing.version>3.2.1</zxing.version>
         <beetl.version>2.7.15</beetl.version>
         <proton-jms.version>0.3</proton-jms.version>
@@ -83,7 +82,7 @@
         <aopalliance.version>1.0</aopalliance.version>
         <quartz.version>2.3.0</quartz.version>
         <dom4j.version>1.6.1</dom4j.version>
-        <ehcache.version>3.6.0</ehcache.version>
+        <ehcache.version>2.10.5</ehcache.version>
         <druid.version>1.1.6</druid.version>
         <mysql-connector-java.version>5.1.38</mysql-connector-java.version>
         <oscache.version>2.4</oscache.version>
@@ -100,7 +99,7 @@
         <feign-httpclient.version>9.5.1</feign-httpclient.version>
         <tomcat.version>9.0.5</tomcat.version>
         <netflix-feign-httpclient.version>8.18.0</netflix-feign-httpclient.version>
-        <apollo.version>0.9.1</apollo.version>
+        <apollo.version>1.0.0</apollo.version>
         <jasypt-spring-boot-starter.version>2.1.0</jasypt-spring-boot-starter.version>
         <logback.version>1.1.11</logback.version>
         <javax-mail.version>1.4.7</javax-mail.version>

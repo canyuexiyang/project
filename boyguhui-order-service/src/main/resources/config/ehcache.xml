@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd" updateCheck="false" dynamicConfig="false">
-
-    <!-- 这个是磁盘存储路径，当内存缓存满了的时候，就会往这里面放，java.io.tmdir是操作系统缓存的临时目录，不同操作系统缓存目录不一样。-->
+<ehcache updateCheck="false" dynamicConfig="false">
     <diskStore path="java.io.tmpdir"/>
 
-    <!--defaultCache:echcache的默认缓存策略  -->
-    <defaultCache
-            maxElementsInMemory="10000"
-            eternal="false"
-            timeToIdleSeconds="120"
-            timeToLiveSeconds="120"
-            maxElementsOnDisk="10000000"
-            diskExpiryThreadIntervalSeconds="120"
-            memoryStoreEvictionPolicy="LRU">
-        <persistence strategy="localTempSwap"/>
-    </defaultCache>
+    <!--<cache name="users"-->
+           <!--timeToLiveSeconds="3"-->
+           <!--maxEntriesLocalHeap="1000"/>-->
+
     <cache name="users"
            maxElementsInMemory="2"
            eternal="false"
@@ -26,16 +17,6 @@
            overflowToDisk="false">
         <persistence strategy="localTempSwap"/>
     </cache>
-    <!--<cache name="users" eternal="false" maxElementsInMemory="100"-->
-           <!--overflowToDisk="false" diskPersistent="false" timeToIdleSeconds="5"-->
-           <!--memoryStoreEvictionPolicy="LRU" />-->
-
-    <!--<defaultCache maxElementsInMemory="10000" eternal="false"-->
-                  <!--timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="true" />-->
-
-    <!--<cache name="users" maxElementsInMemory="1" eternal="false"-->
-           <!--timeToIdleSeconds="5" timeToLiveSeconds="10" overflowToDisk="true" />-->
-    <cache name="users" timeToLiveSeconds="3" maxEntriesLocalHeap="1000" />
 
     <!--
         配置信息介绍
@@ -57,4 +38,5 @@
                     none：不持久化缓存的元素
                     distributed：该策略不适用于单机，是用于分布式的。
     -->
+
 </ehcache>

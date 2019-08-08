@@ -112,7 +112,6 @@ public class CustomArrayList<T> {
 	}
 
 	public static void main(String[] args) {
-		Vector
 		String[] arr = new String[]{"a","b","c","d","e"};
 		forArr(arr);
 

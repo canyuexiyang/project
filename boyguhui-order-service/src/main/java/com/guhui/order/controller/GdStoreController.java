@@ -1,6 +1,8 @@
 package com.guhui.order.controller;
 
 
+import com.ctrip.framework.apollo.Config;
+import com.ctrip.framework.apollo.ConfigService;
 import com.guhui.order.api.entity.BizResult;
 import com.guhui.order.api.vo.GdStoreVO;
 import com.guhui.order.service.IGdStoreService;
@@ -10,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.Cache;
 import org.springframework.cache.ehcache.EhCacheCacheManager;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -60,13 +63,9 @@ public class GdStoreController {
 		return this.gdStoreService.deleteById(gdStoreVO);
 	}
 
-	@GetMapping("/test")
-	public BizResult test(){
-		EhCacheCacheManager cache = new EhCacheCacheManager();
-		Cache c = cache.getCache("users");
-		log.info(c.getName());
-		log.info(c.toString());
-		return BizResult.success();
+	@GetMapping("/test/{id}")
+	public void test(@PathVariable("id") Integer id){
+		this.gdStoreService.findId(id);
 	}
 
 }

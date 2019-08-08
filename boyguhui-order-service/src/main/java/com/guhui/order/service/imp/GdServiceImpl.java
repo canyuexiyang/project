@@ -56,8 +56,9 @@ public class GdServiceImpl implements IGdStoreService {
 	@Override
 	public BizResult<GdStoreVO> getGdStoreById(GdStoreVO gdStoreVO) {
 		try {
-			gdStoreVO = (GdStoreVO) this.sqlToyLazyDao.loadBySql("getGdStoreById",new String[]{"gdId"},new Object[]{gdStoreVO.getGdId()},GdStoreVO.class);
 			log.info("getGdStoreById -- key = gdId");
+			gdStoreVO = (GdStoreVO) this.sqlToyLazyDao.loadBySql("getGdStoreById",new String[]{"gdId"},new Object[]{gdStoreVO.getGdId()},GdStoreVO.class);
+
 			return BizResult.success(gdStoreVO);
 		}catch (Exception e){
 			log.error("-----GdServiceImpI -> getGdStoreById 方法错误,message:{},stackTrace:{}",e.getMessage(),e.getStackTrace());
@@ -65,9 +66,12 @@ public class GdServiceImpl implements IGdStoreService {
 		}
 	}
 
+
 	@Override
+	@Cacheable(cacheNames = "users",key = "#gdId")
 	public BizResult<GdStoreVO> findId(Integer gdId) {
 		try {
+			log.info("查询数据库----------------------");
 			GdStoreVO gdStoreVO = new GdStoreVO(gdId);
 			gdStoreVO = (GdStoreVO) this.sqlToyLazyDao.load(gdStoreVO);
 			return BizResult.success(gdStoreVO);

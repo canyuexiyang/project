@@ -1,11 +1,15 @@
 package com.guhui.demo.admin.controller;
 
+import com.guhui.demo.admin.service.TestApi;
 import com.guhui.order.api.entity.BizResult;
 import com.guhui.order.api.feign.GdStoreFeignClient;
 import com.guhui.order.api.vo.GdStoreVO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -24,8 +28,11 @@ public class OrderController {
 
 	private static final Logger logger = LoggerFactory.getLogger(OrderController.class);
 
-	@Resource
+	@Autowired
 	private GdStoreFeignClient gdStoreFeignClient;
+
+	@Autowired
+	private TestApi testApi;
 
 	@GetMapping("/getGdStore")
 	public BizResult<GdStoreVO> getGdStore(){
@@ -52,6 +59,11 @@ public class OrderController {
 		}
 		logger.info("sleep..........end");
 		return BizResult.success();
+	}
+
+	@PostMapping("/testTwo")
+	public BizResult<GdStoreVO> test(@RequestBody GdStoreVO gdStoreVO){
+		return this.testApi.findId(gdStoreVO);
 	}
 
 }
