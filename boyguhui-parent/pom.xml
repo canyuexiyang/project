@@ -26,6 +26,7 @@
         <module>../boyguhui-consul-producer</module>
         <module>../boyguhui-consul-consumer</module>
         <module>../boyguhui-cloud-hystrix-dashboard-turbine</module>
+        <module>../boyguhui-cloud-feign-consumer</module>
     </modules>
 
 
@@ -122,6 +123,7 @@
         <boyguhui-component-rabbitmq-consumer>1.0.0-SNAPSHOT</boyguhui-component-rabbitmq-consumer>
         <boyguhui-consul-producer>1.0.0-SNAPSHOT</boyguhui-consul-producer>
         <boyguhui-consul-consumer>1.0.0-SNAPSHOT</boyguhui-consul-consumer>
+        <boyguhui-cloud-feign-consumer>1.0.0-SNAPSHOT</boyguhui-cloud-feign-consumer>
     </properties>
 
     <dependencyManagement>
