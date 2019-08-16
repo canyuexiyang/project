@@ -68,4 +68,9 @@ public class GdStoreController {
 		this.gdStoreService.findId(id);
 	}
 
+	@PostMapping("/inster")
+	public BizResult<Long> inster(@RequestBody GdStoreVO gdStoreVO){
+		return this.gdStoreService.inster(gdStoreVO);
+	}
+
 }

@@ -16,4 +16,7 @@ public interface GdStoreFeignClient {
 	@RequestMapping(value = "/order/getGdStoreById",method = RequestMethod.POST)
 	public BizResult<GdStoreVO> getGdStoreById(GdStoreVO gdStoreVO);
 
+	@RequestMapping(value = "/order/inster",method = RequestMethod.POST)
+	public BizResult<Long> inster(GdStoreVO gdStoreVO);
+
 }

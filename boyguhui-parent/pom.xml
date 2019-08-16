@@ -27,6 +27,7 @@
         <module>../boyguhui-consul-consumer</module>
         <module>../boyguhui-cloud-hystrix-dashboard-turbine</module>
         <module>../boyguhui-cloud-feign-consumer</module>
+        <module>../boyguhui-cloud-idempotence</module>
     </modules>
 
 
@@ -124,6 +125,7 @@
         <boyguhui-consul-producer>1.0.0-SNAPSHOT</boyguhui-consul-producer>
         <boyguhui-consul-consumer>1.0.0-SNAPSHOT</boyguhui-consul-consumer>
         <boyguhui-cloud-feign-consumer>1.0.0-SNAPSHOT</boyguhui-cloud-feign-consumer>
+        <boyguhui-cloud-idempotence>1.0.0-SNAPSHOT</boyguhui-cloud-idempotence>
     </properties>
 
     <dependencyManagement>
@@ -231,11 +233,34 @@
                 <version>${swagger.version}</version>
             </dependency>
 
+            <!--sqltoy jar-->
             <dependency>
                 <groupId>org.sagacity</groupId>
                 <artifactId>sagacity-sqltoy</artifactId>
                 <version>${sagacity-sqltoy.version}</version>
             </dependency>
+            <dependency>
+                <groupId>commons-beanutils</groupId>
+                <artifactId>commons-beanutils</artifactId>
+                <version>${commons-beanutils.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>commons-logging</groupId>
+                        <artifactId>commons-logging</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>commons-collections</groupId>
+                        <artifactId>commons-collections</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+            <!--sqltoy jar-->
 
             <!-- apollo 携程apollo配置中心框架 -->
             <dependency>

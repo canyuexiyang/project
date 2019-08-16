@@ -17,6 +17,7 @@ import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.cache.ehcache.EhCacheCacheManager;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
 
 import java.sql.ResultSet;
@@ -125,4 +126,15 @@ public class GdServiceImpl implements IGdStoreService {
 		}
 		return BizResult.success();
 	}
+
+	@Override
+	public BizResult<Long> inster(GdStoreVO vo) {
+		Long gs = (Long)this.sqlToyLazyDao.save(vo);
+		if (StringUtils.isEmpty(gs)){
+			return BizResult.error();
+		}
+		return BizResult.success(gs);
+	}
+
+
 }

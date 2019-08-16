@@ -26,4 +26,5 @@ public interface IGdStoreService {
 
 	BizResult deleteById(GdStoreVO gdStoreVO);
 
+	BizResult<Long> inster(GdStoreVO vo);
 }
