@@ -28,6 +28,7 @@
         <module>../boyguhui-cloud-hystrix-dashboard-turbine</module>
         <module>../boyguhui-cloud-feign-consumer</module>
         <module>../boyguhui-cloud-idempotence</module>
+        <module>../boyguhui-component-gateway</module>
     </modules>
 
 
@@ -119,6 +120,7 @@
         <boyguhui-component-boot-admin>1.0.0-SNAPSHOT</boyguhui-component-boot-admin>
         <boyguhui-component-demo-admin>1.0.0-SNAPSHOT</boyguhui-component-demo-admin>
         <boyguhui-component-es-bboss>1.0.0-SNAPSHOT</boyguhui-component-es-bboss>
+        <boyguhui-component-gateway>1.0.0-SNAPSHOT</boyguhui-component-gateway>
         <boyguhui-component-zuul>1.0.0-SNAPSHOT</boyguhui-component-zuul>
         <boyguhui-component-rabbitmq-producer>1.0.0-SNAPSHOT</boyguhui-component-rabbitmq-producer>
         <boyguhui-component-rabbitmq-consumer>1.0.0-SNAPSHOT</boyguhui-component-rabbitmq-consumer>

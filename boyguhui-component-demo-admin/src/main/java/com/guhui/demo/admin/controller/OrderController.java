@@ -7,9 +7,11 @@ import com.guhui.order.api.vo.GdStoreVO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -26,6 +28,9 @@ import javax.annotation.Resource;
 @RestController
 public class OrderController {
 
+	@Value("${server.port}")
+	private String port;
+
 	private static final Logger logger = LoggerFactory.getLogger(OrderController.class);
 
 	@Autowired
@@ -40,12 +45,23 @@ public class OrderController {
 	}
 
 	@GetMapping("/testOne")
-	public BizResult<String> getZuulTestOne(){
+	public BizResult<String> getZuulTestOne(@RequestParam("sleep") int sleep){
+		try {
+			Thread.sleep(sleep*1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		boolean isInfo = logger.isInfoEnabled();
 		boolean isDebug = logger.isDebugEnabled();
 		boolean isWarn = logger.isWarnEnabled();
 		boolean isError = logger.isErrorEnabled();
+		logger.info("testOne -- 【{}】",port);
 		return BizResult.error("success");
+	}
+
+	@GetMapping("/foo")
+	public String foo(String foo) {
+		return port+ " hello "+foo+"!";
 	}
 
 	@GetMapping("/testSleep")
