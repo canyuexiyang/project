@@ -2,6 +2,7 @@ package com.guhui.common.util;
 
 import org.sagacity.sqltoy.utils.StringUtil;
 
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,6 +16,9 @@ import java.util.Map;
 public class SmsCodeUtil {
 
 	public static void main(String[] args){
+
+		System.out.println(Calendar.getInstance().get(Calendar.DAY_OF_MONTH));
+
 		HashMap map = new HashMap();
 		map.put("code","123");
 		map.put("name","guhui");

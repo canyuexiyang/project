@@ -24,4 +24,10 @@ public class GdStoreFeignFallBack implements GdStoreFeignClient{
 		log.error("boyguhui-order-api --> GdStoreFeignFallBack --> getGdStoreById 错误");
 		return BizResult.error("nishizhuma");
 	}
+
+	@Override
+	public BizResult<Long> inster(GdStoreVO gdStoreVO) {
+		log.error("boyguhui-order-api --> GdStoreFeignFallBack --> inster 错误");
+		return BizResult.error("nishizhuma");
+	}
 }

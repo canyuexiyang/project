@@ -4,6 +4,8 @@ import com.guhui.order.api.entity.BizResult;
 import com.guhui.order.api.vo.GdStoreVO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
  * Created by guhui ^-^ on 2019/1/15.
@@ -11,7 +13,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 @FeignClient(name = "boyguhui-order-service",fallback = GdStoreFeignFallBack.class)
 public interface GdStoreFeignClient {
 
-	@PostMapping("/order/getGdStoreById")
+	@RequestMapping(value = "/order/getGdStoreById",method = RequestMethod.POST)
 	public BizResult<GdStoreVO> getGdStoreById(GdStoreVO gdStoreVO);
+
+	@RequestMapping(value = "/order/inster",method = RequestMethod.POST)
+	public BizResult<Long> inster(GdStoreVO gdStoreVO);
 
 }

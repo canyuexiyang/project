@@ -6,16 +6,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 /**
- * Spring配置
- * 
- * @author wen.zhang
+ * Token注解拦截器
  */
 @Configuration
 public class WebAppConfigurer implements WebMvcConfigurer {

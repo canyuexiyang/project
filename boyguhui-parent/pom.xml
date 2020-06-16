@@ -25,6 +25,10 @@
         <module>../boyguhui-component-rabbitmq-consumer</module>
         <module>../boyguhui-consul-producer</module>
         <module>../boyguhui-consul-consumer</module>
+        <module>../boyguhui-cloud-hystrix-dashboard-turbine</module>
+        <module>../boyguhui-cloud-feign-consumer</module>
+        <module>../boyguhui-cloud-idempotence</module>
+        <module>../boyguhui-component-gateway</module>
     </modules>
 
 
@@ -68,7 +72,6 @@
         <fastjson.version>1.2.31</fastjson.version>
         <commons.io.version>2.5</commons.io.version>
         <kaptcha.version>2.3.2</kaptcha.version>
-        <ehcache.version>3.5.2</ehcache.version>
         <zxing.version>3.2.1</zxing.version>
         <beetl.version>2.7.15</beetl.version>
         <proton-jms.version>0.3</proton-jms.version>
@@ -82,7 +85,7 @@
         <aopalliance.version>1.0</aopalliance.version>
         <quartz.version>2.3.0</quartz.version>
         <dom4j.version>1.6.1</dom4j.version>
-        <ehcache.version>3.6.0</ehcache.version>
+        <ehcache.version>2.10.5</ehcache.version>
         <druid.version>1.1.6</druid.version>
         <mysql-connector-java.version>5.1.38</mysql-connector-java.version>
         <oscache.version>2.4</oscache.version>
@@ -105,22 +108,27 @@
         <javax-mail.version>1.4.7</javax-mail.version>
         <spring-boot-admin.version>2.0.1</spring-boot-admin.version>
         <projectlombok.version>1.18.6</projectlombok.version>
+        <guava.version>28.2-jre</guava.version>
         <!-- system app -->
 
         <boyguhui-common-service.version>1.0.0-SNAPSHOT</boyguhui-common-service.version>
         <boyguhui-cloud-eureka.version>1.0.0-SNAPSHOT</boyguhui-cloud-eureka.version>
         <boyguhui-component-swagger.version>1.0.0-SNAPSHOT</boyguhui-component-swagger.version>
         <boyguhui-cloud-hystrix-dashboard.version>1.0.0-SNAPSHOT</boyguhui-cloud-hystrix-dashboard.version>
+        <boyguhui-cloud-hystrix-dashboard-turbine.version>1.0.0-SNAPSHOT</boyguhui-cloud-hystrix-dashboard-turbine.version>
         <boyguhui-order-service.version>1.0.0-SNAPSHOT</boyguhui-order-service.version>
         <boyguhui-order-api.version>1.0.0-SNAPSHOT</boyguhui-order-api.version>
         <boyguhui-component-boot-admin>1.0.0-SNAPSHOT</boyguhui-component-boot-admin>
         <boyguhui-component-demo-admin>1.0.0-SNAPSHOT</boyguhui-component-demo-admin>
         <boyguhui-component-es-bboss>1.0.0-SNAPSHOT</boyguhui-component-es-bboss>
+        <boyguhui-component-gateway>1.0.0-SNAPSHOT</boyguhui-component-gateway>
         <boyguhui-component-zuul>1.0.0-SNAPSHOT</boyguhui-component-zuul>
         <boyguhui-component-rabbitmq-producer>1.0.0-SNAPSHOT</boyguhui-component-rabbitmq-producer>
         <boyguhui-component-rabbitmq-consumer>1.0.0-SNAPSHOT</boyguhui-component-rabbitmq-consumer>
         <boyguhui-consul-producer>1.0.0-SNAPSHOT</boyguhui-consul-producer>
         <boyguhui-consul-consumer>1.0.0-SNAPSHOT</boyguhui-consul-consumer>
+        <boyguhui-cloud-feign-consumer>1.0.0-SNAPSHOT</boyguhui-cloud-feign-consumer>
+        <boyguhui-cloud-idempotence>1.0.0-SNAPSHOT</boyguhui-cloud-idempotence>
     </properties>
 
     <dependencyManagement>
@@ -228,11 +236,34 @@
                 <version>${swagger.version}</version>
             </dependency>
 
+            <!--sqltoy jar-->
             <dependency>
                 <groupId>org.sagacity</groupId>
                 <artifactId>sagacity-sqltoy</artifactId>
                 <version>${sagacity-sqltoy.version}</version>
             </dependency>
+            <dependency>
+                <groupId>commons-beanutils</groupId>
+                <artifactId>commons-beanutils</artifactId>
+                <version>${commons-beanutils.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>commons-logging</groupId>
+                        <artifactId>commons-logging</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>commons-collections</groupId>
+                        <artifactId>commons-collections</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+            <!--sqltoy jar-->
 
             <!-- apollo 携程apollo配置中心框架 -->
             <dependency>

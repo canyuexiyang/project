@@ -73,4 +73,13 @@ public class GdStoreController {
 		return BizResult.success(Boolean.TRUE);
 	}
 
+	@GetMapping("/hello")
+	public String hello() {
+		return "hello";
+	}
+	@PostMapping("/hello")
+	public String hello2() {
+		return "post hello";
+	}
+
 }

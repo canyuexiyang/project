@@ -25,13 +25,13 @@ public class RSAUtil {
 
 	public static void main(String[] args){
 		try {
-			RSA();
+			rSA();
 		}catch (Exception e){
 			e.printStackTrace();
 		}
 	}
 
-	public static void RSA() throws Exception {
+	public static void rSA() throws Exception {
 
 		String text = "123";
 

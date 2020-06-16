@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.2.1.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+    <input type="button" onclick="btnClick()" value="get_button">
+    <input type="button" onclick="btnClick2()" value="post_button">
+    <script>
+        function btnClick() {
+            $.get('http://localhost/guhuis/hello', function (msg) {
+                $("#app").html(msg);
+            });
+        }
+
+        function btnClick2() {
+            $.post('http://localhost/guhuis/hello', function (msg) {
+                $("#app").html(msg);
+            });
+        }
+    </script>
+</body>
+</html>

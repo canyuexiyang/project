@@ -1,0 +1,43 @@
+server:
+  port: 8866
+spring:
+  application:
+      name: boyguhui-component-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+      - id: boyguhui-component-demo-admin
+        uri: lb://boyguhui-component-demo-admin
+        filters:
+#        - AddRequestParameter=foo, bar
+          - name: Hystrix
+            args:
+              name: hystrixcmd
+              fallbackUri: 'forward:/defaultFallback'
+        predicates:
+        - Method=GET
+#        predicates:
+#        - Path=/spring-cloud/**
+eureka:
+  client:
+    registryFetchIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVICE_URL:http://peer1:8081}/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+logging:
+  level:
+    org.springframework.cloud.gateway: debug
+hystrix:
+    command:
+        hystrixcmd:
+            circuitBreaker:
+                errorThresholdPercentage: 50
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 2000

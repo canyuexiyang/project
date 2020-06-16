@@ -29,7 +29,7 @@ import org.springframework.context.annotation.ImportResource;
 public class CommonServiceApp {
 
     public static void main(String[] args){
-        setProperties();
+//        setProperties();
         SpringApplication.run(CommonServiceApp.class,args);
         System.out.println("boyguhui-common-service服务启动成功");
     }

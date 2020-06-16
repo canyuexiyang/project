@@ -12,4 +12,31 @@
         ]]></value>
     </sql>
 
+    <sql id="getGdStoreByRemark">
+        <value><![CDATA[
+            SELECT * FROM gd_store
+            where 1 = 1
+            #[and remark = :remark]
+        ]]></value>
+    </sql>
+
+    <sql id="getGdStoreByIdRemark">
+        <value><![CDATA[
+            SELECT * FROM gd_store
+            where 1 = 1
+            #[and gd_id = :gdId]
+            #[and remark = :remark]
+        ]]></value>
+    </sql>
+
+    <sql id="updateById">
+        <value><![CDATA[
+            UPDATE  gd_store g set
+            g.remark = :remark
+            WHERE
+             1 = 1
+            and g.gd_id = :gdId
+        ]]></value>
+    </sql>
+
 </sqltoy>
